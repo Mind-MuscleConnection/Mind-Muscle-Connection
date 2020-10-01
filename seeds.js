@@ -1,4 +1,4 @@
-  const template = [
+const template = [
   {
   planName: "Push-Pull-Leg",
   type: "gym",
@@ -2662,5 +2662,3254 @@
             set2weight: 0
         }
           ]
-        }
+        },
+      {
+        planName: 'Full-body',
+        type: 'gym',
+        numberOfDays: 6,
+        day1: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ],
+        day2: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ],
+        day3: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ],
+        day4: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ],
+        day5: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ],
+        day6: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ],
+        day7: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ],
+        day8: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ],
+        day9: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ],
+        day10: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ],
+        day11: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ],
+        day12: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ],
+        day13: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ],
+        day14: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ],
+        day15: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ],
+        day16: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ],
+        day17: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ],
+        day18: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ]
+      },
+      {
+        planName: 'Full-body',
+        type: 'gym',
+        numberOfDays: 3,
+        day1: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ],
+        day2: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ],
+        day3: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ],
+        day4: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ],
+        day5: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ],
+        day6: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ],
+        day7: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ],
+        day8: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ],
+        day9: [
+          {
+            name: 'Deadlift',
+            set1goal: 5,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 8,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Pendlay row',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Flat bench press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip dips',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0,
+            set3goal: 12,
+            set3reps: 0,
+            set3weight: 0
+          },
+          {
+            name: 'Smith shoulder press',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Wide grip upright row',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Back squat',
+            set1goal: 12,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+          {
+            name: 'Romanian deadlift',
+            set1goal: 8,
+            set1reps: 0,
+            set1weight: 0,
+            set2goal: 12,
+            set2reps: 0,
+            set2weight: 0
+          },
+        ],
+      },
+      {
+      planName: 'Full-body',
+      type: 'gym',
+      numberOfDays: 5,
+      day1: [
+        {
+          name: 'Deadlift',
+          set1goal: 5,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 8,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Pendlay row',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Flat bench press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip dips',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0,
+          set3goal: 12,
+          set3reps: 0,
+          set3weight: 0
+        },
+        {
+          name: 'Smith shoulder press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip upright row',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Back squat',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Romanian deadlift',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+      ],
+      day2: [
+        {
+          name: 'Deadlift',
+          set1goal: 5,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 8,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Pendlay row',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Flat bench press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip dips',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0,
+          set3goal: 12,
+          set3reps: 0,
+          set3weight: 0
+        },
+        {
+          name: 'Smith shoulder press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip upright row',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Back squat',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Romanian deadlift',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+      ],
+      day3: [
+        {
+          name: 'Deadlift',
+          set1goal: 5,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 8,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Pendlay row',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Flat bench press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip dips',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0,
+          set3goal: 12,
+          set3reps: 0,
+          set3weight: 0
+        },
+        {
+          name: 'Smith shoulder press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip upright row',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Back squat',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Romanian deadlift',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+      ],
+      day4: [
+        {
+          name: 'Deadlift',
+          set1goal: 5,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 8,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Pendlay row',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Flat bench press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip dips',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0,
+          set3goal: 12,
+          set3reps: 0,
+          set3weight: 0
+        },
+        {
+          name: 'Smith shoulder press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip upright row',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Back squat',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Romanian deadlift',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+      ],
+      day5: [
+        {
+          name: 'Deadlift',
+          set1goal: 5,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 8,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Pendlay row',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Flat bench press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip dips',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0,
+          set3goal: 12,
+          set3reps: 0,
+          set3weight: 0
+        },
+        {
+          name: 'Smith shoulder press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip upright row',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Back squat',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Romanian deadlift',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+      ],
+      day6: [
+        {
+          name: 'Deadlift',
+          set1goal: 5,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 8,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Pendlay row',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Flat bench press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip dips',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0,
+          set3goal: 12,
+          set3reps: 0,
+          set3weight: 0
+        },
+        {
+          name: 'Smith shoulder press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip upright row',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Back squat',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Romanian deadlift',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+      ],
+      day7: [
+        {
+          name: 'Deadlift',
+          set1goal: 5,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 8,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Pendlay row',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Flat bench press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip dips',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0,
+          set3goal: 12,
+          set3reps: 0,
+          set3weight: 0
+        },
+        {
+          name: 'Smith shoulder press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip upright row',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Back squat',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Romanian deadlift',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+      ],
+      day8: [
+        {
+          name: 'Deadlift',
+          set1goal: 5,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 8,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Pendlay row',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Flat bench press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip dips',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0,
+          set3goal: 12,
+          set3reps: 0,
+          set3weight: 0
+        },
+        {
+          name: 'Smith shoulder press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip upright row',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Back squat',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Romanian deadlift',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+      ],
+      day9: [
+        {
+          name: 'Deadlift',
+          set1goal: 5,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 8,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Pendlay row',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Flat bench press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip dips',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0,
+          set3goal: 12,
+          set3reps: 0,
+          set3weight: 0
+        },
+        {
+          name: 'Smith shoulder press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip upright row',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Back squat',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Romanian deadlift',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+      ],
+      day10: [
+        {
+          name: 'Deadlift',
+          set1goal: 5,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 8,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Pendlay row',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Flat bench press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip dips',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0,
+          set3goal: 12,
+          set3reps: 0,
+          set3weight: 0
+        },
+        {
+          name: 'Smith shoulder press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip upright row',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Back squat',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Romanian deadlift',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+      ],
+      day11: [
+        {
+          name: 'Deadlift',
+          set1goal: 5,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 8,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Pendlay row',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Flat bench press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip dips',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0,
+          set3goal: 12,
+          set3reps: 0,
+          set3weight: 0
+        },
+        {
+          name: 'Smith shoulder press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip upright row',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Back squat',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Romanian deadlift',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+      ],
+      day12: [
+        {
+          name: 'Deadlift',
+          set1goal: 5,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 8,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Pendlay row',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Flat bench press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip dips',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0,
+          set3goal: 12,
+          set3reps: 0,
+          set3weight: 0
+        },
+        {
+          name: 'Smith shoulder press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip upright row',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Back squat',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Romanian deadlift',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+      ],
+      day13: [
+        {
+          name: 'Deadlift',
+          set1goal: 5,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 8,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Pendlay row',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Flat bench press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip dips',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0,
+          set3goal: 12,
+          set3reps: 0,
+          set3weight: 0
+        },
+        {
+          name: 'Smith shoulder press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip upright row',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Back squat',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Romanian deadlift',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+      ],
+      day14: [
+        {
+          name: 'Deadlift',
+          set1goal: 5,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 8,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Pendlay row',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Flat bench press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip dips',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0,
+          set3goal: 12,
+          set3reps: 0,
+          set3weight: 0
+        },
+        {
+          name: 'Smith shoulder press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip upright row',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Back squat',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Romanian deadlift',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+      ],
+      day15: [
+        {
+          name: 'Deadlift',
+          set1goal: 5,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 8,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Pendlay row',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Flat bench press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip dips',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0,
+          set3goal: 12,
+          set3reps: 0,
+          set3weight: 0
+        },
+        {
+          name: 'Smith shoulder press',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Wide grip upright row',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Back squat',
+          set1goal: 12,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+        {
+          name: 'Romanian deadlift',
+          set1goal: 8,
+          set1reps: 0,
+          set1weight: 0,
+          set2goal: 12,
+          set2reps: 0,
+          set2weight: 0
+        },
+      ],
+    },
       ]
