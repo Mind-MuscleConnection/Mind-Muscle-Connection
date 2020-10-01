@@ -9973,5 +9973,2975 @@ const template = [
         set1goal: 5
       },
     ],
+  },
+  {
+    planName: 'Hatha yoga',
+    type: 'yoga',
+    numberOfDays: 6,
+    day1: [
+      {
+        name: 'Mountain pose - Tadasana'
+      },
+      {
+        name: 'Downward facing dog pose - Svanasana'
+      },
+      {
+        name: 'Tree pose - Vrikshasana'
+      },
+      {
+        name: 'Seated forward bend pose - Paschimottanasana'
+      },
+      {
+        name: 'Cobbler pose - Buddha Konasana'
+      },
+      {
+        name: 'Corpse pose - Shavasana'
+      }
+    ],
+    day2: [
+      {
+        name: 'Half-moon pose'
+      },
+      {
+        name: 'Hands-to-feet pose'
+      },
+      {
+        name: 'Awkward pose'
+      },
+      {
+        name: 'Eagle pose'
+      },
+      {
+        name: 'Standing head-to-knee pose'
+      },
+      {
+        name: 'Standing bow-pulling pose'
+      },
+      {
+        name: 'Balance stick pose'
+      },
+      {
+        name: 'Standing separate-leg Head-to-knee pose'
+      },
+      {
+        name: 'Tree pose'
+      },
+      {
+        name: 'Toe stand pose'
+      },
+      {
+        name: 'Corpse pose'
+      },
+      {
+        name: 'Wind-removing pose'
+      },
+      {
+        name: 'Birkram yoga sit-up pose'
+      },
+      {
+        name: 'Cobra pose'
+      },
+      {
+        name: 'Locust pose'
+      },
+      {
+        name: 'Full locust pose'
+      },
+      {
+        name: 'Floor bow pose'
+      },
+      {
+        name: 'Fixed firm pose'
+      },
+      {
+        name: 'Half tortoise pose'
+      },
+      {
+        name: 'Camel pose'
+      },
+      {
+        name: 'Rabbit pose'
+      },
+      {
+        name: 'Head to knee pose'
+      },
+      {
+        name: 'Stretching pose'
+      },
+      {
+        name: 'Spine twisting pose'
+      }
+    ],
+    day3: [
+      {
+        name: 'Child pose - Balasana'
+      },
+      {
+        name: 'Seated cat cow - Upavistha Bitilasana Marjaryasana'
+      },
+      {
+        name: 'Supported bridge pose - Setu Bandha Sarvangasana'
+      },
+      {
+        name: 'Reclining bound angle pose - Septa Buddha Konasana'
+      },
+      {
+        name: 'Thread the Needle Pose - Parsva Balasana'
+      },
+      {
+        name: 'Supported Forward Fold - Paschimottanasana'
+      },
+      {
+        name: 'Sleeping Pigeon Pose - Eka Pada Rajakapotasana'
+      },
+      {
+        name: 'Supine Spinal Twist - Jathara Parivartanasana'
+      },
+      {
+        name: 'Supported Fish Pose - Matsyasana'
+      },
+      {
+        name: 'Legs Up The Wall - Viparita Karani'
+      }
+    ],
+    day4: [
+      {
+        name: 'Mountain pose - Tadasana'
+      },
+      {
+        name: 'Downward facing dog pose - Svanasana'
+      },
+      {
+        name: 'Tree pose - Vrikshasana'
+      },
+      {
+        name: 'Seated forward bend pose - Paschimottanasana'
+      },
+      {
+        name: 'Cobbler pose - Buddha Konasana'
+      },
+      {
+        name: 'Corpse pose - Shavasana'
+      }
+    ],
+    day5: [
+      {
+        name: 'Half-moon pose'
+      },
+      {
+        name: 'Hands-to-feet pose'
+      },
+      {
+        name: 'Awkward pose'
+      },
+      {
+        name: 'Eagle pose'
+      },
+      {
+        name: 'Standing head-to-knee pose'
+      },
+      {
+        name: 'Standing bow-pulling pose'
+      },
+      {
+        name: 'Balance stick pose'
+      },
+      {
+        name: 'Standing separate-leg Head-to-knee pose'
+      },
+      {
+        name: 'Tree pose'
+      },
+      {
+        name: 'Toe stand pose'
+      },
+      {
+        name: 'Corpse pose'
+      },
+      {
+        name: 'Wind-removing pose'
+      },
+      {
+        name: 'Birkram yoga sit-up pose'
+      },
+      {
+        name: 'Cobra pose'
+      },
+      {
+        name: 'Locust pose'
+      },
+      {
+        name: 'Full locust pose'
+      },
+      {
+        name: 'Floor bow pose'
+      },
+      {
+        name: 'Fixed firm pose'
+      },
+      {
+        name: 'Half tortoise pose'
+      },
+      {
+        name: 'Camel pose'
+      },
+      {
+        name: 'Rabbit pose'
+      },
+      {
+        name: 'Head to knee pose'
+      },
+      {
+        name: 'Stretching pose'
+      },
+      {
+        name: 'Spine twisting pose'
+      }
+    ],
+    day6: [
+      {
+        name: 'Child pose - Balasana'
+      },
+      {
+        name: 'Seated cat cow - Upavistha Bitilasana Marjaryasana'
+      },
+      {
+        name: 'Supported bridge pose - Setu Bandha Sarvangasana'
+      },
+      {
+        name: 'Reclining bound angle pose - Septa Buddha Konasana'
+      },
+      {
+        name: 'Thread the Needle Pose - Parsva Balasana'
+      },
+      {
+        name: 'Supported Forward Fold - Paschimottanasana'
+      },
+      {
+        name: 'Sleeping Pigeon Pose - Eka Pada Rajakapotasana'
+      },
+      {
+        name: 'Supine Spinal Twist - Jathara Parivartanasana'
+      },
+      {
+        name: 'Supported Fish Pose - Matsyasana'
+      },
+      {
+        name: 'Legs Up The Wall - Viparita Karani'
+      }
+    ],
+    day7: [
+      {
+        name: 'Mountain pose - Tadasana'
+      },
+      {
+        name: 'Downward facing dog pose - Svanasana'
+      },
+      {
+        name: 'Tree pose - Vrikshasana'
+      },
+      {
+        name: 'Seated forward bend pose - Paschimottanasana'
+      },
+      {
+        name: 'Cobbler pose - Buddha Konasana'
+      },
+      {
+        name: 'Corpse pose - Shavasana'
+      }
+    ],
+    day8: [
+      {
+        name: 'Half-moon pose'
+      },
+      {
+        name: 'Hands-to-feet pose'
+      },
+      {
+        name: 'Awkward pose'
+      },
+      {
+        name: 'Eagle pose'
+      },
+      {
+        name: 'Standing head-to-knee pose'
+      },
+      {
+        name: 'Standing bow-pulling pose'
+      },
+      {
+        name: 'Balance stick pose'
+      },
+      {
+        name: 'Standing separate-leg Head-to-knee pose'
+      },
+      {
+        name: 'Tree pose'
+      },
+      {
+        name: 'Toe stand pose'
+      },
+      {
+        name: 'Corpse pose'
+      },
+      {
+        name: 'Wind-removing pose'
+      },
+      {
+        name: 'Birkram yoga sit-up pose'
+      },
+      {
+        name: 'Cobra pose'
+      },
+      {
+        name: 'Locust pose'
+      },
+      {
+        name: 'Full locust pose'
+      },
+      {
+        name: 'Floor bow pose'
+      },
+      {
+        name: 'Fixed firm pose'
+      },
+      {
+        name: 'Half tortoise pose'
+      },
+      {
+        name: 'Camel pose'
+      },
+      {
+        name: 'Rabbit pose'
+      },
+      {
+        name: 'Head to knee pose'
+      },
+      {
+        name: 'Stretching pose'
+      },
+      {
+        name: 'Spine twisting pose'
+      }
+    ],
+    day9: [
+      {
+        name: 'Child pose - Balasana'
+      },
+      {
+        name: 'Seated cat cow - Upavistha Bitilasana Marjaryasana'
+      },
+      {
+        name: 'Supported bridge pose - Setu Bandha Sarvangasana'
+      },
+      {
+        name: 'Reclining bound angle pose - Septa Buddha Konasana'
+      },
+      {
+        name: 'Thread the Needle Pose - Parsva Balasana'
+      },
+      {
+        name: 'Supported Forward Fold - Paschimottanasana'
+      },
+      {
+        name: 'Sleeping Pigeon Pose - Eka Pada Rajakapotasana'
+      },
+      {
+        name: 'Supine Spinal Twist - Jathara Parivartanasana'
+      },
+      {
+        name: 'Supported Fish Pose - Matsyasana'
+      },
+      {
+        name: 'Legs Up The Wall - Viparita Karani'
+      }
+    ],
+    day10: [
+      {
+        name: 'Mountain pose - Tadasana'
+      },
+      {
+        name: 'Downward facing dog pose - Svanasana'
+      },
+      {
+        name: 'Tree pose - Vrikshasana'
+      },
+      {
+        name: 'Seated forward bend pose - Paschimottanasana'
+      },
+      {
+        name: 'Cobbler pose - Buddha Konasana'
+      },
+      {
+        name: 'Corpse pose - Shavasana'
+      }
+    ],
+    day11: [
+      {
+        name: 'Half-moon pose'
+      },
+      {
+        name: 'Hands-to-feet pose'
+      },
+      {
+        name: 'Awkward pose'
+      },
+      {
+        name: 'Eagle pose'
+      },
+      {
+        name: 'Standing head-to-knee pose'
+      },
+      {
+        name: 'Standing bow-pulling pose'
+      },
+      {
+        name: 'Balance stick pose'
+      },
+      {
+        name: 'Standing separate-leg Head-to-knee pose'
+      },
+      {
+        name: 'Tree pose'
+      },
+      {
+        name: 'Toe stand pose'
+      },
+      {
+        name: 'Corpse pose'
+      },
+      {
+        name: 'Wind-removing pose'
+      },
+      {
+        name: 'Birkram yoga sit-up pose'
+      },
+      {
+        name: 'Cobra pose'
+      },
+      {
+        name: 'Locust pose'
+      },
+      {
+        name: 'Full locust pose'
+      },
+      {
+        name: 'Floor bow pose'
+      },
+      {
+        name: 'Fixed firm pose'
+      },
+      {
+        name: 'Half tortoise pose'
+      },
+      {
+        name: 'Camel pose'
+      },
+      {
+        name: 'Rabbit pose'
+      },
+      {
+        name: 'Head to knee pose'
+      },
+      {
+        name: 'Stretching pose'
+      },
+      {
+        name: 'Spine twisting pose'
+      }
+    ],
+    day12: [
+      {
+        name: 'Child pose - Balasana'
+      },
+      {
+        name: 'Seated cat cow - Upavistha Bitilasana Marjaryasana'
+      },
+      {
+        name: 'Supported bridge pose - Setu Bandha Sarvangasana'
+      },
+      {
+        name: 'Reclining bound angle pose - Septa Buddha Konasana'
+      },
+      {
+        name: 'Thread the Needle Pose - Parsva Balasana'
+      },
+      {
+        name: 'Supported Forward Fold - Paschimottanasana'
+      },
+      {
+        name: 'Sleeping Pigeon Pose - Eka Pada Rajakapotasana'
+      },
+      {
+        name: 'Supine Spinal Twist - Jathara Parivartanasana'
+      },
+      {
+        name: 'Supported Fish Pose - Matsyasana'
+      },
+      {
+        name: 'Legs Up The Wall - Viparita Karani'
+      }
+    ],
+    day13: [
+      {
+        name: 'Mountain pose - Tadasana'
+      },
+      {
+        name: 'Downward facing dog pose - Svanasana'
+      },
+      {
+        name: 'Tree pose - Vrikshasana'
+      },
+      {
+        name: 'Seated forward bend pose - Paschimottanasana'
+      },
+      {
+        name: 'Cobbler pose - Buddha Konasana'
+      },
+      {
+        name: 'Corpse pose - Shavasana'
+      }
+    ],
+    day14: [
+      {
+        name: 'Half-moon pose'
+      },
+      {
+        name: 'Hands-to-feet pose'
+      },
+      {
+        name: 'Awkward pose'
+      },
+      {
+        name: 'Eagle pose'
+      },
+      {
+        name: 'Standing head-to-knee pose'
+      },
+      {
+        name: 'Standing bow-pulling pose'
+      },
+      {
+        name: 'Balance stick pose'
+      },
+      {
+        name: 'Standing separate-leg Head-to-knee pose'
+      },
+      {
+        name: 'Tree pose'
+      },
+      {
+        name: 'Toe stand pose'
+      },
+      {
+        name: 'Corpse pose'
+      },
+      {
+        name: 'Wind-removing pose'
+      },
+      {
+        name: 'Birkram yoga sit-up pose'
+      },
+      {
+        name: 'Cobra pose'
+      },
+      {
+        name: 'Locust pose'
+      },
+      {
+        name: 'Full locust pose'
+      },
+      {
+        name: 'Floor bow pose'
+      },
+      {
+        name: 'Fixed firm pose'
+      },
+      {
+        name: 'Half tortoise pose'
+      },
+      {
+        name: 'Camel pose'
+      },
+      {
+        name: 'Rabbit pose'
+      },
+      {
+        name: 'Head to knee pose'
+      },
+      {
+        name: 'Stretching pose'
+      },
+      {
+        name: 'Spine twisting pose'
+      }
+    ],
+    day15: [
+      {
+        name: 'Child pose - Balasana'
+      },
+      {
+        name: 'Seated cat cow - Upavistha Bitilasana Marjaryasana'
+      },
+      {
+        name: 'Supported bridge pose - Setu Bandha Sarvangasana'
+      },
+      {
+        name: 'Reclining bound angle pose - Septa Buddha Konasana'
+      },
+      {
+        name: 'Thread the Needle Pose - Parsva Balasana'
+      },
+      {
+        name: 'Supported Forward Fold - Paschimottanasana'
+      },
+      {
+        name: 'Sleeping Pigeon Pose - Eka Pada Rajakapotasana'
+      },
+      {
+        name: 'Supine Spinal Twist - Jathara Parivartanasana'
+      },
+      {
+        name: 'Supported Fish Pose - Matsyasana'
+      },
+      {
+        name: 'Legs Up The Wall - Viparita Karani'
+      }
+    ],
+    day16: [
+      {
+        name: 'Mountain pose - Tadasana'
+      },
+      {
+        name: 'Downward facing dog pose - Svanasana'
+      },
+      {
+        name: 'Tree pose - Vrikshasana'
+      },
+      {
+        name: 'Seated forward bend pose - Paschimottanasana'
+      },
+      {
+        name: 'Cobbler pose - Buddha Konasana'
+      },
+      {
+        name: 'Corpse pose - Shavasana'
+      }
+    ],
+    day17: [
+      {
+        name: 'Half-moon pose'
+      },
+      {
+        name: 'Hands-to-feet pose'
+      },
+      {
+        name: 'Awkward pose'
+      },
+      {
+        name: 'Eagle pose'
+      },
+      {
+        name: 'Standing head-to-knee pose'
+      },
+      {
+        name: 'Standing bow-pulling pose'
+      },
+      {
+        name: 'Balance stick pose'
+      },
+      {
+        name: 'Standing separate-leg Head-to-knee pose'
+      },
+      {
+        name: 'Tree pose'
+      },
+      {
+        name: 'Toe stand pose'
+      },
+      {
+        name: 'Corpse pose'
+      },
+      {
+        name: 'Wind-removing pose'
+      },
+      {
+        name: 'Birkram yoga sit-up pose'
+      },
+      {
+        name: 'Cobra pose'
+      },
+      {
+        name: 'Locust pose'
+      },
+      {
+        name: 'Full locust pose'
+      },
+      {
+        name: 'Floor bow pose'
+      },
+      {
+        name: 'Fixed firm pose'
+      },
+      {
+        name: 'Half tortoise pose'
+      },
+      {
+        name: 'Camel pose'
+      },
+      {
+        name: 'Rabbit pose'
+      },
+      {
+        name: 'Head to knee pose'
+      },
+      {
+        name: 'Stretching pose'
+      },
+      {
+        name: 'Spine twisting pose'
+      }
+    ],
+    day18: [
+      {
+        name: 'Child pose - Balasana'
+      },
+      {
+        name: 'Seated cat cow - Upavistha Bitilasana Marjaryasana'
+      },
+      {
+        name: 'Supported bridge pose - Setu Bandha Sarvangasana'
+      },
+      {
+        name: 'Reclining bound angle pose - Septa Buddha Konasana'
+      },
+      {
+        name: 'Thread the Needle Pose - Parsva Balasana'
+      },
+      {
+        name: 'Supported Forward Fold - Paschimottanasana'
+      },
+      {
+        name: 'Sleeping Pigeon Pose - Eka Pada Rajakapotasana'
+      },
+      {
+        name: 'Supine Spinal Twist - Jathara Parivartanasana'
+      },
+      {
+        name: 'Supported Fish Pose - Matsyasana'
+      },
+      {
+        name: 'Legs Up The Wall - Viparita Karani'
+      }
+    ],
+  },
+  {
+    planName: 'Hatha yoga',
+    type: 'yoga',
+    numberOfDays: 5,
+    day1: [
+      {
+        name: 'Mountain pose - Tadasana'
+      },
+      {
+        name: 'Downward facing dog pose - Svanasana'
+      },
+      {
+        name: 'Tree pose - Vrikshasana'
+      },
+      {
+        name: 'Seated forward bend pose - Paschimottanasana'
+      },
+      {
+        name: 'Cobbler pose - Buddha Konasana'
+      },
+      {
+        name: 'Corpse pose - Shavasana'
+      }
+    ],
+    day2: [
+      {
+        name: 'Half-moon pose'
+      },
+      {
+        name: 'Hands-to-feet pose'
+      },
+      {
+        name: 'Awkward pose'
+      },
+      {
+        name: 'Eagle pose'
+      },
+      {
+        name: 'Standing head-to-knee pose'
+      },
+      {
+        name: 'Standing bow-pulling pose'
+      },
+      {
+        name: 'Balance stick pose'
+      },
+      {
+        name: 'Standing separate-leg Head-to-knee pose'
+      },
+      {
+        name: 'Tree pose'
+      },
+      {
+        name: 'Toe stand pose'
+      },
+      {
+        name: 'Corpse pose'
+      },
+      {
+        name: 'Wind-removing pose'
+      },
+      {
+        name: 'Birkram yoga sit-up pose'
+      },
+      {
+        name: 'Cobra pose'
+      },
+      {
+        name: 'Locust pose'
+      },
+      {
+        name: 'Full locust pose'
+      },
+      {
+        name: 'Floor bow pose'
+      },
+      {
+        name: 'Fixed firm pose'
+      },
+      {
+        name: 'Half tortoise pose'
+      },
+      {
+        name: 'Camel pose'
+      },
+      {
+        name: 'Rabbit pose'
+      },
+      {
+        name: 'Head to knee pose'
+      },
+      {
+        name: 'Stretching pose'
+      },
+      {
+        name: 'Spine twisting pose'
+      }
+    ],
+    day3: [
+      {
+        name: 'Child pose - Balasana'
+      },
+      {
+        name: 'Seated cat cow - Upavistha Bitilasana Marjaryasana'
+      },
+      {
+        name: 'Supported bridge pose - Setu Bandha Sarvangasana'
+      },
+      {
+        name: 'Reclining bound angle pose - Septa Buddha Konasana'
+      },
+      {
+        name: 'Thread the Needle Pose - Parsva Balasana'
+      },
+      {
+        name: 'Supported Forward Fold - Paschimottanasana'
+      },
+      {
+        name: 'Sleeping Pigeon Pose - Eka Pada Rajakapotasana'
+      },
+      {
+        name: 'Supine Spinal Twist - Jathara Parivartanasana'
+      },
+      {
+        name: 'Supported Fish Pose - Matsyasana'
+      },
+      {
+        name: 'Legs Up The Wall - Viparita Karani'
+      }
+    ],
+    day4: [
+      {
+        name: 'Mountain pose - Tadasana'
+      },
+      {
+        name: 'Downward facing dog pose - Svanasana'
+      },
+      {
+        name: 'Tree pose - Vrikshasana'
+      },
+      {
+        name: 'Seated forward bend pose - Paschimottanasana'
+      },
+      {
+        name: 'Cobbler pose - Buddha Konasana'
+      },
+      {
+        name: 'Corpse pose - Shavasana'
+      }
+    ],
+    day5: [
+      {
+        name: 'Half-moon pose'
+      },
+      {
+        name: 'Hands-to-feet pose'
+      },
+      {
+        name: 'Awkward pose'
+      },
+      {
+        name: 'Eagle pose'
+      },
+      {
+        name: 'Standing head-to-knee pose'
+      },
+      {
+        name: 'Standing bow-pulling pose'
+      },
+      {
+        name: 'Balance stick pose'
+      },
+      {
+        name: 'Standing separate-leg Head-to-knee pose'
+      },
+      {
+        name: 'Tree pose'
+      },
+      {
+        name: 'Toe stand pose'
+      },
+      {
+        name: 'Corpse pose'
+      },
+      {
+        name: 'Wind-removing pose'
+      },
+      {
+        name: 'Birkram yoga sit-up pose'
+      },
+      {
+        name: 'Cobra pose'
+      },
+      {
+        name: 'Locust pose'
+      },
+      {
+        name: 'Full locust pose'
+      },
+      {
+        name: 'Floor bow pose'
+      },
+      {
+        name: 'Fixed firm pose'
+      },
+      {
+        name: 'Half tortoise pose'
+      },
+      {
+        name: 'Camel pose'
+      },
+      {
+        name: 'Rabbit pose'
+      },
+      {
+        name: 'Head to knee pose'
+      },
+      {
+        name: 'Stretching pose'
+      },
+      {
+        name: 'Spine twisting pose'
+      }
+    ],
+    day6: [
+      {
+        name: 'Child pose - Balasana'
+      },
+      {
+        name: 'Seated cat cow - Upavistha Bitilasana Marjaryasana'
+      },
+      {
+        name: 'Supported bridge pose - Setu Bandha Sarvangasana'
+      },
+      {
+        name: 'Reclining bound angle pose - Septa Buddha Konasana'
+      },
+      {
+        name: 'Thread the Needle Pose - Parsva Balasana'
+      },
+      {
+        name: 'Supported Forward Fold - Paschimottanasana'
+      },
+      {
+        name: 'Sleeping Pigeon Pose - Eka Pada Rajakapotasana'
+      },
+      {
+        name: 'Supine Spinal Twist - Jathara Parivartanasana'
+      },
+      {
+        name: 'Supported Fish Pose - Matsyasana'
+      },
+      {
+        name: 'Legs Up The Wall - Viparita Karani'
+      }
+    ],
+    day7: [
+      {
+        name: 'Mountain pose - Tadasana'
+      },
+      {
+        name: 'Downward facing dog pose - Svanasana'
+      },
+      {
+        name: 'Tree pose - Vrikshasana'
+      },
+      {
+        name: 'Seated forward bend pose - Paschimottanasana'
+      },
+      {
+        name: 'Cobbler pose - Buddha Konasana'
+      },
+      {
+        name: 'Corpse pose - Shavasana'
+      }
+    ],
+    day8: [
+      {
+        name: 'Half-moon pose'
+      },
+      {
+        name: 'Hands-to-feet pose'
+      },
+      {
+        name: 'Awkward pose'
+      },
+      {
+        name: 'Eagle pose'
+      },
+      {
+        name: 'Standing head-to-knee pose'
+      },
+      {
+        name: 'Standing bow-pulling pose'
+      },
+      {
+        name: 'Balance stick pose'
+      },
+      {
+        name: 'Standing separate-leg Head-to-knee pose'
+      },
+      {
+        name: 'Tree pose'
+      },
+      {
+        name: 'Toe stand pose'
+      },
+      {
+        name: 'Corpse pose'
+      },
+      {
+        name: 'Wind-removing pose'
+      },
+      {
+        name: 'Birkram yoga sit-up pose'
+      },
+      {
+        name: 'Cobra pose'
+      },
+      {
+        name: 'Locust pose'
+      },
+      {
+        name: 'Full locust pose'
+      },
+      {
+        name: 'Floor bow pose'
+      },
+      {
+        name: 'Fixed firm pose'
+      },
+      {
+        name: 'Half tortoise pose'
+      },
+      {
+        name: 'Camel pose'
+      },
+      {
+        name: 'Rabbit pose'
+      },
+      {
+        name: 'Head to knee pose'
+      },
+      {
+        name: 'Stretching pose'
+      },
+      {
+        name: 'Spine twisting pose'
+      }
+    ],
+    day9: [
+      {
+        name: 'Child pose - Balasana'
+      },
+      {
+        name: 'Seated cat cow - Upavistha Bitilasana Marjaryasana'
+      },
+      {
+        name: 'Supported bridge pose - Setu Bandha Sarvangasana'
+      },
+      {
+        name: 'Reclining bound angle pose - Septa Buddha Konasana'
+      },
+      {
+        name: 'Thread the Needle Pose - Parsva Balasana'
+      },
+      {
+        name: 'Supported Forward Fold - Paschimottanasana'
+      },
+      {
+        name: 'Sleeping Pigeon Pose - Eka Pada Rajakapotasana'
+      },
+      {
+        name: 'Supine Spinal Twist - Jathara Parivartanasana'
+      },
+      {
+        name: 'Supported Fish Pose - Matsyasana'
+      },
+      {
+        name: 'Legs Up The Wall - Viparita Karani'
+      }
+    ],
+    day10: [
+      {
+        name: 'Mountain pose - Tadasana'
+      },
+      {
+        name: 'Downward facing dog pose - Svanasana'
+      },
+      {
+        name: 'Tree pose - Vrikshasana'
+      },
+      {
+        name: 'Seated forward bend pose - Paschimottanasana'
+      },
+      {
+        name: 'Cobbler pose - Buddha Konasana'
+      },
+      {
+        name: 'Corpse pose - Shavasana'
+      }
+    ],
+    day11: [
+      {
+        name: 'Half-moon pose'
+      },
+      {
+        name: 'Hands-to-feet pose'
+      },
+      {
+        name: 'Awkward pose'
+      },
+      {
+        name: 'Eagle pose'
+      },
+      {
+        name: 'Standing head-to-knee pose'
+      },
+      {
+        name: 'Standing bow-pulling pose'
+      },
+      {
+        name: 'Balance stick pose'
+      },
+      {
+        name: 'Standing separate-leg Head-to-knee pose'
+      },
+      {
+        name: 'Tree pose'
+      },
+      {
+        name: 'Toe stand pose'
+      },
+      {
+        name: 'Corpse pose'
+      },
+      {
+        name: 'Wind-removing pose'
+      },
+      {
+        name: 'Birkram yoga sit-up pose'
+      },
+      {
+        name: 'Cobra pose'
+      },
+      {
+        name: 'Locust pose'
+      },
+      {
+        name: 'Full locust pose'
+      },
+      {
+        name: 'Floor bow pose'
+      },
+      {
+        name: 'Fixed firm pose'
+      },
+      {
+        name: 'Half tortoise pose'
+      },
+      {
+        name: 'Camel pose'
+      },
+      {
+        name: 'Rabbit pose'
+      },
+      {
+        name: 'Head to knee pose'
+      },
+      {
+        name: 'Stretching pose'
+      },
+      {
+        name: 'Spine twisting pose'
+      }
+    ],
+    day12: [
+      {
+        name: 'Child pose - Balasana'
+      },
+      {
+        name: 'Seated cat cow - Upavistha Bitilasana Marjaryasana'
+      },
+      {
+        name: 'Supported bridge pose - Setu Bandha Sarvangasana'
+      },
+      {
+        name: 'Reclining bound angle pose - Septa Buddha Konasana'
+      },
+      {
+        name: 'Thread the Needle Pose - Parsva Balasana'
+      },
+      {
+        name: 'Supported Forward Fold - Paschimottanasana'
+      },
+      {
+        name: 'Sleeping Pigeon Pose - Eka Pada Rajakapotasana'
+      },
+      {
+        name: 'Supine Spinal Twist - Jathara Parivartanasana'
+      },
+      {
+        name: 'Supported Fish Pose - Matsyasana'
+      },
+      {
+        name: 'Legs Up The Wall - Viparita Karani'
+      }
+    ],
+    day13: [
+      {
+        name: 'Mountain pose - Tadasana'
+      },
+      {
+        name: 'Downward facing dog pose - Svanasana'
+      },
+      {
+        name: 'Tree pose - Vrikshasana'
+      },
+      {
+        name: 'Seated forward bend pose - Paschimottanasana'
+      },
+      {
+        name: 'Cobbler pose - Buddha Konasana'
+      },
+      {
+        name: 'Corpse pose - Shavasana'
+      }
+    ],
+    day14: [
+      {
+        name: 'Half-moon pose'
+      },
+      {
+        name: 'Hands-to-feet pose'
+      },
+      {
+        name: 'Awkward pose'
+      },
+      {
+        name: 'Eagle pose'
+      },
+      {
+        name: 'Standing head-to-knee pose'
+      },
+      {
+        name: 'Standing bow-pulling pose'
+      },
+      {
+        name: 'Balance stick pose'
+      },
+      {
+        name: 'Standing separate-leg Head-to-knee pose'
+      },
+      {
+        name: 'Tree pose'
+      },
+      {
+        name: 'Toe stand pose'
+      },
+      {
+        name: 'Corpse pose'
+      },
+      {
+        name: 'Wind-removing pose'
+      },
+      {
+        name: 'Birkram yoga sit-up pose'
+      },
+      {
+        name: 'Cobra pose'
+      },
+      {
+        name: 'Locust pose'
+      },
+      {
+        name: 'Full locust pose'
+      },
+      {
+        name: 'Floor bow pose'
+      },
+      {
+        name: 'Fixed firm pose'
+      },
+      {
+        name: 'Half tortoise pose'
+      },
+      {
+        name: 'Camel pose'
+      },
+      {
+        name: 'Rabbit pose'
+      },
+      {
+        name: 'Head to knee pose'
+      },
+      {
+        name: 'Stretching pose'
+      },
+      {
+        name: 'Spine twisting pose'
+      }
+    ],
+    day15: [
+      {
+        name: 'Child pose - Balasana'
+      },
+      {
+        name: 'Seated cat cow - Upavistha Bitilasana Marjaryasana'
+      },
+      {
+        name: 'Supported bridge pose - Setu Bandha Sarvangasana'
+      },
+      {
+        name: 'Reclining bound angle pose - Septa Buddha Konasana'
+      },
+      {
+        name: 'Thread the Needle Pose - Parsva Balasana'
+      },
+      {
+        name: 'Supported Forward Fold - Paschimottanasana'
+      },
+      {
+        name: 'Sleeping Pigeon Pose - Eka Pada Rajakapotasana'
+      },
+      {
+        name: 'Supine Spinal Twist - Jathara Parivartanasana'
+      },
+      {
+        name: 'Supported Fish Pose - Matsyasana'
+      },
+      {
+        name: 'Legs Up The Wall - Viparita Karani'
+      }
+    ]
+  },
+  {
+    planName: 'Hatha yoga',
+    type: 'yoga',
+    numberOfDays: 3,
+    day1: [
+      {
+        name: 'Mountain pose - Tadasana'
+      },
+      {
+        name: 'Downward facing dog pose - Svanasana'
+      },
+      {
+        name: 'Tree pose - Vrikshasana'
+      },
+      {
+        name: 'Seated forward bend pose - Paschimottanasana'
+      },
+      {
+        name: 'Cobbler pose - Buddha Konasana'
+      },
+      {
+        name: 'Corpse pose - Shavasana'
+      }
+    ],
+    day2: [
+      {
+        name: 'Half-moon pose'
+      },
+      {
+        name: 'Hands-to-feet pose'
+      },
+      {
+        name: 'Awkward pose'
+      },
+      {
+        name: 'Eagle pose'
+      },
+      {
+        name: 'Standing head-to-knee pose'
+      },
+      {
+        name: 'Standing bow-pulling pose'
+      },
+      {
+        name: 'Balance stick pose'
+      },
+      {
+        name: 'Standing separate-leg Head-to-knee pose'
+      },
+      {
+        name: 'Tree pose'
+      },
+      {
+        name: 'Toe stand pose'
+      },
+      {
+        name: 'Corpse pose'
+      },
+      {
+        name: 'Wind-removing pose'
+      },
+      {
+        name: 'Birkram yoga sit-up pose'
+      },
+      {
+        name: 'Cobra pose'
+      },
+      {
+        name: 'Locust pose'
+      },
+      {
+        name: 'Full locust pose'
+      },
+      {
+        name: 'Floor bow pose'
+      },
+      {
+        name: 'Fixed firm pose'
+      },
+      {
+        name: 'Half tortoise pose'
+      },
+      {
+        name: 'Camel pose'
+      },
+      {
+        name: 'Rabbit pose'
+      },
+      {
+        name: 'Head to knee pose'
+      },
+      {
+        name: 'Stretching pose'
+      },
+      {
+        name: 'Spine twisting pose'
+      }
+    ],
+    day3: [
+      {
+        name: 'Child pose - Balasana'
+      },
+      {
+        name: 'Seated cat cow - Upavistha Bitilasana Marjaryasana'
+      },
+      {
+        name: 'Supported bridge pose - Setu Bandha Sarvangasana'
+      },
+      {
+        name: 'Reclining bound angle pose - Septa Buddha Konasana'
+      },
+      {
+        name: 'Thread the Needle Pose - Parsva Balasana'
+      },
+      {
+        name: 'Supported Forward Fold - Paschimottanasana'
+      },
+      {
+        name: 'Sleeping Pigeon Pose - Eka Pada Rajakapotasana'
+      },
+      {
+        name: 'Supine Spinal Twist - Jathara Parivartanasana'
+      },
+      {
+        name: 'Supported Fish Pose - Matsyasana'
+      },
+      {
+        name: 'Legs Up The Wall - Viparita Karani'
+      }
+    ],
+    day4: [
+      {
+        name: 'Mountain pose - Tadasana'
+      },
+      {
+        name: 'Downward facing dog pose - Svanasana'
+      },
+      {
+        name: 'Tree pose - Vrikshasana'
+      },
+      {
+        name: 'Seated forward bend pose - Paschimottanasana'
+      },
+      {
+        name: 'Cobbler pose - Buddha Konasana'
+      },
+      {
+        name: 'Corpse pose - Shavasana'
+      }
+    ],
+    day5: [
+      {
+        name: 'Half-moon pose'
+      },
+      {
+        name: 'Hands-to-feet pose'
+      },
+      {
+        name: 'Awkward pose'
+      },
+      {
+        name: 'Eagle pose'
+      },
+      {
+        name: 'Standing head-to-knee pose'
+      },
+      {
+        name: 'Standing bow-pulling pose'
+      },
+      {
+        name: 'Balance stick pose'
+      },
+      {
+        name: 'Standing separate-leg Head-to-knee pose'
+      },
+      {
+        name: 'Tree pose'
+      },
+      {
+        name: 'Toe stand pose'
+      },
+      {
+        name: 'Corpse pose'
+      },
+      {
+        name: 'Wind-removing pose'
+      },
+      {
+        name: 'Birkram yoga sit-up pose'
+      },
+      {
+        name: 'Cobra pose'
+      },
+      {
+        name: 'Locust pose'
+      },
+      {
+        name: 'Full locust pose'
+      },
+      {
+        name: 'Floor bow pose'
+      },
+      {
+        name: 'Fixed firm pose'
+      },
+      {
+        name: 'Half tortoise pose'
+      },
+      {
+        name: 'Camel pose'
+      },
+      {
+        name: 'Rabbit pose'
+      },
+      {
+        name: 'Head to knee pose'
+      },
+      {
+        name: 'Stretching pose'
+      },
+      {
+        name: 'Spine twisting pose'
+      }
+    ],
+    day6: [
+      {
+        name: 'Child pose - Balasana'
+      },
+      {
+        name: 'Seated cat cow - Upavistha Bitilasana Marjaryasana'
+      },
+      {
+        name: 'Supported bridge pose - Setu Bandha Sarvangasana'
+      },
+      {
+        name: 'Reclining bound angle pose - Septa Buddha Konasana'
+      },
+      {
+        name: 'Thread the Needle Pose - Parsva Balasana'
+      },
+      {
+        name: 'Supported Forward Fold - Paschimottanasana'
+      },
+      {
+        name: 'Sleeping Pigeon Pose - Eka Pada Rajakapotasana'
+      },
+      {
+        name: 'Supine Spinal Twist - Jathara Parivartanasana'
+      },
+      {
+        name: 'Supported Fish Pose - Matsyasana'
+      },
+      {
+        name: 'Legs Up The Wall - Viparita Karani'
+      }
+    ],
+    day7: [
+      {
+        name: 'Mountain pose - Tadasana'
+      },
+      {
+        name: 'Downward facing dog pose - Svanasana'
+      },
+      {
+        name: 'Tree pose - Vrikshasana'
+      },
+      {
+        name: 'Seated forward bend pose - Paschimottanasana'
+      },
+      {
+        name: 'Cobbler pose - Buddha Konasana'
+      },
+      {
+        name: 'Corpse pose - Shavasana'
+      }
+    ],
+    day8: [
+      {
+        name: 'Half-moon pose'
+      },
+      {
+        name: 'Hands-to-feet pose'
+      },
+      {
+        name: 'Awkward pose'
+      },
+      {
+        name: 'Eagle pose'
+      },
+      {
+        name: 'Standing head-to-knee pose'
+      },
+      {
+        name: 'Standing bow-pulling pose'
+      },
+      {
+        name: 'Balance stick pose'
+      },
+      {
+        name: 'Standing separate-leg Head-to-knee pose'
+      },
+      {
+        name: 'Tree pose'
+      },
+      {
+        name: 'Toe stand pose'
+      },
+      {
+        name: 'Corpse pose'
+      },
+      {
+        name: 'Wind-removing pose'
+      },
+      {
+        name: 'Birkram yoga sit-up pose'
+      },
+      {
+        name: 'Cobra pose'
+      },
+      {
+        name: 'Locust pose'
+      },
+      {
+        name: 'Full locust pose'
+      },
+      {
+        name: 'Floor bow pose'
+      },
+      {
+        name: 'Fixed firm pose'
+      },
+      {
+        name: 'Half tortoise pose'
+      },
+      {
+        name: 'Camel pose'
+      },
+      {
+        name: 'Rabbit pose'
+      },
+      {
+        name: 'Head to knee pose'
+      },
+      {
+        name: 'Stretching pose'
+      },
+      {
+        name: 'Spine twisting pose'
+      }
+    ],
+    day9: [
+      {
+        name: 'Child pose - Balasana'
+      },
+      {
+        name: 'Seated cat cow - Upavistha Bitilasana Marjaryasana'
+      },
+      {
+        name: 'Supported bridge pose - Setu Bandha Sarvangasana'
+      },
+      {
+        name: 'Reclining bound angle pose - Septa Buddha Konasana'
+      },
+      {
+        name: 'Thread the Needle Pose - Parsva Balasana'
+      },
+      {
+        name: 'Supported Forward Fold - Paschimottanasana'
+      },
+      {
+        name: 'Sleeping Pigeon Pose - Eka Pada Rajakapotasana'
+      },
+      {
+        name: 'Supine Spinal Twist - Jathara Parivartanasana'
+      },
+      {
+        name: 'Supported Fish Pose - Matsyasana'
+      },
+      {
+        name: 'Legs Up The Wall - Viparita Karani'
+      }
+    ],
+  },
+  {
+    planName: 'Love yoga',
+    type: 'yoga',
+    numberOfDays: 6,
+    day1: [
+      {
+        name: 'Plank pose - Kumbhakasana'
+      },
+      {
+        name: 'Four-limbed Staff Pose - Chaturanga Dandasana'
+      },
+      {
+        name: 'Upward-facing dog pose - Urdhva Mukha Svanasana'
+      },
+      {
+        name: 'Downward-facing dog pose - Adho Mukha Svanasana' 
+      }
+    ],
+    day2: [
+      {
+        name: 'Ankle stretch'
+      },
+      {
+        name: 'Toe squat'
+      },
+      {
+        name: 'Butterfly'
+      },
+      {
+        name: 'Reclining twist'
+      },
+      {
+        name: 'Child pose'
+      },
+      {
+        name: 'Caterpillar'
+      },
+      {
+        name: 'Straddle (dragonfly)'
+      },
+      {
+        name: 'Sleeping swan'
+      },
+      {
+        name: 'Savasana'
+      }
+    ],
+    day3: [
+      {
+        name: 'Deep Breathing - Pranayama'
+      },
+      {
+        name: 'Half moon with hands to feet pose - Ardha-Chandrasana with Padahastasana'
+      },
+      {
+        name: 'Awkward pose - Utkatasana'
+      },
+      {
+        name: 'Eagle pose - Garurasana'
+      },
+      {
+        name: 'Standing head to knee pose - Dandayamana-Janushirasana'
+      },
+      {
+        name: 'Standing Bow Pose - Dandayamana-Dhanurasana'
+      },
+      {
+        name: 'Balancing stick pose - Tuladandasana'
+      },
+      {
+        name: 'Standing separate leg stretching pose - Dandayamana-Bibhaktapada-Paschimotthanasana'
+      },
+      {
+        name: 'Triangle pose - Trikonasana'
+      },
+      {
+        name: 'Standing Separate Leg Head to Knee Pose - Dandayamana-Bibhaktapada-Janushirasana'
+      },
+      {
+        name: 'Tree pose - Tadasana'
+      },
+      {
+        name: 'Toe stand pose - Padangustasana'
+      },
+      {
+        name: 'Sit-up'
+      }
+    ],
+    day4: [
+      {
+        name: 'Plank pose - Kumbhakasana'
+      },
+      {
+        name: 'Four-limbed Staff Pose - Chaturanga Dandasana'
+      },
+      {
+        name: 'Upward-facing dog pose - Urdhva Mukha Svanasana'
+      },
+      {
+        name: 'Downward-facing dog pose - Adho Mukha Svanasana' 
+      }
+    ],
+    day5: [
+      {
+        name: 'Ankle stretch'
+      },
+      {
+        name: 'Toe squat'
+      },
+      {
+        name: 'Butterfly'
+      },
+      {
+        name: 'Reclining twist'
+      },
+      {
+        name: 'Child pose'
+      },
+      {
+        name: 'Caterpillar'
+      },
+      {
+        name: 'Straddle (dragonfly)'
+      },
+      {
+        name: 'Sleeping swan'
+      },
+      {
+        name: 'Savasana'
+      }
+    ],
+    day6: [
+      {
+        name: 'Deep Breathing - Pranayama'
+      },
+      {
+        name: 'Half moon with hands to feet pose - Ardha-Chandrasana with Padahastasana'
+      },
+      {
+        name: 'Awkward pose - Utkatasana'
+      },
+      {
+        name: 'Eagle pose - Garurasana'
+      },
+      {
+        name: 'Standing head to knee pose - Dandayamana-Janushirasana'
+      },
+      {
+        name: 'Standing Bow Pose - Dandayamana-Dhanurasana'
+      },
+      {
+        name: 'Balancing stick pose - Tuladandasana'
+      },
+      {
+        name: 'Standing separate leg stretching pose - Dandayamana-Bibhaktapada-Paschimotthanasana'
+      },
+      {
+        name: 'Triangle pose - Trikonasana'
+      },
+      {
+        name: 'Standing Separate Leg Head to Knee Pose - Dandayamana-Bibhaktapada-Janushirasana'
+      },
+      {
+        name: 'Tree pose - Tadasana'
+      },
+      {
+        name: 'Toe stand pose - Padangustasana'
+      },
+      {
+        name: 'Sit-up'
+      }
+    ],
+    day7: [
+      {
+        name: 'Plank pose - Kumbhakasana'
+      },
+      {
+        name: 'Four-limbed Staff Pose - Chaturanga Dandasana'
+      },
+      {
+        name: 'Upward-facing dog pose - Urdhva Mukha Svanasana'
+      },
+      {
+        name: 'Downward-facing dog pose - Adho Mukha Svanasana' 
+      }
+    ],
+    day8: [
+      {
+        name: 'Ankle stretch'
+      },
+      {
+        name: 'Toe squat'
+      },
+      {
+        name: 'Butterfly'
+      },
+      {
+        name: 'Reclining twist'
+      },
+      {
+        name: 'Child pose'
+      },
+      {
+        name: 'Caterpillar'
+      },
+      {
+        name: 'Straddle (dragonfly)'
+      },
+      {
+        name: 'Sleeping swan'
+      },
+      {
+        name: 'Savasana'
+      }
+    ],
+    day9: [
+      {
+        name: 'Deep Breathing - Pranayama'
+      },
+      {
+        name: 'Half moon with hands to feet pose - Ardha-Chandrasana with Padahastasana'
+      },
+      {
+        name: 'Awkward pose - Utkatasana'
+      },
+      {
+        name: 'Eagle pose - Garurasana'
+      },
+      {
+        name: 'Standing head to knee pose - Dandayamana-Janushirasana'
+      },
+      {
+        name: 'Standing Bow Pose - Dandayamana-Dhanurasana'
+      },
+      {
+        name: 'Balancing stick pose - Tuladandasana'
+      },
+      {
+        name: 'Standing separate leg stretching pose - Dandayamana-Bibhaktapada-Paschimotthanasana'
+      },
+      {
+        name: 'Triangle pose - Trikonasana'
+      },
+      {
+        name: 'Standing Separate Leg Head to Knee Pose - Dandayamana-Bibhaktapada-Janushirasana'
+      },
+      {
+        name: 'Tree pose - Tadasana'
+      },
+      {
+        name: 'Toe stand pose - Padangustasana'
+      },
+      {
+        name: 'Sit-up'
+      }
+    ],
+    day10: [
+      {
+        name: 'Plank pose - Kumbhakasana'
+      },
+      {
+        name: 'Four-limbed Staff Pose - Chaturanga Dandasana'
+      },
+      {
+        name: 'Upward-facing dog pose - Urdhva Mukha Svanasana'
+      },
+      {
+        name: 'Downward-facing dog pose - Adho Mukha Svanasana' 
+      }
+    ],
+    day11: [
+      {
+        name: 'Ankle stretch'
+      },
+      {
+        name: 'Toe squat'
+      },
+      {
+        name: 'Butterfly'
+      },
+      {
+        name: 'Reclining twist'
+      },
+      {
+        name: 'Child pose'
+      },
+      {
+        name: 'Caterpillar'
+      },
+      {
+        name: 'Straddle (dragonfly)'
+      },
+      {
+        name: 'Sleeping swan'
+      },
+      {
+        name: 'Savasana'
+      }
+    ],
+    day12: [
+      {
+        name: 'Deep Breathing - Pranayama'
+      },
+      {
+        name: 'Half moon with hands to feet pose - Ardha-Chandrasana with Padahastasana'
+      },
+      {
+        name: 'Awkward pose - Utkatasana'
+      },
+      {
+        name: 'Eagle pose - Garurasana'
+      },
+      {
+        name: 'Standing head to knee pose - Dandayamana-Janushirasana'
+      },
+      {
+        name: 'Standing Bow Pose - Dandayamana-Dhanurasana'
+      },
+      {
+        name: 'Balancing stick pose - Tuladandasana'
+      },
+      {
+        name: 'Standing separate leg stretching pose - Dandayamana-Bibhaktapada-Paschimotthanasana'
+      },
+      {
+        name: 'Triangle pose - Trikonasana'
+      },
+      {
+        name: 'Standing Separate Leg Head to Knee Pose - Dandayamana-Bibhaktapada-Janushirasana'
+      },
+      {
+        name: 'Tree pose - Tadasana'
+      },
+      {
+        name: 'Toe stand pose - Padangustasana'
+      },
+      {
+        name: 'Sit-up'
+      }
+    ],
+    day13: [
+      {
+        name: 'Plank pose - Kumbhakasana'
+      },
+      {
+        name: 'Four-limbed Staff Pose - Chaturanga Dandasana'
+      },
+      {
+        name: 'Upward-facing dog pose - Urdhva Mukha Svanasana'
+      },
+      {
+        name: 'Downward-facing dog pose - Adho Mukha Svanasana' 
+      }
+    ],
+    day14: [
+      {
+        name: 'Ankle stretch'
+      },
+      {
+        name: 'Toe squat'
+      },
+      {
+        name: 'Butterfly'
+      },
+      {
+        name: 'Reclining twist'
+      },
+      {
+        name: 'Child pose'
+      },
+      {
+        name: 'Caterpillar'
+      },
+      {
+        name: 'Straddle (dragonfly)'
+      },
+      {
+        name: 'Sleeping swan'
+      },
+      {
+        name: 'Savasana'
+      }
+    ],
+    day15: [
+      {
+        name: 'Deep Breathing - Pranayama'
+      },
+      {
+        name: 'Half moon with hands to feet pose - Ardha-Chandrasana with Padahastasana'
+      },
+      {
+        name: 'Awkward pose - Utkatasana'
+      },
+      {
+        name: 'Eagle pose - Garurasana'
+      },
+      {
+        name: 'Standing head to knee pose - Dandayamana-Janushirasana'
+      },
+      {
+        name: 'Standing Bow Pose - Dandayamana-Dhanurasana'
+      },
+      {
+        name: 'Balancing stick pose - Tuladandasana'
+      },
+      {
+        name: 'Standing separate leg stretching pose - Dandayamana-Bibhaktapada-Paschimotthanasana'
+      },
+      {
+        name: 'Triangle pose - Trikonasana'
+      },
+      {
+        name: 'Standing Separate Leg Head to Knee Pose - Dandayamana-Bibhaktapada-Janushirasana'
+      },
+      {
+        name: 'Tree pose - Tadasana'
+      },
+      {
+        name: 'Toe stand pose - Padangustasana'
+      },
+      {
+        name: 'Sit-up'
+      }
+    ],
+    day16: [
+      {
+        name: 'Plank pose - Kumbhakasana'
+      },
+      {
+        name: 'Four-limbed Staff Pose - Chaturanga Dandasana'
+      },
+      {
+        name: 'Upward-facing dog pose - Urdhva Mukha Svanasana'
+      },
+      {
+        name: 'Downward-facing dog pose - Adho Mukha Svanasana' 
+      }
+    ],
+    day17: [
+      {
+        name: 'Ankle stretch'
+      },
+      {
+        name: 'Toe squat'
+      },
+      {
+        name: 'Butterfly'
+      },
+      {
+        name: 'Reclining twist'
+      },
+      {
+        name: 'Child pose'
+      },
+      {
+        name: 'Caterpillar'
+      },
+      {
+        name: 'Straddle (dragonfly)'
+      },
+      {
+        name: 'Sleeping swan'
+      },
+      {
+        name: 'Savasana'
+      }
+    ],
+    day18: [
+      {
+        name: 'Deep Breathing - Pranayama'
+      },
+      {
+        name: 'Half moon with hands to feet pose - Ardha-Chandrasana with Padahastasana'
+      },
+      {
+        name: 'Awkward pose - Utkatasana'
+      },
+      {
+        name: 'Eagle pose - Garurasana'
+      },
+      {
+        name: 'Standing head to knee pose - Dandayamana-Janushirasana'
+      },
+      {
+        name: 'Standing Bow Pose - Dandayamana-Dhanurasana'
+      },
+      {
+        name: 'Balancing stick pose - Tuladandasana'
+      },
+      {
+        name: 'Standing separate leg stretching pose - Dandayamana-Bibhaktapada-Paschimotthanasana'
+      },
+      {
+        name: 'Triangle pose - Trikonasana'
+      },
+      {
+        name: 'Standing Separate Leg Head to Knee Pose - Dandayamana-Bibhaktapada-Janushirasana'
+      },
+      {
+        name: 'Tree pose - Tadasana'
+      },
+      {
+        name: 'Toe stand pose - Padangustasana'
+      },
+      {
+        name: 'Sit-up'
+      }
+    ],
+  },
+  {
+    planName: 'Love yoga',
+    type: 'yoga',
+    numberOfDays: 5,
+    day1: [
+      {
+        name: 'Plank pose - Kumbhakasana'
+      },
+      {
+        name: 'Four-limbed Staff Pose - Chaturanga Dandasana'
+      },
+      {
+        name: 'Upward-facing dog pose - Urdhva Mukha Svanasana'
+      },
+      {
+        name: 'Downward-facing dog pose - Adho Mukha Svanasana' 
+      }
+    ],
+    day2: [
+      {
+        name: 'Ankle stretch'
+      },
+      {
+        name: 'Toe squat'
+      },
+      {
+        name: 'Butterfly'
+      },
+      {
+        name: 'Reclining twist'
+      },
+      {
+        name: 'Child pose'
+      },
+      {
+        name: 'Caterpillar'
+      },
+      {
+        name: 'Straddle (dragonfly)'
+      },
+      {
+        name: 'Sleeping swan'
+      },
+      {
+        name: 'Savasana'
+      }
+    ],
+    day3: [
+      {
+        name: 'Deep Breathing - Pranayama'
+      },
+      {
+        name: 'Half moon with hands to feet pose - Ardha-Chandrasana with Padahastasana'
+      },
+      {
+        name: 'Awkward pose - Utkatasana'
+      },
+      {
+        name: 'Eagle pose - Garurasana'
+      },
+      {
+        name: 'Standing head to knee pose - Dandayamana-Janushirasana'
+      },
+      {
+        name: 'Standing Bow Pose - Dandayamana-Dhanurasana'
+      },
+      {
+        name: 'Balancing stick pose - Tuladandasana'
+      },
+      {
+        name: 'Standing separate leg stretching pose - Dandayamana-Bibhaktapada-Paschimotthanasana'
+      },
+      {
+        name: 'Triangle pose - Trikonasana'
+      },
+      {
+        name: 'Standing Separate Leg Head to Knee Pose - Dandayamana-Bibhaktapada-Janushirasana'
+      },
+      {
+        name: 'Tree pose - Tadasana'
+      },
+      {
+        name: 'Toe stand pose - Padangustasana'
+      },
+      {
+        name: 'Sit-up'
+      }
+    ],
+    day4: [
+      {
+        name: 'Plank pose - Kumbhakasana'
+      },
+      {
+        name: 'Four-limbed Staff Pose - Chaturanga Dandasana'
+      },
+      {
+        name: 'Upward-facing dog pose - Urdhva Mukha Svanasana'
+      },
+      {
+        name: 'Downward-facing dog pose - Adho Mukha Svanasana' 
+      }
+    ],
+    day5: [
+      {
+        name: 'Ankle stretch'
+      },
+      {
+        name: 'Toe squat'
+      },
+      {
+        name: 'Butterfly'
+      },
+      {
+        name: 'Reclining twist'
+      },
+      {
+        name: 'Child pose'
+      },
+      {
+        name: 'Caterpillar'
+      },
+      {
+        name: 'Straddle (dragonfly)'
+      },
+      {
+        name: 'Sleeping swan'
+      },
+      {
+        name: 'Savasana'
+      }
+    ],
+    day6: [
+      {
+        name: 'Deep Breathing - Pranayama'
+      },
+      {
+        name: 'Half moon with hands to feet pose - Ardha-Chandrasana with Padahastasana'
+      },
+      {
+        name: 'Awkward pose - Utkatasana'
+      },
+      {
+        name: 'Eagle pose - Garurasana'
+      },
+      {
+        name: 'Standing head to knee pose - Dandayamana-Janushirasana'
+      },
+      {
+        name: 'Standing Bow Pose - Dandayamana-Dhanurasana'
+      },
+      {
+        name: 'Balancing stick pose - Tuladandasana'
+      },
+      {
+        name: 'Standing separate leg stretching pose - Dandayamana-Bibhaktapada-Paschimotthanasana'
+      },
+      {
+        name: 'Triangle pose - Trikonasana'
+      },
+      {
+        name: 'Standing Separate Leg Head to Knee Pose - Dandayamana-Bibhaktapada-Janushirasana'
+      },
+      {
+        name: 'Tree pose - Tadasana'
+      },
+      {
+        name: 'Toe stand pose - Padangustasana'
+      },
+      {
+        name: 'Sit-up'
+      }
+    ],
+    day7: [
+      {
+        name: 'Plank pose - Kumbhakasana'
+      },
+      {
+        name: 'Four-limbed Staff Pose - Chaturanga Dandasana'
+      },
+      {
+        name: 'Upward-facing dog pose - Urdhva Mukha Svanasana'
+      },
+      {
+        name: 'Downward-facing dog pose - Adho Mukha Svanasana' 
+      }
+    ],
+    day8: [
+      {
+        name: 'Ankle stretch'
+      },
+      {
+        name: 'Toe squat'
+      },
+      {
+        name: 'Butterfly'
+      },
+      {
+        name: 'Reclining twist'
+      },
+      {
+        name: 'Child pose'
+      },
+      {
+        name: 'Caterpillar'
+      },
+      {
+        name: 'Straddle (dragonfly)'
+      },
+      {
+        name: 'Sleeping swan'
+      },
+      {
+        name: 'Savasana'
+      }
+    ],
+    day9: [
+      {
+        name: 'Deep Breathing - Pranayama'
+      },
+      {
+        name: 'Half moon with hands to feet pose - Ardha-Chandrasana with Padahastasana'
+      },
+      {
+        name: 'Awkward pose - Utkatasana'
+      },
+      {
+        name: 'Eagle pose - Garurasana'
+      },
+      {
+        name: 'Standing head to knee pose - Dandayamana-Janushirasana'
+      },
+      {
+        name: 'Standing Bow Pose - Dandayamana-Dhanurasana'
+      },
+      {
+        name: 'Balancing stick pose - Tuladandasana'
+      },
+      {
+        name: 'Standing separate leg stretching pose - Dandayamana-Bibhaktapada-Paschimotthanasana'
+      },
+      {
+        name: 'Triangle pose - Trikonasana'
+      },
+      {
+        name: 'Standing Separate Leg Head to Knee Pose - Dandayamana-Bibhaktapada-Janushirasana'
+      },
+      {
+        name: 'Tree pose - Tadasana'
+      },
+      {
+        name: 'Toe stand pose - Padangustasana'
+      },
+      {
+        name: 'Sit-up'
+      }
+    ],
+    day10: [
+      {
+        name: 'Plank pose - Kumbhakasana'
+      },
+      {
+        name: 'Four-limbed Staff Pose - Chaturanga Dandasana'
+      },
+      {
+        name: 'Upward-facing dog pose - Urdhva Mukha Svanasana'
+      },
+      {
+        name: 'Downward-facing dog pose - Adho Mukha Svanasana' 
+      }
+    ],
+    day11: [
+      {
+        name: 'Ankle stretch'
+      },
+      {
+        name: 'Toe squat'
+      },
+      {
+        name: 'Butterfly'
+      },
+      {
+        name: 'Reclining twist'
+      },
+      {
+        name: 'Child pose'
+      },
+      {
+        name: 'Caterpillar'
+      },
+      {
+        name: 'Straddle (dragonfly)'
+      },
+      {
+        name: 'Sleeping swan'
+      },
+      {
+        name: 'Savasana'
+      }
+    ],
+    day12: [
+      {
+        name: 'Deep Breathing - Pranayama'
+      },
+      {
+        name: 'Half moon with hands to feet pose - Ardha-Chandrasana with Padahastasana'
+      },
+      {
+        name: 'Awkward pose - Utkatasana'
+      },
+      {
+        name: 'Eagle pose - Garurasana'
+      },
+      {
+        name: 'Standing head to knee pose - Dandayamana-Janushirasana'
+      },
+      {
+        name: 'Standing Bow Pose - Dandayamana-Dhanurasana'
+      },
+      {
+        name: 'Balancing stick pose - Tuladandasana'
+      },
+      {
+        name: 'Standing separate leg stretching pose - Dandayamana-Bibhaktapada-Paschimotthanasana'
+      },
+      {
+        name: 'Triangle pose - Trikonasana'
+      },
+      {
+        name: 'Standing Separate Leg Head to Knee Pose - Dandayamana-Bibhaktapada-Janushirasana'
+      },
+      {
+        name: 'Tree pose - Tadasana'
+      },
+      {
+        name: 'Toe stand pose - Padangustasana'
+      },
+      {
+        name: 'Sit-up'
+      }
+    ],
+    day13: [
+      {
+        name: 'Plank pose - Kumbhakasana'
+      },
+      {
+        name: 'Four-limbed Staff Pose - Chaturanga Dandasana'
+      },
+      {
+        name: 'Upward-facing dog pose - Urdhva Mukha Svanasana'
+      },
+      {
+        name: 'Downward-facing dog pose - Adho Mukha Svanasana' 
+      }
+    ],
+    day14: [
+      {
+        name: 'Ankle stretch'
+      },
+      {
+        name: 'Toe squat'
+      },
+      {
+        name: 'Butterfly'
+      },
+      {
+        name: 'Reclining twist'
+      },
+      {
+        name: 'Child pose'
+      },
+      {
+        name: 'Caterpillar'
+      },
+      {
+        name: 'Straddle (dragonfly)'
+      },
+      {
+        name: 'Sleeping swan'
+      },
+      {
+        name: 'Savasana'
+      }
+    ],
+    day15: [
+      {
+        name: 'Deep Breathing - Pranayama'
+      },
+      {
+        name: 'Half moon with hands to feet pose - Ardha-Chandrasana with Padahastasana'
+      },
+      {
+        name: 'Awkward pose - Utkatasana'
+      },
+      {
+        name: 'Eagle pose - Garurasana'
+      },
+      {
+        name: 'Standing head to knee pose - Dandayamana-Janushirasana'
+      },
+      {
+        name: 'Standing Bow Pose - Dandayamana-Dhanurasana'
+      },
+      {
+        name: 'Balancing stick pose - Tuladandasana'
+      },
+      {
+        name: 'Standing separate leg stretching pose - Dandayamana-Bibhaktapada-Paschimotthanasana'
+      },
+      {
+        name: 'Triangle pose - Trikonasana'
+      },
+      {
+        name: 'Standing Separate Leg Head to Knee Pose - Dandayamana-Bibhaktapada-Janushirasana'
+      },
+      {
+        name: 'Tree pose - Tadasana'
+      },
+      {
+        name: 'Toe stand pose - Padangustasana'
+      },
+      {
+        name: 'Sit-up'
+      }
+    ],
+  },
+  {
+    planName: 'Love yoga',
+    type: 'yoga',
+    numberOfDays: 3,
+    day1: [
+      {
+        name: 'Plank pose - Kumbhakasana'
+      },
+      {
+        name: 'Four-limbed Staff Pose - Chaturanga Dandasana'
+      },
+      {
+        name: 'Upward-facing dog pose - Urdhva Mukha Svanasana'
+      },
+      {
+        name: 'Downward-facing dog pose - Adho Mukha Svanasana' 
+      }
+    ],
+    day2: [
+      {
+        name: 'Ankle stretch'
+      },
+      {
+        name: 'Toe squat'
+      },
+      {
+        name: 'Butterfly'
+      },
+      {
+        name: 'Reclining twist'
+      },
+      {
+        name: 'Child pose'
+      },
+      {
+        name: 'Caterpillar'
+      },
+      {
+        name: 'Straddle (dragonfly)'
+      },
+      {
+        name: 'Sleeping swan'
+      },
+      {
+        name: 'Savasana'
+      }
+    ],
+    day3: [
+      {
+        name: 'Deep Breathing - Pranayama'
+      },
+      {
+        name: 'Half moon with hands to feet pose - Ardha-Chandrasana with Padahastasana'
+      },
+      {
+        name: 'Awkward pose - Utkatasana'
+      },
+      {
+        name: 'Eagle pose - Garurasana'
+      },
+      {
+        name: 'Standing head to knee pose - Dandayamana-Janushirasana'
+      },
+      {
+        name: 'Standing Bow Pose - Dandayamana-Dhanurasana'
+      },
+      {
+        name: 'Balancing stick pose - Tuladandasana'
+      },
+      {
+        name: 'Standing separate leg stretching pose - Dandayamana-Bibhaktapada-Paschimotthanasana'
+      },
+      {
+        name: 'Triangle pose - Trikonasana'
+      },
+      {
+        name: 'Standing Separate Leg Head to Knee Pose - Dandayamana-Bibhaktapada-Janushirasana'
+      },
+      {
+        name: 'Tree pose - Tadasana'
+      },
+      {
+        name: 'Toe stand pose - Padangustasana'
+      },
+      {
+        name: 'Sit-up'
+      }
+    ],
+    day4: [
+      {
+        name: 'Plank pose - Kumbhakasana'
+      },
+      {
+        name: 'Four-limbed Staff Pose - Chaturanga Dandasana'
+      },
+      {
+        name: 'Upward-facing dog pose - Urdhva Mukha Svanasana'
+      },
+      {
+        name: 'Downward-facing dog pose - Adho Mukha Svanasana' 
+      }
+    ],
+    day5: [
+      {
+        name: 'Ankle stretch'
+      },
+      {
+        name: 'Toe squat'
+      },
+      {
+        name: 'Butterfly'
+      },
+      {
+        name: 'Reclining twist'
+      },
+      {
+        name: 'Child pose'
+      },
+      {
+        name: 'Caterpillar'
+      },
+      {
+        name: 'Straddle (dragonfly)'
+      },
+      {
+        name: 'Sleeping swan'
+      },
+      {
+        name: 'Savasana'
+      }
+    ],
+    day6: [
+      {
+        name: 'Deep Breathing - Pranayama'
+      },
+      {
+        name: 'Half moon with hands to feet pose - Ardha-Chandrasana with Padahastasana'
+      },
+      {
+        name: 'Awkward pose - Utkatasana'
+      },
+      {
+        name: 'Eagle pose - Garurasana'
+      },
+      {
+        name: 'Standing head to knee pose - Dandayamana-Janushirasana'
+      },
+      {
+        name: 'Standing Bow Pose - Dandayamana-Dhanurasana'
+      },
+      {
+        name: 'Balancing stick pose - Tuladandasana'
+      },
+      {
+        name: 'Standing separate leg stretching pose - Dandayamana-Bibhaktapada-Paschimotthanasana'
+      },
+      {
+        name: 'Triangle pose - Trikonasana'
+      },
+      {
+        name: 'Standing Separate Leg Head to Knee Pose - Dandayamana-Bibhaktapada-Janushirasana'
+      },
+      {
+        name: 'Tree pose - Tadasana'
+      },
+      {
+        name: 'Toe stand pose - Padangustasana'
+      },
+      {
+        name: 'Sit-up'
+      }
+    ],
+    day7: [
+      {
+        name: 'Plank pose - Kumbhakasana'
+      },
+      {
+        name: 'Four-limbed Staff Pose - Chaturanga Dandasana'
+      },
+      {
+        name: 'Upward-facing dog pose - Urdhva Mukha Svanasana'
+      },
+      {
+        name: 'Downward-facing dog pose - Adho Mukha Svanasana' 
+      }
+    ],
+    day8: [
+      {
+        name: 'Ankle stretch'
+      },
+      {
+        name: 'Toe squat'
+      },
+      {
+        name: 'Butterfly'
+      },
+      {
+        name: 'Reclining twist'
+      },
+      {
+        name: 'Child pose'
+      },
+      {
+        name: 'Caterpillar'
+      },
+      {
+        name: 'Straddle (dragonfly)'
+      },
+      {
+        name: 'Sleeping swan'
+      },
+      {
+        name: 'Savasana'
+      }
+    ],
+    day9: [
+      {
+        name: 'Deep Breathing - Pranayama'
+      },
+      {
+        name: 'Half moon with hands to feet pose - Ardha-Chandrasana with Padahastasana'
+      },
+      {
+        name: 'Awkward pose - Utkatasana'
+      },
+      {
+        name: 'Eagle pose - Garurasana'
+      },
+      {
+        name: 'Standing head to knee pose - Dandayamana-Janushirasana'
+      },
+      {
+        name: 'Standing Bow Pose - Dandayamana-Dhanurasana'
+      },
+      {
+        name: 'Balancing stick pose - Tuladandasana'
+      },
+      {
+        name: 'Standing separate leg stretching pose - Dandayamana-Bibhaktapada-Paschimotthanasana'
+      },
+      {
+        name: 'Triangle pose - Trikonasana'
+      },
+      {
+        name: 'Standing Separate Leg Head to Knee Pose - Dandayamana-Bibhaktapada-Janushirasana'
+      },
+      {
+        name: 'Tree pose - Tadasana'
+      },
+      {
+        name: 'Toe stand pose - Padangustasana'
+      },
+      {
+        name: 'Sit-up'
+      }
+    ],
   }
-      ]
+]
