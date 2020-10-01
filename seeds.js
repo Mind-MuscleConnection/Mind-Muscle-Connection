@@ -5912,4 +5912,4066 @@ const template = [
         },
       ],
     },
+    {
+      planName: 'Treat yo self',
+      type: 'Crossfit',
+      numberOfDays: 6,
+      day1: [
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+      ],
+      day2: [
+        {
+          name: 'Deadlift',
+          set1goal: 30
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 30
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 20
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 20
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 10
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 10
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 15
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 15
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 12
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 12
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 9
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 9
+        },
+      ],
+      day3: [
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 15
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 10
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 5
+        },
+      ],
+      day4: [
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+      ],
+      day5: [
+        {
+          name: 'Deadlift',
+          set1goal: 30
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 30
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 20
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 20
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 10
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 10
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 15
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 15
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 12
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 12
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 9
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 9
+        },
+      ],
+      day6: [
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 15
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 10
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 5
+        },
+      ],
+      day7: [
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+      ],
+      day8: [
+        {
+          name: 'Deadlift',
+          set1goal: 30
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 30
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 20
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 20
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 10
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 10
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 15
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 15
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 12
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 12
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 9
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 9
+        },
+      ],
+      day9: [
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 15
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 10
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 5
+        },
+      ],
+      day10: [
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+      ],
+      day11: [
+        {
+          name: 'Deadlift',
+          set1goal: 30
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 30
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 20
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 20
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 10
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 10
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 15
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 15
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 12
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 12
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 9
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 9
+        },
+      ],
+      day12: [
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 15
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 10
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 5
+        },
+      ],
+      day13: [
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+      ],
+      day14: [
+        {
+          name: 'Deadlift',
+          set1goal: 30
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 30
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 20
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 20
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 10
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 10
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 15
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 15
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 12
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 12
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 9
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 9
+        },
+      ],
+      day15: [
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 15
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 10
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 5
+        },
+      ],
+      day16: [
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+      ],
+      day17: [
+        {
+          name: 'Deadlift',
+          set1goal: 30
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 30
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 20
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 20
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 10
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 10
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 15
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 15
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 12
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 12
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 9
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 9
+        },
+      ],
+      day18: [
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 15
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 10
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 5
+        },
+      ],
+    },
+    {
+      planName: 'Treat yo self',
+      type: 'Crossfit',
+      numberOfDays: 5,
+      day1: [
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+      ],
+      day2: [
+        {
+          name: 'Deadlift',
+          set1goal: 30
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 30
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 20
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 20
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 10
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 10
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 15
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 15
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 12
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 12
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 9
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 9
+        },
+      ],
+      day3: [
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 15
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 10
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 5
+        },
+      ],
+      day4: [
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+      ],
+      day5: [
+        {
+          name: 'Deadlift',
+          set1goal: 30
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 30
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 20
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 20
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 10
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 10
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 15
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 15
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 12
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 12
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 9
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 9
+        },
+      ],
+      day6: [
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 15
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 10
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 5
+        },
+      ],
+      day7: [
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+      ],
+      day8: [
+        {
+          name: 'Deadlift',
+          set1goal: 30
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 30
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 20
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 20
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 10
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 10
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 15
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 15
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 12
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 12
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 9
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 9
+        },
+      ],
+      day9: [
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 15
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 10
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 5
+        },
+      ],
+      day10: [
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+      ],
+      day11: [
+        {
+          name: 'Deadlift',
+          set1goal: 30
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 30
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 20
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 20
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 10
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 10
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 15
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 15
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 12
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 12
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 9
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 9
+        },
+      ],
+      day12: [
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 15
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 10
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 5
+        },
+      ],
+      day13: [
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+      ],
+      day14: [
+        {
+          name: 'Deadlift',
+          set1goal: 30
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 30
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 20
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 20
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 10
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 10
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 15
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 15
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 12
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 12
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 9
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 9
+        },
+      ],
+      day15: [
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 15
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 10
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 5
+        },
+      ],
+    },
+    {
+      planName: 'Treat yo self',
+      type: 'Crossfit',
+      numberOfDays: 3,
+      day1: [
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+      ],
+      day2: [
+        {
+          name: 'Deadlift',
+          set1goal: 30
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 30
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 20
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 20
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 10
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 10
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 15
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 15
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 12
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 12
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 9
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 9
+        },
+      ],
+      day3: [
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 15
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 10
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 5
+        },
+      ],
+      day4: [
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+      ],
+      day5: [
+        {
+          name: 'Deadlift',
+          set1goal: 30
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 30
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 20
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 20
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 10
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 10
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 15
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 15
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 12
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 12
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 9
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 9
+        },
+      ],
+      day6: [
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 15
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 10
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 5
+        },
+      ],
+      day7: [
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40 
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Air squats',
+          set1goal: 40
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 300
+        },
+        {
+          name: 'Push ups',
+          set1goal: 30
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+        {
+          name: 'Run',
+          set1goal: 200
+        },
+        {
+          name: 'Strict pull ups',
+          set1goal: 20
+        },
+      ],
+      day8: [
+        {
+          name: 'Deadlift',
+          set1goal: 30
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 30
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 20
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 20
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 10
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 10
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 15
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 15
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 12
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 12
+        },
+        {
+          name: 'Deadlift',
+          set1goal: 9
+        },
+        {
+          name: 'Box jump over',
+          set1goal: 9
+        },
+      ],
+      day9: [
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 15
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 10
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 5
+        },
+      ],
+    },
+    {
+      planName: 'Ice and Fire',
+      type: 'Crossfit',
+      numberOfDays: 6,
+      day1: [
+        {
+          name: 'Strict hand push up',
+          set1goal: 21
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Strict hand push up',
+          set1goal: 15
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Strict hand push up',
+          set1goal: 9
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Power snatches',
+          set1goal: 15
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Power snatches',
+          set1goal: 12
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Power snatches',
+          set1goal: 9
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Sandbag cleans',
+          set1goal: 12
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Sandbag cleans',
+          set1goal: 9
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Sandbag cleans',
+          set1goal: 6
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+      ],
+      day2: [
+        {
+          name: 'Run',
+          set1goal: 1200
+        },
+        {
+          name: 'Kettlebell swing',
+          set1goal: 63
+        },
+        {
+          name: 'Pull ups',
+          set1goal: 36
+        },
+        {
+          name: 'Run',
+          set1goal: 800
+        },
+        {
+          name: 'Kettlebell swing',
+          set1goal: 42
+        },
+        {
+          name: 'Pull ups',
+          set1goal: 24
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Kettlebell swing',
+          set1goal: 21
+        },
+        {
+          name: 'Pull ups',
+          set1goal: 12
+        },
+      ],
+      day3: [
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 15
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 10
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 5
+        },
+      ],
+      day4: [
+        {
+          name: 'Strict hand push up',
+          set1goal: 21
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Strict hand push up',
+          set1goal: 15
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Strict hand push up',
+          set1goal: 9
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Power snatches',
+          set1goal: 15
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Power snatches',
+          set1goal: 12
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Power snatches',
+          set1goal: 9
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Sandbag cleans',
+          set1goal: 12
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Sandbag cleans',
+          set1goal: 9
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Sandbag cleans',
+          set1goal: 6
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+      ],
+      day5: [
+        {
+          name: 'Run',
+          set1goal: 1200
+        },
+        {
+          name: 'Kettlebell swing',
+          set1goal: 63
+        },
+        {
+          name: 'Pull ups',
+          set1goal: 36
+        },
+        {
+          name: 'Run',
+          set1goal: 800
+        },
+        {
+          name: 'Kettlebell swing',
+          set1goal: 42
+        },
+        {
+          name: 'Pull ups',
+          set1goal: 24
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Kettlebell swing',
+          set1goal: 21
+        },
+        {
+          name: 'Pull ups',
+          set1goal: 12
+        },
+      ],
+      day6: [
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 15
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 10
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 5
+        },
+      ],
+      day7: [
+        {
+          name: 'Strict hand push up',
+          set1goal: 21
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Strict hand push up',
+          set1goal: 15
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Strict hand push up',
+          set1goal: 9
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Power snatches',
+          set1goal: 15
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Power snatches',
+          set1goal: 12
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Power snatches',
+          set1goal: 9
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Sandbag cleans',
+          set1goal: 12
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Sandbag cleans',
+          set1goal: 9
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Sandbag cleans',
+          set1goal: 6
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+      ],
+      day8: [
+        {
+          name: 'Run',
+          set1goal: 1200
+        },
+        {
+          name: 'Kettlebell swing',
+          set1goal: 63
+        },
+        {
+          name: 'Pull ups',
+          set1goal: 36
+        },
+        {
+          name: 'Run',
+          set1goal: 800
+        },
+        {
+          name: 'Kettlebell swing',
+          set1goal: 42
+        },
+        {
+          name: 'Pull ups',
+          set1goal: 24
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Kettlebell swing',
+          set1goal: 21
+        },
+        {
+          name: 'Pull ups',
+          set1goal: 12
+        },
+      ],
+      day9: [
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 15
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 10
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 5
+        },
+      ],
+      day10: [
+        {
+          name: 'Strict hand push up',
+          set1goal: 21
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Strict hand push up',
+          set1goal: 15
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Strict hand push up',
+          set1goal: 9
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Power snatches',
+          set1goal: 15
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Power snatches',
+          set1goal: 12
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Power snatches',
+          set1goal: 9
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Sandbag cleans',
+          set1goal: 12
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Sandbag cleans',
+          set1goal: 9
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Sandbag cleans',
+          set1goal: 6
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+      ],
+      day11: [
+        {
+          name: 'Run',
+          set1goal: 1200
+        },
+        {
+          name: 'Kettlebell swing',
+          set1goal: 63
+        },
+        {
+          name: 'Pull ups',
+          set1goal: 36
+        },
+        {
+          name: 'Run',
+          set1goal: 800
+        },
+        {
+          name: 'Kettlebell swing',
+          set1goal: 42
+        },
+        {
+          name: 'Pull ups',
+          set1goal: 24
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Kettlebell swing',
+          set1goal: 21
+        },
+        {
+          name: 'Pull ups',
+          set1goal: 12
+        },
+      ],
+      day12: [
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 15
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 10
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 5
+        },
+      ],
+      day13: [
+        {
+          name: 'Strict hand push up',
+          set1goal: 21
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Strict hand push up',
+          set1goal: 15
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Strict hand push up',
+          set1goal: 9
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Power snatches',
+          set1goal: 15
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Power snatches',
+          set1goal: 12
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Power snatches',
+          set1goal: 9
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Sandbag cleans',
+          set1goal: 12
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Sandbag cleans',
+          set1goal: 9
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Sandbag cleans',
+          set1goal: 6
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+      ],
+      day14: [
+        {
+          name: 'Run',
+          set1goal: 1200
+        },
+        {
+          name: 'Kettlebell swing',
+          set1goal: 63
+        },
+        {
+          name: 'Pull ups',
+          set1goal: 36
+        },
+        {
+          name: 'Run',
+          set1goal: 800
+        },
+        {
+          name: 'Kettlebell swing',
+          set1goal: 42
+        },
+        {
+          name: 'Pull ups',
+          set1goal: 24
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Kettlebell swing',
+          set1goal: 21
+        },
+        {
+          name: 'Pull ups',
+          set1goal: 12
+        },
+      ],
+      day15: [
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 15
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 10
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 5
+        },
+      ],
+      day16: [
+        {
+          name: 'Strict hand push up',
+          set1goal: 21
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Strict hand push up',
+          set1goal: 15
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Strict hand push up',
+          set1goal: 9
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Power snatches',
+          set1goal: 15
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Power snatches',
+          set1goal: 12
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Power snatches',
+          set1goal: 9
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Sandbag cleans',
+          set1goal: 12
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Sandbag cleans',
+          set1goal: 9
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+        {
+          name: 'Sandbag cleans',
+          set1goal: 6
+        },
+        {
+          name: 'Sled push',
+          set1goal: 75
+        },
+      ],
+      day17: [
+        {
+          name: 'Run',
+          set1goal: 1200
+        },
+        {
+          name: 'Kettlebell swing',
+          set1goal: 63
+        },
+        {
+          name: 'Pull ups',
+          set1goal: 36
+        },
+        {
+          name: 'Run',
+          set1goal: 800
+        },
+        {
+          name: 'Kettlebell swing',
+          set1goal: 42
+        },
+        {
+          name: 'Pull ups',
+          set1goal: 24
+        },
+        {
+          name: 'Run',
+          set1goal: 400
+        },
+        {
+          name: 'Kettlebell swing',
+          set1goal: 21
+        },
+        {
+          name: 'Pull ups',
+          set1goal: 12
+        },
+      ],
+      day18: [
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 15
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 10
+        },
+        {
+          name: 'Toes to bar',
+          set1goal: 15
+        },
+        {
+          name: 'Overhead squats',
+          set1goal: 5
+        },
+      ],
+    },
+    {
+    planName: 'Ice and Fire',
+    type: 'Crossfit',
+    numberOfDays: 5,
+    day1: [
+      {
+        name: 'Strict hand push up',
+        set1goal: 21
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Strict hand push up',
+        set1goal: 15
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Strict hand push up',
+        set1goal: 9
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Power snatches',
+        set1goal: 15
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Power snatches',
+        set1goal: 12
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Power snatches',
+        set1goal: 9
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Sandbag cleans',
+        set1goal: 12
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Sandbag cleans',
+        set1goal: 9
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Sandbag cleans',
+        set1goal: 6
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+    ],
+    day2: [
+      {
+        name: 'Run',
+        set1goal: 1200
+      },
+      {
+        name: 'Kettlebell swing',
+        set1goal: 63
+      },
+      {
+        name: 'Pull ups',
+        set1goal: 36
+      },
+      {
+        name: 'Run',
+        set1goal: 800
+      },
+      {
+        name: 'Kettlebell swing',
+        set1goal: 42
+      },
+      {
+        name: 'Pull ups',
+        set1goal: 24
+      },
+      {
+        name: 'Run',
+        set1goal: 400
+      },
+      {
+        name: 'Kettlebell swing',
+        set1goal: 21
+      },
+      {
+        name: 'Pull ups',
+        set1goal: 12
+      },
+    ],
+    day3: [
+      {
+        name: 'Toes to bar',
+        set1goal: 15
+      },
+      {
+        name: 'Overhead squats',
+        set1goal: 15
+      },
+      {
+        name: 'Toes to bar',
+        set1goal: 15
+      },
+      {
+        name: 'Overhead squats',
+        set1goal: 10
+      },
+      {
+        name: 'Toes to bar',
+        set1goal: 15
+      },
+      {
+        name: 'Overhead squats',
+        set1goal: 5
+      },
+    ],
+    day4: [
+      {
+        name: 'Strict hand push up',
+        set1goal: 21
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Strict hand push up',
+        set1goal: 15
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Strict hand push up',
+        set1goal: 9
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Power snatches',
+        set1goal: 15
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Power snatches',
+        set1goal: 12
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Power snatches',
+        set1goal: 9
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Sandbag cleans',
+        set1goal: 12
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Sandbag cleans',
+        set1goal: 9
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Sandbag cleans',
+        set1goal: 6
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+    ],
+    day5: [
+      {
+        name: 'Run',
+        set1goal: 1200
+      },
+      {
+        name: 'Kettlebell swing',
+        set1goal: 63
+      },
+      {
+        name: 'Pull ups',
+        set1goal: 36
+      },
+      {
+        name: 'Run',
+        set1goal: 800
+      },
+      {
+        name: 'Kettlebell swing',
+        set1goal: 42
+      },
+      {
+        name: 'Pull ups',
+        set1goal: 24
+      },
+      {
+        name: 'Run',
+        set1goal: 400
+      },
+      {
+        name: 'Kettlebell swing',
+        set1goal: 21
+      },
+      {
+        name: 'Pull ups',
+        set1goal: 12
+      },
+    ],
+    day6: [
+      {
+        name: 'Toes to bar',
+        set1goal: 15
+      },
+      {
+        name: 'Overhead squats',
+        set1goal: 15
+      },
+      {
+        name: 'Toes to bar',
+        set1goal: 15
+      },
+      {
+        name: 'Overhead squats',
+        set1goal: 10
+      },
+      {
+        name: 'Toes to bar',
+        set1goal: 15
+      },
+      {
+        name: 'Overhead squats',
+        set1goal: 5
+      },
+    ],
+    day7: [
+      {
+        name: 'Strict hand push up',
+        set1goal: 21
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Strict hand push up',
+        set1goal: 15
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Strict hand push up',
+        set1goal: 9
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Power snatches',
+        set1goal: 15
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Power snatches',
+        set1goal: 12
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Power snatches',
+        set1goal: 9
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Sandbag cleans',
+        set1goal: 12
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Sandbag cleans',
+        set1goal: 9
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Sandbag cleans',
+        set1goal: 6
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+    ],
+    day8: [
+      {
+        name: 'Run',
+        set1goal: 1200
+      },
+      {
+        name: 'Kettlebell swing',
+        set1goal: 63
+      },
+      {
+        name: 'Pull ups',
+        set1goal: 36
+      },
+      {
+        name: 'Run',
+        set1goal: 800
+      },
+      {
+        name: 'Kettlebell swing',
+        set1goal: 42
+      },
+      {
+        name: 'Pull ups',
+        set1goal: 24
+      },
+      {
+        name: 'Run',
+        set1goal: 400
+      },
+      {
+        name: 'Kettlebell swing',
+        set1goal: 21
+      },
+      {
+        name: 'Pull ups',
+        set1goal: 12
+      },
+    ],
+    day9: [
+      {
+        name: 'Toes to bar',
+        set1goal: 15
+      },
+      {
+        name: 'Overhead squats',
+        set1goal: 15
+      },
+      {
+        name: 'Toes to bar',
+        set1goal: 15
+      },
+      {
+        name: 'Overhead squats',
+        set1goal: 10
+      },
+      {
+        name: 'Toes to bar',
+        set1goal: 15
+      },
+      {
+        name: 'Overhead squats',
+        set1goal: 5
+      },
+    ],
+    day10: [
+      {
+        name: 'Strict hand push up',
+        set1goal: 21
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Strict hand push up',
+        set1goal: 15
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Strict hand push up',
+        set1goal: 9
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Power snatches',
+        set1goal: 15
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Power snatches',
+        set1goal: 12
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Power snatches',
+        set1goal: 9
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Sandbag cleans',
+        set1goal: 12
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Sandbag cleans',
+        set1goal: 9
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Sandbag cleans',
+        set1goal: 6
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+    ],
+    day11: [
+      {
+        name: 'Run',
+        set1goal: 1200
+      },
+      {
+        name: 'Kettlebell swing',
+        set1goal: 63
+      },
+      {
+        name: 'Pull ups',
+        set1goal: 36
+      },
+      {
+        name: 'Run',
+        set1goal: 800
+      },
+      {
+        name: 'Kettlebell swing',
+        set1goal: 42
+      },
+      {
+        name: 'Pull ups',
+        set1goal: 24
+      },
+      {
+        name: 'Run',
+        set1goal: 400
+      },
+      {
+        name: 'Kettlebell swing',
+        set1goal: 21
+      },
+      {
+        name: 'Pull ups',
+        set1goal: 12
+      },
+    ],
+    day12: [
+      {
+        name: 'Toes to bar',
+        set1goal: 15
+      },
+      {
+        name: 'Overhead squats',
+        set1goal: 15
+      },
+      {
+        name: 'Toes to bar',
+        set1goal: 15
+      },
+      {
+        name: 'Overhead squats',
+        set1goal: 10
+      },
+      {
+        name: 'Toes to bar',
+        set1goal: 15
+      },
+      {
+        name: 'Overhead squats',
+        set1goal: 5
+      },
+    ],
+    day13: [
+      {
+        name: 'Strict hand push up',
+        set1goal: 21
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Strict hand push up',
+        set1goal: 15
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Strict hand push up',
+        set1goal: 9
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Power snatches',
+        set1goal: 15
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Power snatches',
+        set1goal: 12
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Power snatches',
+        set1goal: 9
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Sandbag cleans',
+        set1goal: 12
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Sandbag cleans',
+        set1goal: 9
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Sandbag cleans',
+        set1goal: 6
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+    ],
+    day14: [
+      {
+        name: 'Run',
+        set1goal: 1200
+      },
+      {
+        name: 'Kettlebell swing',
+        set1goal: 63
+      },
+      {
+        name: 'Pull ups',
+        set1goal: 36
+      },
+      {
+        name: 'Run',
+        set1goal: 800
+      },
+      {
+        name: 'Kettlebell swing',
+        set1goal: 42
+      },
+      {
+        name: 'Pull ups',
+        set1goal: 24
+      },
+      {
+        name: 'Run',
+        set1goal: 400
+      },
+      {
+        name: 'Kettlebell swing',
+        set1goal: 21
+      },
+      {
+        name: 'Pull ups',
+        set1goal: 12
+      },
+    ],
+    day15: [
+      {
+        name: 'Toes to bar',
+        set1goal: 15
+      },
+      {
+        name: 'Overhead squats',
+        set1goal: 15
+      },
+      {
+        name: 'Toes to bar',
+        set1goal: 15
+      },
+      {
+        name: 'Overhead squats',
+        set1goal: 10
+      },
+      {
+        name: 'Toes to bar',
+        set1goal: 15
+      },
+      {
+        name: 'Overhead squats',
+        set1goal: 5
+      },
+    ],
+  },
+  {
+    planName: 'Ice and Fire',
+    type: 'Crossfit',
+    numberOfDays: 3,
+    day1: [
+      {
+        name: 'Strict hand push up',
+        set1goal: 21
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Strict hand push up',
+        set1goal: 15
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Strict hand push up',
+        set1goal: 9
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Power snatches',
+        set1goal: 15
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Power snatches',
+        set1goal: 12
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Power snatches',
+        set1goal: 9
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Sandbag cleans',
+        set1goal: 12
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Sandbag cleans',
+        set1goal: 9
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Sandbag cleans',
+        set1goal: 6
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+    ],
+    day2: [
+      {
+        name: 'Run',
+        set1goal: 1200
+      },
+      {
+        name: 'Kettlebell swing',
+        set1goal: 63
+      },
+      {
+        name: 'Pull ups',
+        set1goal: 36
+      },
+      {
+        name: 'Run',
+        set1goal: 800
+      },
+      {
+        name: 'Kettlebell swing',
+        set1goal: 42
+      },
+      {
+        name: 'Pull ups',
+        set1goal: 24
+      },
+      {
+        name: 'Run',
+        set1goal: 400
+      },
+      {
+        name: 'Kettlebell swing',
+        set1goal: 21
+      },
+      {
+        name: 'Pull ups',
+        set1goal: 12
+      },
+    ],
+    day3: [
+      {
+        name: 'Toes to bar',
+        set1goal: 15
+      },
+      {
+        name: 'Overhead squats',
+        set1goal: 15
+      },
+      {
+        name: 'Toes to bar',
+        set1goal: 15
+      },
+      {
+        name: 'Overhead squats',
+        set1goal: 10
+      },
+      {
+        name: 'Toes to bar',
+        set1goal: 15
+      },
+      {
+        name: 'Overhead squats',
+        set1goal: 5
+      },
+    ],
+    day4: [
+      {
+        name: 'Strict hand push up',
+        set1goal: 21
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Strict hand push up',
+        set1goal: 15
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Strict hand push up',
+        set1goal: 9
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Power snatches',
+        set1goal: 15
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Power snatches',
+        set1goal: 12
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Power snatches',
+        set1goal: 9
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Sandbag cleans',
+        set1goal: 12
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Sandbag cleans',
+        set1goal: 9
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Sandbag cleans',
+        set1goal: 6
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+    ],
+    day5: [
+      {
+        name: 'Run',
+        set1goal: 1200
+      },
+      {
+        name: 'Kettlebell swing',
+        set1goal: 63
+      },
+      {
+        name: 'Pull ups',
+        set1goal: 36
+      },
+      {
+        name: 'Run',
+        set1goal: 800
+      },
+      {
+        name: 'Kettlebell swing',
+        set1goal: 42
+      },
+      {
+        name: 'Pull ups',
+        set1goal: 24
+      },
+      {
+        name: 'Run',
+        set1goal: 400
+      },
+      {
+        name: 'Kettlebell swing',
+        set1goal: 21
+      },
+      {
+        name: 'Pull ups',
+        set1goal: 12
+      },
+    ],
+    day6: [
+      {
+        name: 'Toes to bar',
+        set1goal: 15
+      },
+      {
+        name: 'Overhead squats',
+        set1goal: 15
+      },
+      {
+        name: 'Toes to bar',
+        set1goal: 15
+      },
+      {
+        name: 'Overhead squats',
+        set1goal: 10
+      },
+      {
+        name: 'Toes to bar',
+        set1goal: 15
+      },
+      {
+        name: 'Overhead squats',
+        set1goal: 5
+      },
+    ],
+    day7: [
+      {
+        name: 'Strict hand push up',
+        set1goal: 21
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Strict hand push up',
+        set1goal: 15
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Strict hand push up',
+        set1goal: 9
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Power snatches',
+        set1goal: 15
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Power snatches',
+        set1goal: 12
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Power snatches',
+        set1goal: 9
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Sandbag cleans',
+        set1goal: 12
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Sandbag cleans',
+        set1goal: 9
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+      {
+        name: 'Sandbag cleans',
+        set1goal: 6
+      },
+      {
+        name: 'Sled push',
+        set1goal: 75
+      },
+    ],
+    day8: [
+      {
+        name: 'Run',
+        set1goal: 1200
+      },
+      {
+        name: 'Kettlebell swing',
+        set1goal: 63
+      },
+      {
+        name: 'Pull ups',
+        set1goal: 36
+      },
+      {
+        name: 'Run',
+        set1goal: 800
+      },
+      {
+        name: 'Kettlebell swing',
+        set1goal: 42
+      },
+      {
+        name: 'Pull ups',
+        set1goal: 24
+      },
+      {
+        name: 'Run',
+        set1goal: 400
+      },
+      {
+        name: 'Kettlebell swing',
+        set1goal: 21
+      },
+      {
+        name: 'Pull ups',
+        set1goal: 12
+      },
+    ],
+    day9: [
+      {
+        name: 'Toes to bar',
+        set1goal: 15
+      },
+      {
+        name: 'Overhead squats',
+        set1goal: 15
+      },
+      {
+        name: 'Toes to bar',
+        set1goal: 15
+      },
+      {
+        name: 'Overhead squats',
+        set1goal: 10
+      },
+      {
+        name: 'Toes to bar',
+        set1goal: 15
+      },
+      {
+        name: 'Overhead squats',
+        set1goal: 5
+      },
+    ],
+  }
       ]
