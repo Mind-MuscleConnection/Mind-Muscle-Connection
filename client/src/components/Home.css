@@ -1,0 +1,39 @@
+.button {
+  position: absolute;
+	width: 250px;	
+  	margin-left:-75px;
+  	left: 20%;
+  	bottom: 350px;
+  display: inline-block;
+  background-color: #6eeae2;
+  color: black;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.button a {
+  color: black;
+  font-size: 30px;
+}
+
+image {
+  position: relative;
+}
+
+p {
+  position: absolute;
+  bottom: 500px;
+  display: inline-block;
+  color: white;
+  margin-left: 150px;
+  font-size: 50px
+}
+
+Link {
+  position: absolute;
+	width: 150px;	
+  	margin-left:-75px;
+  	left: 20%;
+  	bottom:300px;
+  display: inline-block;
+}
