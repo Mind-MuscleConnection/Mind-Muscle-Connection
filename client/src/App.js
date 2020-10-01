@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import './App.css';
+import {Container, Row, Button} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.css';
 import Signup from './components/Signup';
 import Login from './components/Login';
 import Navbar from './components/Navbar';
+import Home from './components/Home';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
 
@@ -20,9 +23,15 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App" >
+      <div>
         
         <Navbar user={this.state.user} setUser={this.setUser} />
+
+        <Route
+          exact
+          path='/'
+          render={props => <Home />}
+        />
 
         <Route
           exact
