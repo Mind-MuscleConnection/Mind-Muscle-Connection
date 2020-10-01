@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Signup from './components/Signup';
 import Login from './components/Login';
 import Navbar from './components/Navbar';
+import Type from './components/Type';
 
 class App extends Component {
 
@@ -33,6 +34,11 @@ class App extends Component {
           exact
           path='/login'
           render={props => <Login setUser={this.setUser} {...props} />}
+        />
+        <Route
+          exact
+          path='/type'
+          component={Type}
         />
       </div>
     );
