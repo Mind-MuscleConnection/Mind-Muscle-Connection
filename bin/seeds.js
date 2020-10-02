@@ -12956,7 +12956,7 @@ mongoose
   .catch((err) => console.log(err));
 Template.insertMany(templates)
   .then((documents) => {
-    console.log(`Success” ${documents.length} recipes were added`);
+    console.log(`Success” ${documents.length} templates were added`);
     mongoose.connection.close();
   })
   .catch((err) => console.log(err));

@@ -54,13 +54,14 @@ width:250px;
 }
 
 p {
+	background-color: #ffffff;
   position: absolute;
   bottom: 400px;
   display: inline-block;
-  color: black;
-  margin-left: 150px;
-  font-size: 70px;
-  font-family: 'Bungee Shade', cursive;
+  color:#333B3F;
+  margin-left: 200px;
+  font-size: 80px;
+  font-family: 'Saira Stencil One', cursive;
 }
 
 .footer {
