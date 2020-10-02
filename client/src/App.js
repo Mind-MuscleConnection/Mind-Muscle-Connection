@@ -28,10 +28,12 @@ class App extends Component {
         
         <Navbar user={this.state.user} setUser={this.setUser} />
 
+        {/* <Home user={this.state.user} setUser={this.setUser}/> */}
+
         <Route
           exact
           path='/'
-          render={props => <Home />}
+          render={props => <Home user={this.state.user} setUser={this.setUser}/>}
         />
 
         <Route

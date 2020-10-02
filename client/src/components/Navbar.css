@@ -1,10 +1,7 @@
-.navbar.transparent.navbar-inverse .navbar-inner {
-  position: absolute;
-  border-width: 0px;
-  -webkit-box-shadow: 0px 0px;
-  box-shadow: 0px 0px;
-  background-color:grey;
-  background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
-  background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
-  background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+.home-link{
+  margin-right:60px;
+  font-family: 'Rokkitt', serif;
+}
+.nav {
+  font-family: 'Rokkitt', serif;
 }
