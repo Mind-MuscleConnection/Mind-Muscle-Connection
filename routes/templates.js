@@ -45,7 +45,10 @@ router.post('/', (req, res) => {
   Template.create({
     title,
     description,
+<<<<<<< HEAD
+=======
     owner: req.user._id
+>>>>>>> dev
   })
     .then(template => {
       res.status(201).json(template);
@@ -72,4 +75,8 @@ router.put('/:id', (req, res) => {
 
 
 
+<<<<<<< HEAD
+ module.exports = router;
+=======
 module.exports = router;
+>>>>>>> dev
