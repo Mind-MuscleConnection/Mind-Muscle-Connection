@@ -15,7 +15,7 @@ export default function Navbar(props) {
     <Nav className='nav justify-content-end' bg='primary'>
       {props.user && <Nav.Brand>Welcome {props.user.username}</Nav.Brand>}
       <Nav.Brand>
-        <Link to='/'>Home</Link>
+        <Link to='/' style={{width: '20px'}}>🏠</Link>
       </Nav.Brand>
       {props.user ? (
         <>

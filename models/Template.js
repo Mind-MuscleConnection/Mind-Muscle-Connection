@@ -1,12 +1,12 @@
-const { Schema, Mongoose } = require("mongoose");
-
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 const templateSchema = new Schema({
-  user_id: {type: Mongoose.Schema.Types.ObjectId, ref: 'User'},
+  user_id: {type: mongoose.Schema.Types.ObjectId, ref: 'User'},
   planName: String,
   numberOfDays: Number,
   type: String,
-  day1: {
-  exerciseName: String,
+  day1: [{
+  name: String,
   set1goal: Number,
   set1reps: Number,
   set1weight: Number,
@@ -16,9 +16,9 @@ const templateSchema = new Schema({
   set3goal: Number,
   set3reps: Number,
   set3weight: Number
-  },
-  day2: {
-    exerciseName: String,
+  }],
+  day2: [{
+    name: String,
     set1goal: Number,
     set1reps: Number,
     set1weight: Number,
@@ -28,9 +28,9 @@ const templateSchema = new Schema({
     set3goal: Number,
     set3reps: Number,
     set3weight: Number
-  },
-  day3: {
-  exerciseName: String,
+  }],
+  day3: [{
+  name: String,
   set1goal: Number,
   set1reps: Number,
   set1weight: Number,
@@ -40,9 +40,9 @@ const templateSchema = new Schema({
   set3goal: Number,
   set3reps: Number,
   set3weight: Number
-  },
-  day4: {
-  exerciseName: String,
+  }],
+  day4: [{
+  name: String,
   set1goal: Number,
   set1reps: Number,
   set1weight: Number,
@@ -52,9 +52,9 @@ const templateSchema = new Schema({
   set3goal: Number,
   set3reps: Number,
   set3weight: Number
-  },
-  day5: {
-    exerciseName: String,
+  }],
+  day5: [{
+    name: String,
     set1goal: Number,
     set1reps: Number,
     set1weight: Number,
@@ -64,9 +64,9 @@ const templateSchema = new Schema({
     set3goal: Number,
     set3reps: Number,
     set3weight: Number
-  },
-  day6: {
-    exerciseName: String,
+  }],
+  day6: [{
+    name: String,
     set1goal: Number,
     set1reps: Number,
     set1weight: Number,
@@ -76,9 +76,9 @@ const templateSchema = new Schema({
     set3goal: Number,
     set3reps: Number,
     set3weight: Number
-  },
-  day7: {
-    exerciseName: String,
+  }],
+  day7: [{
+    name: String,
     set1goal: Number,
     set1reps: Number,
     set1weight: Number,
@@ -88,9 +88,9 @@ const templateSchema = new Schema({
     set3goal: Number,
     set3reps: Number,
     set3weight: Number
-  },
-  day8: {
-    exerciseName: String,
+  }],
+  day8: [{
+    name: String,
     set1goal: Number,
     set1reps: Number,
     set1weight: Number,
@@ -100,9 +100,9 @@ const templateSchema = new Schema({
     set3goal: Number,
     set3reps: Number,
     set3weight: Number
-  },
-  day9: {
-  exerciseName: String,
+  }],
+  day9: [{
+  name: String,
   set1goal: Number,
   set1reps: Number,
   set1weight: Number,
@@ -112,9 +112,9 @@ const templateSchema = new Schema({
   set3goal: Number,
   set3reps: Number,
   set3weight: Number
-  },
-day10: {
-  exerciseName: String,
+  }],
+day10: [{
+  name: String,
   set1goal: Number,
   set1reps: Number,
   set1weight: Number,
@@ -124,9 +124,9 @@ day10: {
   set3goal: Number,
   set3reps: Number,
   set3weight: Number
-  },
-  day11: {
-    exerciseName: String,
+  }],
+  day11: [{
+    name: String,
     set1goal: Number,
     set1reps: Number,
     set1weight: Number,
@@ -136,9 +136,9 @@ day10: {
     set3goal: Number,
     set3reps: Number,
     set3weight: Number
-  },
-  day12: {
-  exerciseName: String,
+  }],
+  day12: [{
+  name: String,
   set1goal: Number,
   set1reps: Number,
   set1weight: Number,
@@ -148,9 +148,9 @@ day10: {
   set3goal: Number,
   set3reps: Number,
   set3weight: Number
-  },
-  day13: {
-  exerciseName: String,
+  }],
+  day13: [{
+  name: String,
   set1goal: Number,
   set1reps: Number,
   set1weight: Number,
@@ -160,9 +160,9 @@ day10: {
   set3goal: Number,
   set3reps: Number,
   set3weight: Number
-  },
-  day14: {
-    exerciseName: String,
+  }],
+  day14: [{
+    name: String,
     set1goal: Number,
     set1reps: Number,
     set1weight: Number,
@@ -172,9 +172,9 @@ day10: {
     set3goal: Number,
     set3reps: Number,
     set3weight: Number
-  },
-  day15: {
-    exerciseName: String,
+  }],
+  day15: [{
+    name: String,
     set1goal: Number,
     set1reps: Number,
     set1weight: Number,
@@ -184,9 +184,9 @@ day10: {
     set3goal: Number,
     set3reps: Number,
     set3weight: Number
-  },
-  day16: {
-    exerciseName: String,
+  }],
+  day16: [{
+    name: String,
     set1goal: Number,
     set1reps: Number,
     set1weight: Number,
@@ -196,9 +196,9 @@ day10: {
     set3goal: Number,
     set3reps: Number,
     set3weight: Number
-  },
-  day17: {
-    exerciseName: String,
+  }],
+  day17: [{
+    name: String,
     set1goal: Number,
     set1reps: Number,
     set1weight: Number,
@@ -208,9 +208,9 @@ day10: {
     set3goal: Number,
     set3reps: Number,
     set3weight: Number
-  },
-  day18: {
-  exerciseName: String,
+  }],
+  day18: [{
+  name: String,
   set1goal: Number,
   set1reps: Number,
   set1weight: Number,
@@ -220,5 +220,8 @@ day10: {
   set3goal: Number,
   set3reps: Number,
   set3weight: Number
-  }
+  }]
 })
+
+const Template = mongoose.model('Template', templateSchema);
+module.exports = Template;
