@@ -6,7 +6,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Signup from './components/Signup';
 import Login from './components/Login';
 import Navbar from './components/Navbar';
-import Type from './components/Type';
 import Home from './components/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
