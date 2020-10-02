@@ -1,39 +1,80 @@
-.button {
+
+.background-image {
+  background-image: url('../assets/images/home-background.jpg');
+  background-size: cover;
+  height:95vh;
+}
+
+.classname {
   position: absolute;
-	width: 250px;	
-  	margin-left:-75px;
-  	left: 20%;
-  	bottom: 350px;
   display: inline-block;
-  background-color: #6eeae2;
-  color: black;
-  border-radius: 20px;
-  padding: 20px;
-}
-
-.button a {
-  color: black;
+  bottom: 300px;
+  margin-left: 210px;
+	-moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+text-indent:0;
+	border:1px solid #ffffff;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:250px;
+	text-decoration:none;
+	text-align:center;
+  text-shadow:0px 1px 0px #b23e35;
   font-size: 30px;
-}
+}.classname:hover {
+	background-color:#eb675e;
+/* }.classname:active {
+	position:relative;
+  /* top:1px; */
+} */
 
-image {
-  position: relative;
+.classname a {
+  color: white;
+  font-size: 50px;
 }
 
 p {
   position: absolute;
-  bottom: 500px;
+  bottom: 400px;
   display: inline-block;
-  color: white;
+  color: black;
   margin-left: 150px;
-  font-size: 50px
+  font-size: 70px;
+  font-family: 'Bungee Shade', cursive;
 }
 
-Link {
-  position: absolute;
-	width: 150px;	
+.footer {
+  position: absolute;	
   	margin-left:-75px;
   	left: 20%;
-  	bottom:300px;
+  	bottom: 50px;
   display: inline-block;
 }
+
+.footer a {
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: 'Rokkitt', serif;
+}
+
