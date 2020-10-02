@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Signup from './components/Signup';
 import Login from './components/Login';
 import Navbar from './components/Navbar';
+import UserDashboard from './components/UserDashboard';
 import Home from './components/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -42,6 +43,12 @@ class App extends Component {
           exact
           path='/login'
           render={props => <Login setUser={this.setUser} {...props} />}
+        />
+        <Route
+          exact
+          path='/userdashboard'
+          render={props => <Login setUser={this.setUser} {...props} />}
+          component={UserDashboard}
         />
       </div>
     );

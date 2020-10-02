@@ -1,4 +1,8 @@
-const template = [
+const mongoose = require("mongoose");
+const Template = require('../models/Template');
+require('dotenv').config();
+
+const templates = [
   {
   planName: "Push-Pull-Leg",
   type: "gym",
@@ -12945,3 +12949,14 @@ const template = [
     ],
   }
 ]
+
+mongoose
+  .connect("mongodb://localhost/iron-muscle-connection")
+  .then(() => console.log('connected'))
+  .catch((err) => console.log(err));
+Template.insertMany(templates)
+  .then((documents) => {
+    console.log(`Success” ${documents.length} recipes were added`);
+    mongoose.connection.close();
+  })
+  .catch((err) => console.log(err));
