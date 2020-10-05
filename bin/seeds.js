@@ -5918,7 +5918,7 @@ const templates = [
     },
     {
       planName: 'Treat yo self',
-      type: 'Crossfit',
+      type: 'crossfit',
       numberOfDays: 6,
       day1: [
         {
@@ -6823,7 +6823,7 @@ const templates = [
     },
     {
       planName: 'Treat yo self',
-      type: 'Crossfit',
+      type: 'crossfit',
       numberOfDays: 5,
       day1: [
         {
@@ -7578,7 +7578,7 @@ const templates = [
     },
     {
       planName: 'Treat yo self',
-      type: 'Crossfit',
+      type: 'crossfit',
       numberOfDays: 3,
       day1: [
         {
@@ -8033,7 +8033,7 @@ const templates = [
     },
     {
       planName: 'Ice and Fire',
-      type: 'Crossfit',
+      type: 'crossfit',
       numberOfDays: 6,
       day1: [
         {
@@ -8866,7 +8866,7 @@ const templates = [
     },
     {
     planName: 'Ice and Fire',
-    type: 'Crossfit',
+    type: 'crossfit',
     numberOfDays: 5,
     day1: [
       {
@@ -9561,7 +9561,7 @@ const templates = [
   },
   {
     planName: 'Ice and Fire',
-    type: 'Crossfit',
+    type: 'crossfit',
     numberOfDays: 3,
     day1: [
       {

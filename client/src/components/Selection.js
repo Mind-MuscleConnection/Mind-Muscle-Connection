@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Form, Button } from 'react-bootstrap'
 import axios from 'axios'
 
-export default class Frequency extends Component {
+export default class Selection extends Component {
 
 handleSubmit = event => {
   event.preventDefault();
