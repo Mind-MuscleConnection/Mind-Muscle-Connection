@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Form, Button, Alert } from 'react-bootstrap';
 import { signup } from '../services/auth';
+import './Auth.css'
 
 export default class Signup extends Component {
 
@@ -32,7 +33,7 @@ export default class Signup extends Component {
           // now we need to put the user in the user key of the state of App.js
           this.props.setUser(data);
           // redirect to /projects
-          //this.props.history.push('/projects');
+          this.props.history.push('/userdashboard');
         }
 
       })
@@ -40,35 +41,37 @@ export default class Signup extends Component {
 
   render() {
     return (
-      <>
+      <div className="login-form">
+      <div className="login-container">
         <h2>Signup</h2>
         <Form onSubmit={this.handleSubmit}>
           <Form.Group>
-            <Form.Label htmlFor="username">Username: </Form.Label>
-            <Form.Control
+            <Form.Control className="input"
               type='text'
               name='username'
               value={this.state.username}
               onChange={this.handleChange}
               id='username'
+              placeholder='Username'
             />
           </Form.Group>
-          <Form.Group>
-            <Form.Label htmlFor="password">Password: </Form.Label>
-            <Form.Control
+          <Form.Group>   
+            <Form.Control className="input"
               type='password'
               name='password'
               value={this.state.password}
               onChange={this.handleChange}
               id='password'
+              placeholder='Password'
             />
           </Form.Group>
           {this.state.message && (
             <Alert variant='danger'>{this.state.message}</Alert>
           )}
-          <Button type='submit'>Signup</Button>
+          <Button className="button" type='submit'>Signup</Button>
         </Form>
-      </>
+      </div>
+      </div>
     )
   }
 }

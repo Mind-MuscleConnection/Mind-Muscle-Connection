@@ -1,25 +1,29 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
+import {Button} from 'react-bootstrap';
+import './PlansList.css';
+
 
 export default function PlansList(props) {
-console.log("this is props.templates", typeof props.templates)
+// console.log("this is props.templates", typeof props.templates)
   let plans = props.templates.filter(template => {
-  //   console.log("this is template",template)
-  //   console.log(template.type,props.type,template.type === props.type)
-  // console.log(template.numberOfDays, props.numberOfDays, template.numberOfDays == props.numberOfDays)
     return template.type === props.type && template.numberOfDays == props.numberOfDays
   })
-  console.log(plans)
+  // console.log(plans)
   
-  // console.log(planName)
   return (
-    
-    <div>
+    <div className='container-user'>
+    <div className='container-plans'>
+      <h4>Select a plan:</h4>
       {plans.map(plan => {
+        console.log(plan._id)
         return (
-          <h1 key={plan._id}>{plan.planName}</h1>
+          <Link key={plan._id}><button>{plan.planName}</button></Link>
         )
       }
         )}
+      <button className='button' onClick={props.prevStep} style={{marginTop:'50px'}}>Go Back</button>
+    </div>
     </div>
   )
 }

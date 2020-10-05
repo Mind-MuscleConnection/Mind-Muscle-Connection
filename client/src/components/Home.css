@@ -1,6 +1,6 @@
 
 .background-image {
-  background-image: url('../assets/images/home-background.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ), url('../assets/images/home-background.jpg');
   background-size: cover;
   height:95vh;
 }
@@ -30,11 +30,11 @@ text-indent:0;
 	border:1px solid #ffffff;
 	display:inline-block;
 	color:#ffffff;
-	font-family:arial;
+	font-family: 'Rokkitt', serif;
 	font-size:15px;
 	font-weight:bold;
 	font-style:normal;
-height:50px;
+height:65px;
 	line-height:50px;
 width:250px;
 	text-decoration:none;
@@ -42,7 +42,10 @@ width:250px;
   text-shadow:0px 1px 0px #b23e35;
   font-size: 30px;
 }.classname:hover {
-	background-color:#eb675e;
+		background: #d35256;
+		-moz-box-shadow:inset 0px 39px 0px -24px #e4685d;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #e4685d;
+	box-shadow:inset 0px 39px 0px -24px #e4685d;
 /* }.classname:active {
 	position:relative;
   /* top:1px; */
@@ -53,15 +56,19 @@ width:250px;
   font-size: 50px;
 }
 
-p {
-	background-color: #ffffff;
+h1 {
+	/* background-color: #ffffff; */
   position: absolute;
   bottom: 400px;
-  display: inline-block;
-  color:#333B3F;
+  /* display: inline-block; */
+	/* color:#333B3F; */
+	color: white;
   margin-left: 200px;
-  font-size: 80px;
-  font-family: 'Saira Stencil One', cursive;
+	/*font-size: 150%; */
+	font-family: 'Saira Stencil One', cursive;
+	/* width: 80vw; */
+	font-size: 4em;
+	text-shadow: 2px 2px 5px black;
 }
 
 .footer {

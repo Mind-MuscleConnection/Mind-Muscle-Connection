@@ -1,8 +1,13 @@
-import React, { Component } from 'react'
-import { Form, Button } from 'react-bootstrap'
-import axios from 'axios'
+import React, { Component, Link } from 'react';
+import { Form, Button } from 'react-bootstrap';
+import axios from 'axios';
+import './Selection.css';
+import './PlansList.css';
+import gym from '../assets/images/gym.jpg';
+import crossfit from '../assets/images/crossfit.jpg';
+import yoga from '../assets/images/yoga.jpg';
 
-export default class Frequency extends Component {
+export default class Selection extends Component {
 
 handleSubmit = event => {
   event.preventDefault();
@@ -29,69 +34,89 @@ handleSubmit = event => {
 
   render() {
     return (
-      <Form onSubmit={this.handleSubmit}>
+      <Form onSubmit={this.handleSubmit} className='form'>
+      <h4>1. Select the type of training:</h4>
+      <div className='flex-container'>
+      <div className='flex-card gym'>
         <Form.Group>
-          <Form.Label htmlFor='type'>Gym</Form.Label>
+          <Form.Label htmlFor='type'><img src={gym} style={{width:'250px', height:'200px'}} alt='gym'></img>Gym
           <Form.Control
             type='radio'
-            id='gym'
+            id='type'
             name='type'
             value={'gym'}
             onChange={this.props.handleChange}
             /> 
+          </Form.Label>
         </Form.Group>
+        </div>  
+        <div className='flex-card crossfit'>
         <Form.Group>
-          <Form.Label htmlFor='type'>Crossfit</Form.Label>
+          <Form.Label htmlFor='type'><img src={crossfit} style={{width:'250px', height:'200px'}} alt='crossfit'></img>Crossfit
           <Form.Control
             type='radio'
-            id='crossfit'
+            id='type'
             name='type'
             value={'crossfit'}
             onChange={this.props.handleChange}
             /> 
+          </Form.Label>
         </Form.Group>
-        <Form.Group>
-          <Form.Label htmlFor='type'>Yoga</Form.Label>
+        </div>  
+        <div className='flex-card yoga'>
+        <Form.Group >
+          <Form.Label htmlFor='type'><img src={yoga} style={{width:'250px', height:'200px'}} alt='yoga'></img> Yoga
           <Form.Control
             type='radio'
-            id='yoga'
+            id='type'
             name='type'
             value={'yoga'}
             onChange={this.props.handleChange}
             /> 
+          </Form.Label>
         </Form.Group>
+        </div>
+        </div>
+        <h4>2. Select a number of days per week:</h4>
+        <div className='flex-container-days'>
+        <div className='flex-card-days'>
         <Form.Group>
           <Form.Label htmlFor='numberOfDays'>3 days</Form.Label>
           <Form.Control
             type='radio'
-            id='type'
+            id='numberOfDAys'
             name='numberOfDays'
             value={3}
             onChange={this.props.handleChange}
             /> 
-        </Form.Group>        
+        </Form.Group> 
+        </div> 
+        <div className='flex-card-days'>    
         <Form.Group>
           <Form.Label htmlFor='type'>5 days</Form.Label>
           <Form.Control
             type='radio'
-            id='type'
+            id='numberOfDAys'
             name='numberOfDays'
             value={5}
             onChange={this.props.handleChange}
             /> 
-        </Form.Group>        
+        </Form.Group>  
+        </div>  
+        <div className='flex-card-days'>      
         <Form.Group>
-          <Form.Label htmlFor='type'>More than 5 days</Form.Label>
+          <Form.Label htmlFor='type'>5+ days</Form.Label>
           <Form.Control
             type='radio'
-            id='type'
+            id='numberOfDAys'
             name='numberOfDays'
             value={6}
             onChange={this.props.handleChange}
             /> 
         </Form.Group>
-      
-        <Button onClick={this.props.nextStep}>Search</Button>
+        </div>
+        </div>
+        <Button className='button' onClick={this.props.nextStep}>Search</Button>
       </Form>
     )
   }
