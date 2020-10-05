@@ -8,7 +8,7 @@ import './Home.css';
 export default function Home(props) {
   return (
     <div className='background-image'>
-      <p>MIND MUSCLE CONNECTION</p>
+      <h1>MIND MUSCLE CONNECTION</h1>
       {props.user ? (
         <>
           <Link to='/userdashboard'><button className='classname'>Get started!</button></Link>

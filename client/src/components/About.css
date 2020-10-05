@@ -1,0 +1,31 @@
+.about-title {
+  padding: 180px 100px;
+  margin-left: 600px;
+  background: none;
+  position: absolute;
+  display: inline-block;
+  color: white;
+  font-size: 60px;
+  font-family: 'Saira Stencil One', cursive;
+  line-height: 80px;
+}
+
+.about-text  {
+  position: absolute;
+  bottom: 50px;
+  width: 60%;
+  padding: 0px 100px;
+  margin-left: 600px;
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+  font-family: 'Saira Stencil One', cursive;
+  line-height: 25px;
+}
+
+
+.background-image-about {
+  background-image: url('../assets/images/about.jpg');
+  background-size: cover;
+  height:95vh;
+}
