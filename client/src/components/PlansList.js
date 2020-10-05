@@ -1,13 +1,9 @@
 import React from 'react'
-import {Link} from 'react-router-dom';
-import {Button} from 'react-bootstrap';
-import './PlansList.css';
-
+import {Button} from 'react-bootstrap'
 
 export default function PlansList(props) {
-// console.log("this is props.templates", typeof props.templates)
   let plans = props.templates.filter(template => {
-    return template.type === props.type && template.numberOfDays == props.numberOfDays
+    return template.type === props.type && template.numberOfDays === Number(props.numberOfDays)
   })
   // console.log(plans)
   
@@ -18,7 +14,9 @@ export default function PlansList(props) {
       {plans.map(plan => {
         console.log(plan._id)
         return (
-          <Link key={plan._id}><button>{plan.planName}</button></Link>
+          <Button onClick={props.handleBtn}  name='templateID' value={plan._id} key={plan._id}> 
+          {plan.planName}
+          </Button>
         )
       }
         )}

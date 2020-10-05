@@ -9,6 +9,8 @@ import UserDashboard from './components/UserDashboard';
 import Home from './components/Home';
 // import PlansList from './components/PlansList';
 // import Selection from './components/Selection';
+import About from './components/About';
+import HowItWorks from './components/HowItWorks';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
@@ -53,13 +55,16 @@ class App extends Component {
           render={props => <Login setUser={this.setUser} {...props} />}
           component={UserDashboard}
         />
-
-        {/* <Route
+        <Route
           exact
-          path='/plansList'
-          render={props => <Login setUser={this.setUser} {...props} />}
-          component={PlansList}
-        /> */}
+          path='/about'
+          render={props => <About setUser={this.setUser} {...props} />}
+        />
+        <Route
+          exact
+          path='/how-it-works'
+          render={props => <HowItWorks setUser={this.setUser} {...props} />}
+        />
       </div>
     );
   }
