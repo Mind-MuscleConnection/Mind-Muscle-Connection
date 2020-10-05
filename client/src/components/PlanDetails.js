@@ -15,11 +15,11 @@ export default function PlanDetails(props) {
       {dayDetails.slice(0, 6).map((day,i) => {
         return (
           <>
-          <h1>day{i+1}:</h1>
+          <h2>day{i+1}:</h2>
         {day.map(exercise => {
           return (
             <div>
-            <h1>{exercise.name}</h1>
+            <h3>{exercise.name}</h3>
             {exercise.set1goal? <h2>{exercise.name == "Run" ? "Goal: "+ exercise.set1goal+" m" : "Set 1: "+exercise.set1goal}</h2> : <></>}
             {exercise.set2goal?  <h2>Set 2: {exercise.set2goal}</h2>: <></>}
             {exercise.set3goal?  <h2>Set 3: {exercise.set3goal}</h2>: <></>}

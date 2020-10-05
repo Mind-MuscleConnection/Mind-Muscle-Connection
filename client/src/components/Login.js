@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { login } from '../services/auth';
 import { Form, Button, Alert } from 'react-bootstrap';
+import './Auth.css'
 
 export default class Login extends Component {
 
@@ -40,35 +41,39 @@ export default class Login extends Component {
 
   render() {
     return (
-      <>
+      <div className="login-form">
+      <div className="login-container">
         <h2>Login</h2>
         <Form onSubmit={this.handleSubmit}>
           <Form.Group>
-            <Form.Label htmlFor="username">Username: </Form.Label>
             <Form.Control
+              className="input"
               type='text'
               name='username'
               value={this.state.username}
               onChange={this.handleChange}
               id='username'
+              placeholder='Username'
             />
           </Form.Group>
           <Form.Group>
-            <Form.Label htmlFor="password">Password: </Form.Label>
             <Form.Control
+              className="input"
               type='password'
               name='password'
               value={this.state.password}
               onChange={this.handleChange}
               id='password'
+              placeholder='Password'
             />
           </Form.Group>
           {this.state.message && (
             <Alert variant='danger'>{this.state.message}</Alert>
           )}
-          <Button type='submit'>Login</Button>
+          <Button className='button' type='submit'>Login</Button>
         </Form>
-      </>
+      </div>
+      </div>
     )
   }
 }

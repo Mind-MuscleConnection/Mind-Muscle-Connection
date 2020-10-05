@@ -1,0 +1,58 @@
+.login-form {
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5) ), url("../assets/images/auth-image.jpg");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Rokkitt', serif;
+  text-align: center;
+  color: white;
+}
+.login-form  .login-container {
+    padding-top: 25vh;
+    padding-left: 0vw;
+    margin: 0;
+  }
+
+.login-form .input {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid white;
+    padding: 25px 10px;
+    width: 260px;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+    font-size: 20px;
+  }
+
+.login-form  .input:focus {
+    width: 300px;
+    border-color: #EC6167;
+  }
+
+.login-form  .button {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 0 auto 10px;
+    text-align: center;
+    border: 2px solid white;
+    padding: 10px 2vw;
+    outline: none;
+    color: white;
+    background-color: #EC675D;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 20px;
+  }
+
+.login-form  .button:hover {
+    background: #d35256;
+  }
+

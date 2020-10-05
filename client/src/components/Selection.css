@@ -1,0 +1,95 @@
+h4 {
+  padding-top: 1vh;
+  text-align: center;
+}
+
+.form {
+  max-width: 60vw;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  /* padding-left: 3vw;  */
+  /* width: 500px; */
+  font-size: 25px;
+  padding-top: 0vh;
+  /* border: 1px solid white; */
+}
+
+
+ .flex-container .flex-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+    width: 18vw;
+    text-align: center;
+    /* margin: 0 4vw 3vh 0; */
+    background-color: #FE9F27;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.flex-container .flex-card img {
+      object-fit: cover;
+      object-position: center;
+      width: 100%;
+      height: 200px;
+      border-radius: 20px;
+}
+
+.flex-container .flex-card:hover {
+    background-color: #f2bf35;
+}
+
+.flex-container-days {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  padding: 0px;
+  /* margin: 0px, 20px; */
+  width: 500px;
+  font-size: 30px;
+  /* padding-top: 5vh; */
+  width: 100%
+}
+
+.flex-container-days {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  font-size: 25px;
+  margin-bottom: 3vh;
+}
+
+ .flex-container-days .flex-card-days {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+    width: 15vw;
+    text-align: center;
+    margin: 0 0 3vh 0;
+    margin-left: 10px;
+    background-color: #FE9F27;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.flex-container-days .flex-card-days:hover {
+  background-color: #f2bf35;
+}
+
+/* .gym {
+background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ), url('../assets/images/gym.jpg');
+}
+.crossfit {
+background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ), url('../assets/images/crossfit.jpg');
+}
+.yoga {
+background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ), url('../assets/images/yoga.jpg');
+} */

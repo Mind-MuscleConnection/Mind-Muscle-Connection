@@ -1,0 +1,104 @@
+.background-list {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),
+  url("../assets/images/plans-list.jpg");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container-user{
+  font-family: 'Rokkitt', serif;
+  /* text-align: center; */
+  color: white;
+  position: relative;
+  width: 100%;
+}
+
+.container-user a {
+  color: white;
+}
+
+.container-user a:hover {
+  color: white;
+}
+
+.container-user .button {
+  background: none;
+  display: block;
+  margin: 0 auto 10px;
+  text-align: center;
+  border: 1px solid white;
+  padding: 10px 4vw;
+  outline: none;
+  color: white;
+  background-color: #EC675D;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 25px;
+}
+
+.container-user .button:hover {
+  background: #d35256;
+}
+
+.container-plans {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 500px;
+  font-size: 20px;
+  padding-top: 2vh;
+}
+
+.container-plans button {
+  background-color: #FE9F27;
+  padding: 15px 50px;
+  color: white;
+  border: 1px solid;
+  border-radius: 15px;
+  margin: 10px;
+  font-size: 25px;
+  font-family: 'Rokkitt', serif;
+}
+
+.container-plans button:hover {
+  background-color: #f2bf35;
+}
+
+.container-plans h4 {
+  text-align: center;
+}
+
+.button-current {
+  background-color: #005637;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: block;
+  margin: 0 auto 10px;
+  text-align: center;
+  border: 1px solid white;
+  padding: 10px 4vw;
+  outline: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 25px;
+}
+
+.button-current:hover {
+  background-color: #033f29;
+}

@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import './App.css';
-import {Container, Row, Button} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.css';
 import Signup from './components/Signup';
 import Login from './components/Login';
 import Navbar from './components/Navbar';
 import UserDashboard from './components/UserDashboard';
 import Home from './components/Home';
+// import PlansList from './components/PlansList';
+// import Selection from './components/Selection';
 import About from './components/About';
 import HowItWorks from './components/HowItWorks';
 import 'bootstrap/dist/css/bootstrap.min.css';
