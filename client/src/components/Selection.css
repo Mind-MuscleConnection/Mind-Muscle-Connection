@@ -1,6 +1,7 @@
 h4 {
   padding-top: 1vh;
   text-align: center;
+  font-size: 25px!important;
 }
 
 .form {
@@ -15,8 +16,10 @@ h4 {
   /* padding-left: 3vw;  */
   /* width: 500px; */
   font-size: 25px;
-  padding-top: 0vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
   /* border: 1px solid white; */
+  margin-bottom: 1vh;
 }
 
 
@@ -52,9 +55,10 @@ h4 {
   padding: 0px;
   /* margin: 0px, 20px; */
   width: 500px;
-  font-size: 30px;
+  font-size: 25px;
   /* padding-top: 5vh; */
-  width: 100%
+  width: 100%;
+  padding-top: 1vh;
 }
 
 .flex-container-days {
@@ -62,7 +66,7 @@ h4 {
   flex-direction: row;
   /* flex-wrap: wrap; */
   justify-content: space-between;
-  font-size: 25px;
+  font-size: 30px;
   margin-bottom: 3vh;
 }
 
@@ -78,18 +82,13 @@ h4 {
     background-color: #FE9F27;
     border-radius: 20px;
     border: 1px solid white;
+    min-width: 3vw;
 }
 
 .flex-container-days .flex-card-days:hover {
   background-color: #f2bf35;
 }
 
-/* .gym {
-background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ), url('../assets/images/gym.jpg');
+img:hover {
+  opacity: 0.8;
 }
-.crossfit {
-background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ), url('../assets/images/crossfit.jpg');
-}
-.yoga {
-background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ), url('../assets/images/yoga.jpg');
-} */

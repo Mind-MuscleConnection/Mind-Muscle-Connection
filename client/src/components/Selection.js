@@ -1,4 +1,4 @@
-import React, { Component, Link } from 'react';
+import React, { Component } from 'react';
 import { Form, Button } from 'react-bootstrap';
 import axios from 'axios';
 import './Selection.css';
@@ -37,9 +37,9 @@ handleSubmit = event => {
       <Form onSubmit={this.handleSubmit} className='form'>
       <h4>1. Select the type of training:</h4>
       <div className='flex-container'>
-      <div className='flex-card gym'>
+      <div className='flex-card'>
         <Form.Group>
-          <Form.Label htmlFor='type'><img src={gym} style={{width:'250px', height:'200px'}} alt='gym'></img>Gym
+          <Form.Label htmlFor='gym'><img src={gym} alt='gym'></img>Gym
           <Form.Control
             type='radio'
             id='type'
@@ -50,9 +50,9 @@ handleSubmit = event => {
           </Form.Label>
         </Form.Group>
         </div>  
-        <div className='flex-card crossfit'>
+        <div className='flex-card'>
         <Form.Group>
-          <Form.Label htmlFor='type'><img src={crossfit} style={{width:'250px', height:'200px'}} alt='crossfit'></img>Crossfit
+          <Form.Label htmlFor='crossfit'><img src={crossfit} alt='crossfit'></img>Crossfit
           <Form.Control
             type='radio'
             id='type'
@@ -63,9 +63,9 @@ handleSubmit = event => {
           </Form.Label>
         </Form.Group>
         </div>  
-        <div className='flex-card yoga'>
+        <div className='flex-card'>
         <Form.Group >
-          <Form.Label htmlFor='type'><img src={yoga} style={{width:'250px', height:'200px'}} alt='yoga'></img> Yoga
+          <Form.Label htmlFor='yoga'><img src={yoga} alt='yoga'></img> Yoga
           <Form.Control
             type='radio'
             id='type'
@@ -93,7 +93,7 @@ handleSubmit = event => {
         </div> 
         <div className='flex-card-days'>    
         <Form.Group>
-          <Form.Label htmlFor='type'>5 days</Form.Label>
+          <Form.Label htmlFor='numberOfDays'>5 days</Form.Label>
           <Form.Control
             type='radio'
             id='numberOfDAys'
@@ -105,7 +105,7 @@ handleSubmit = event => {
         </div>  
         <div className='flex-card-days'>      
         <Form.Group>
-          <Form.Label htmlFor='type'>5+ days</Form.Label>
+          <Form.Label htmlFor='numberOfDays'>5+ days</Form.Label>
           <Form.Control
             type='radio'
             id='numberOfDAys'
@@ -116,7 +116,7 @@ handleSubmit = event => {
         </Form.Group>
         </div>
         </div>
-        <Button className='button' onClick={this.props.nextStep}>Search</Button>
+        <Button className='button' onClick={this.props.nextStep}>Select</Button>
       </Form>
     )
   }
