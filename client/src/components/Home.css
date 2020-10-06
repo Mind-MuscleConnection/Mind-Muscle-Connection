@@ -9,7 +9,11 @@
   position: absolute;
   display: inline-block;
   bottom: 300px;
-  margin-left: 210px;
+  margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
 	-moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
 	-webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
 	box-shadow:inset 0px 39px 0px -24px #e67a73;
@@ -36,7 +40,7 @@ text-indent:0;
 	font-style:normal;
 height:65px;
 	line-height:50px;
-width:250px;
+min-width:20vw;
 	text-decoration:none;
 	text-align:center;
   text-shadow:0px 1px 0px #b23e35;
@@ -57,34 +61,38 @@ width:250px;
 }
 
 h1 {
-	/* background-color: #ffffff; */
   position: absolute;
-  bottom: 400px;
-  /* display: inline-block; */
-	/* color:#333B3F; */
+  bottom: 450px;
 	color: white;
   margin-left: 200px;
-	/*font-size: 150%; */
+	font-size: 4rem!important;
 	font-family: 'Saira Stencil One', cursive;
-	/* width: 80vw; */
-	font-size: 4em;
 	text-shadow: 2px 2px 5px black;
+	min-width:30vw;
 }
 
 .footer {
-  position: absolute;	
-  	margin-left:-75px;
-  	left: 20%;
-  	bottom: 50px;
-  display: inline-block;
+  position: absolute;
+	display: inline-block;
+  bottom: 100px;
+  margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;	
 }
 
 .footer a {
   color: white;
   font-weight: bolder;
   font-size: 30px;
-  font-family: 'Rokkitt', serif;
+	font-family: 'Rokkitt', serif;
+	border: 0.5px solid white;
+	border-radius: 7px;
+	padding: 5px 10px;
+	max-width: 2vw;
 }
 
-
-
+.footer a:hover {
+	color: #989898;
+}

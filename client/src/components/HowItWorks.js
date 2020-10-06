@@ -7,7 +7,7 @@ export default class HowItWorks extends Component {
     return (
       <div className='background-image-HowItWorks'>
         <div>
-          <h1 className='HowItWorks-title'>About us</h1>
+          <h1 className='HowItWorks-title'>How it works</h1>
           <p className='HowItWorks-text'>
             Sign-up to create your own userprofile.
             <br/>
