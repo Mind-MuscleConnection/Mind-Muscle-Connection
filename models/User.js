@@ -4,6 +4,10 @@ const userSchema = new Schema(
   {
     username: String,
     password: String,
+    currentPlan: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Template'
+    }
   }
 );
 

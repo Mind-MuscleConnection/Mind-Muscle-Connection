@@ -20,7 +20,7 @@ export default function Navbar(props) {
         <Link className='logo' to='/'><img src={Logo} alt='logo' style={{width: '40px'}}></img></Link>
       </Nav.Brand>
     </div>
-      {props.user && <Nav.Brand> <button className='button-current'><Link to="/selectedPlan">Current Plan</Link></button> </Nav.Brand>}
+      {props.user && <Nav.Brand> <button className='button-current'><Link to="/currentPlan">Current Plan</Link></button> </Nav.Brand>}
       {props.user &&  <Nav.Brand> <Link className='nav' to='/userdashboard' step1={props.step}>{props.user.username}'s profile</Link></Nav.Brand>}
       {props.user ? (
         <>
