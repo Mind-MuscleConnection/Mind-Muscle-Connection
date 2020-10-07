@@ -1,21 +1,19 @@
 import axios from 'axios';
 import React, { Component } from 'react';
+import {Form} from 'react-bootstrap'
 import './CurrentPlan.css';
 
 export default class CurrentPlan extends Component {
   state = {
-    currentPlan:[]
+    currentPlan:[],
+    set1reps
   }
 
   componentDidMount(){
-    console.log("i mount")
-    console.log("this is props.user",this.props.user)
     if(this.props.user){
       const templateId = this.props.user.currentPlan
-      console.log('this templateId', this.props.user.currentPlan)
       axios.get(`/api/templates/${templateId}`).then(currentPlan => {
         const currentPlanData = currentPlan.data
-        console.log('this is my template', currentPlanData)
         this.setState({ currentPlan: currentPlanData });
       })
     }
@@ -26,11 +24,8 @@ export default class CurrentPlan extends Component {
   }
 
   render() {
-    console.log("i render")
     let days = Object.keys(this.state.currentPlan).filter(key => key.includes('day'))
-    console.log(days)
     let dayDetails = days.map(day => this.state.currentPlan[day])
-    console.log('Day details', dayDetails)
     return (
       <div>
         <div className='container current'>
@@ -45,8 +40,68 @@ export default class CurrentPlan extends Component {
             <div className='exercise' key={exercise._id}>
             <h6>{exercise.name}</h6>
             {exercise.set1goal? <p>{exercise.name == "Run" ? "Goal: "+ exercise.set1goal+" m" : "Set 1: "+exercise.set1goal}</p> : <></>}
+            <Form >
+              <Form.Group>
+                <Form.Label>Repetitions: </Form.Label>
+                <Form.Control
+                  type='number'
+                  name='set1reps'
+                  value={}
+                  onChange={}
+                  />
+              </Form.Group>
+              <Form.Group>
+                <Form.Label>Weight: </Form.Label>
+                <Form.Control
+                  type='number'
+                  name='set1weight'
+                  value={}
+                  onChange={}
+                />
+              </Form.Group>
+              </Form>
             {exercise.set2goal?  <p>Set 2: {exercise.set2goal}</p>: <></>}
+            <Form >
+              <Form.Group>
+                <Form.Label>Repetitions: </Form.Label>
+                <Form.Control
+                  type='number'
+                  name='set2reps'
+                  value={}
+                  onChange={}
+                  />
+              </Form.Group>
+              <Form.Group>
+                <Form.Label>Weight: </Form.Label>
+                <Form.Control
+                  type='number'
+                  name='set2weight'
+                  value={}
+                  onChange={}
+                />
+              </Form.Group>
+              </Form>
             {exercise.set3goal?  <p>Set 3: {exercise.set3goal}</p>: <></>}
+            <Form >
+              <Form.Group>
+                <Form.Label>Repetitions: </Form.Label>
+                <Form.Control
+                  type='number'
+                  name='set3reps'
+                  value={}
+                  onChange={}
+                  />
+              </Form.Group>
+              <Form.Group>
+                <Form.Label>Weight: </Form.Label>
+                <Form.Control
+                  type='number'
+                  name='set3weight'
+                  value={}
+                  onChange={}
+                />
+              </Form.Group>
+              </Form>
             </div>
           )
         })}
@@ -64,8 +119,68 @@ export default class CurrentPlan extends Component {
             <div className='exercise' key={exercise._id}>
             <h6>{exercise.name}</h6>
             {exercise.set1goal? <p>{exercise.name == "Run" ? "Goal: "+ exercise.set1goal+" m" : "Set 1: "+exercise.set1goal}</p> : <></>}
+            <Form >
+              <Form.Group>
+                <Form.Label>Repetitions: </Form.Label>
+                <Form.Control
+                  type='number'
+                  name='set1reps'
+                  value={}
+                  onChange={}
+                  />
+              </Form.Group>
+              <Form.Group>
+                <Form.Label>Weight: </Form.Label>
+                <Form.Control
+                  type='number'
+                  name='set1weight'
+                  value={}
+                  onChange={}
+                />
+              </Form.Group>
+              </Form>
             {exercise.set2goal?  <p>Set 2: {exercise.set2goal}</p>: <></>}
+            <Form >
+              <Form.Group>
+                <Form.Label>Repetitions: </Form.Label>
+                <Form.Control
+                  type='number'
+                  name='set2reps'
+                  value={}
+                  onChange={}
+                  />
+              </Form.Group>
+              <Form.Group>
+                <Form.Label>Weight: </Form.Label>
+                <Form.Control
+                  type='number'
+                  name='set2weight'
+                  value={}
+                  onChange={}
+                />
+              </Form.Group>
+              </Form>
             {exercise.set3goal?  <p>Set 3: {exercise.set3goal}</p>: <></>}
+            <Form >
+              <Form.Group>
+                <Form.Label>Repetitions: </Form.Label>
+                <Form.Control
+                  type='number'
+                  name='set3reps'
+                  value={}
+                  onChange={}
+                  />
+              </Form.Group>
+              <Form.Group>
+                <Form.Label>Weight: </Form.Label>
+                <Form.Control
+                  type='number'
+                  name='set3weight'
+                  value={}
+                  onChange={}
+                />
+              </Form.Group>
+              </Form>
             </div>
           )
         })}
@@ -83,8 +198,68 @@ export default class CurrentPlan extends Component {
             <div className='exercise' key={exercise._id}>
             <h6>{exercise.name}</h6>
             {exercise.set1goal? <p>{exercise.name == "Run" ? "Goal: "+ exercise.set1goal+" m" : "Set 1: "+exercise.set1goal}</p> : <></>}
+            <Form >
+              <Form.Group>
+                <Form.Label>Repetitions: </Form.Label>
+                <Form.Control
+                  type='number'
+                  name='set1reps'
+                  value={}
+                  onChange={}
+                  />
+              </Form.Group>
+              <Form.Group>
+                <Form.Label>Weight: </Form.Label>
+                <Form.Control
+                  type='number'
+                  name='set1weight'
+                  value={}
+                  onChange={}
+                />
+              </Form.Group>
+              </Form>
             {exercise.set2goal?  <p>Set 2: {exercise.set2goal}</p>: <></>}
+            <Form >
+              <Form.Group>
+                <Form.Label>Repetitions: </Form.Label>
+                <Form.Control
+                  type='number'
+                  name='set2reps'
+                  value={}
+                  onChange={}
+                  />
+              </Form.Group>
+              <Form.Group>
+                <Form.Label>Weight: </Form.Label>
+                <Form.Control
+                  type='number'
+                  name='set2weight'
+                  value={}
+                  onChange={}
+                />
+              </Form.Group>
+              </Form>
             {exercise.set3goal?  <p>Set 3: {exercise.set3goal}</p>: <></>}
+            <Form >
+              <Form.Group>
+                <Form.Label>Repetitions: </Form.Label>
+                <Form.Control
+                  type='number'
+                  name='set3reps'
+                  value={}
+                  onChange={}
+                  />
+              </Form.Group>
+              <Form.Group>
+                <Form.Label>Weight: </Form.Label>
+                <Form.Control
+                  type='number'
+                  name='set3weight'
+                  value={}
+                  onChange={}
+                />
+              </Form.Group>
+              </Form>
             </div>
           )
         })}

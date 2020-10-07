@@ -1452,7 +1452,7 @@ const templates = [
       set2weight: 0
     }
     ],
-  day5: [
+  day15: [
     {
       name: 'Declined bench press',
       set1goal: 8,
