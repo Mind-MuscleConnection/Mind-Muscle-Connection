@@ -3,9 +3,8 @@ import {Button} from 'react-bootstrap'
 
 export default function PlansList(props) {
   let plans = props.templates.filter(template => {
-    return template.type === props.type && template.numberOfDays === Number(props.numberOfDays)
+    return template.type === props.type && template.numberOfDays === Number(props.numberOfDays) && template.ref
   })
-  // console.log(plans)
   
   return (
     <div className='container-user'>
@@ -14,7 +13,7 @@ export default function PlansList(props) {
       {plans.map(plan => {
         console.log(plan._id)
         return (
-          <Button onClick={props.handleBtn}  name='templateID' value={plan._id} key={plan._id}> 
+          <Button onClick={props.handleBtn} name='templateID' value={plan._id} key={plan._id}> 
           {plan.planName}
           </Button>
         )

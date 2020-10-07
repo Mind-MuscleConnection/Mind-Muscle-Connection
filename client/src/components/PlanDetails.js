@@ -73,7 +73,7 @@ export default function PlanDetails(props) {
       })
     }
       </div>
-      <button className='button-pick'>Pick this plan</button>
+      <button className='button-pick' onClick={props.handleSubmit}>Pick this plan</button>
     </div>
   )
 }

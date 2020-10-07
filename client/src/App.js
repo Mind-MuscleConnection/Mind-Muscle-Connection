@@ -7,10 +7,9 @@ import Login from './components/Login';
 import Navbar from './components/Navbar';
 import UserDashboard from './components/UserDashboard';
 import Home from './components/Home';
-// import PlansList from './components/PlansList';
-// import Selection from './components/Selection';
 import About from './components/About';
 import HowItWorks from './components/HowItWorks';
+import CurrentPlan from './components/CurrentPlan';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
@@ -52,8 +51,7 @@ class App extends Component {
         <Route
           exact
           path='/userdashboard'
-          render={props => <Login setUser={this.setUser} {...props} />}
-          component={UserDashboard}
+          render={props => <UserDashboard user={this.state.user} setUser={this.setUser} {...props} />}
         />
         <Route
           exact
@@ -65,6 +63,13 @@ class App extends Component {
           path='/how-it-works'
           render={props => <HowItWorks setUser={this.setUser} {...props} />}
         />
+
+        <Route
+          exact
+          path='/currentPlan'
+          render={props => <CurrentPlan setUser={this.setUser} user={this.state.user} {...props} />}
+        />
+
       </div>
     );
   }

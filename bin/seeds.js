@@ -5,6 +5,7 @@ require('dotenv').config();
 const templates = [
   {
   planName: "Push-Pull-Leg",
+  ref:true,
   type: "gym",
   numberOfDays: 3,
   day1: [
@@ -568,6 +569,7 @@ const templates = [
   },
   {
   planName: "Push-Pull-Leg",
+  ref:true,
   type: "gym",
   numberOfDays: 5,
   day1: [
@@ -1521,6 +1523,7 @@ const templates = [
   },
   {
   planName: "Push-Pull-Leg",
+  ref:true,
   type: "gym",
   numberOfDays: 6,
   day1: [
@@ -2669,6 +2672,7 @@ const templates = [
         },
       {
         planName: 'Full-body',
+        ref:true,
         type: 'gym',
         numberOfDays: 6,
         day1: [
@@ -4060,6 +4064,7 @@ const templates = [
       },
       {
         planName: 'Full-body',
+        ref:true,
         type: 'gym',
         numberOfDays: 3,
         day1: [
@@ -4758,6 +4763,7 @@ const templates = [
       },
       {
       planName: 'Full-body',
+      ref:true,
       type: 'gym',
       numberOfDays: 5,
       day1: [
@@ -5918,6 +5924,7 @@ const templates = [
     },
     {
       planName: 'Treat yo self',
+      ref:true,
       type: 'crossfit',
       numberOfDays: 6,
       day1: [
@@ -6823,6 +6830,7 @@ const templates = [
     },
     {
       planName: 'Treat yo self',
+      ref:true,
       type: 'crossfit',
       numberOfDays: 5,
       day1: [
@@ -7578,6 +7586,7 @@ const templates = [
     },
     {
       planName: 'Treat yo self',
+      ref:true,
       type: 'crossfit',
       numberOfDays: 3,
       day1: [
@@ -8033,6 +8042,7 @@ const templates = [
     },
     {
       planName: 'Ice and Fire',
+      ref:true,
       type: 'crossfit',
       numberOfDays: 6,
       day1: [
@@ -8866,6 +8876,7 @@ const templates = [
     },
     {
     planName: 'Ice and Fire',
+    ref:true,
     type: 'crossfit',
     numberOfDays: 5,
     day1: [
@@ -9561,6 +9572,7 @@ const templates = [
   },
   {
     planName: 'Ice and Fire',
+    ref:true,
     type: 'crossfit',
     numberOfDays: 3,
     day1: [
@@ -9980,6 +9992,7 @@ const templates = [
   },
   {
     planName: 'Hatha yoga',
+    ref:true,
     type: 'yoga',
     numberOfDays: 6,
     day1: [
@@ -10741,6 +10754,7 @@ const templates = [
   },
   {
     planName: 'Hatha yoga',
+    ref:true,
     type: 'yoga',
     numberOfDays: 5,
     day1: [
@@ -11376,6 +11390,7 @@ const templates = [
   },
   {
     planName: 'Hatha yoga',
+    ref:true,
     type: 'yoga',
     numberOfDays: 3,
     day1: [
@@ -11759,6 +11774,7 @@ const templates = [
   },
   {
     planName: 'Love yoga',
+    ref:true,
     type: 'yoga',
     numberOfDays: 6,
     day1: [
@@ -12268,6 +12284,7 @@ const templates = [
   },
   {
     planName: 'Love yoga',
+    ref:true,
     type: 'yoga',
     numberOfDays: 5,
     day1: [
@@ -12693,6 +12710,7 @@ const templates = [
   },
   {
     planName: 'Love yoga',
+    ref:true,
     type: 'yoga',
     numberOfDays: 3,
     day1: [

@@ -9,22 +9,7 @@ import yoga from '../assets/images/yoga.jpg';
 
 export default class Selection extends Component {
 
-handleSubmit = event => {
-  event.preventDefault();
-  axios.get('/api/templates')
-  .then((templates) => {
-    console.log(templates)
 
-    // this.props.handleChange({
-    //   type: '',
-    //   numberOfDays: 0
-    // })
-    // this.props.getData()
-  })
-  .catch(err => {
-    console.log(err)
-  })
-}
 // handleChange = event => {
 //   const {name, value} = event.target;
 //   this.props.setState({
