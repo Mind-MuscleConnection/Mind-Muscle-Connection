@@ -1,13 +1,31 @@
 import axios from 'axios';
 import React, { Component } from 'react';
-import {Form} from 'react-bootstrap'
 import './CurrentPlan.css';
-import {Accordion, Card, Button} from 'react-bootstrap';
+import {Accordion, Card, Button, Form} from 'react-bootstrap';
 
 export default class CurrentPlan extends Component {
   state = {
     currentPlan:[],
-    set1reps
+    clickedDay: 0,
+    set1reps: 0,
+    set1weight: 0,
+    set2reps: 0,
+    set2weight: 0,
+    set3reps: 0,
+    set3weight: 0
+  }
+
+  handleChange = event => {
+    const {name, value} = event.target;
+    console.log(name, value)
+    this.setState({
+      [name]: value
+    })
+  }
+
+  handleClick = event => {
+    const {eventKey, value} = event.target;
+    console.log(event.target.innerText)
   }
 
   componentDidMount(){
@@ -32,7 +50,7 @@ export default class CurrentPlan extends Component {
         dayDetails.slice(0,9).map((day,i) => {
         return (
         <div key={i}>
-        <Accordion.Toggle as={Card.Header} eventKey={i+1}>  
+        <Accordion.Toggle as={Card.Header} eventKey={i+1} onClick={this.handleClick} name='clickedDay' value={this.state.clickedDay}>  
         <h3 className='day'>Day{i+1}</h3>
         </Accordion.Toggle>
         <Accordion.Collapse eventKey={i+1}>
@@ -48,8 +66,8 @@ export default class CurrentPlan extends Component {
                 <Form.Control
                   type='number'
                   name='set1reps'
-                  value={}
-                  onChange={}
+                  value={this.state.set1reps}
+                  onChange={this.handleChange}
                   />
               </Form.Group>
               <Form.Group>
@@ -57,8 +75,8 @@ export default class CurrentPlan extends Component {
                 <Form.Control
                   type='number'
                   name='set1weight'
-                  value={}
-                  onChange={}
+                  value={this.state.set1weight}
+                  onChange={this.handleChange}
                 />
               </Form.Group>
               </Form>
@@ -69,8 +87,8 @@ export default class CurrentPlan extends Component {
                 <Form.Control
                   type='number'
                   name='set2reps'
-                  value={}
-                  onChange={}
+                  value={this.state.set2reps}
+                  onChange={this.handleChange}
                   />
               </Form.Group>
               <Form.Group>
@@ -78,8 +96,8 @@ export default class CurrentPlan extends Component {
                 <Form.Control
                   type='number'
                   name='set2weight'
-                  value={}
-                  onChange={}
+                  value={this.state.set2weight}
+                  onChange={this.handleChange}
                 />
               </Form.Group>
               </Form>
@@ -90,8 +108,8 @@ export default class CurrentPlan extends Component {
                 <Form.Control
                   type='number'
                   name='set3reps'
-                  value={}
-                  onChange={}
+                  value={this.state.set3reps}
+                  onChange={this.handleChange}
                   />
               </Form.Group>
               <Form.Group>
@@ -99,14 +117,15 @@ export default class CurrentPlan extends Component {
                 <Form.Control
                   type='number'
                   name='set3weight'
-                  value={}
-                  onChange={}
+                  value={this.state.set3weight}
+                  onChange={this.handleChange}
                 />
               </Form.Group>
               </Form>
             </div>
           )
         })}
+        <Button>Submit</Button>
         </Card.Body>
         </Accordion.Collapse>
       </div>
@@ -137,8 +156,8 @@ export default class CurrentPlan extends Component {
                 <Form.Control
                   type='number'
                   name='set1reps'
-                  value={}
-                  onChange={}
+                  value={this.state.set1reps}
+                  onChange={this.handleChange}
                   />
               </Form.Group>
               <Form.Group>
@@ -146,8 +165,8 @@ export default class CurrentPlan extends Component {
                 <Form.Control
                   type='number'
                   name='set1weight'
-                  value={}
-                  onChange={}
+                  value={this.state.set1weight}
+                  onChange={this.handleChange}
                 />
               </Form.Group>
               </Form>
@@ -158,8 +177,8 @@ export default class CurrentPlan extends Component {
                 <Form.Control
                   type='number'
                   name='set2reps'
-                  value={}
-                  onChange={}
+                  value={this.state.set2reps}
+                  onChange={this.handleChange}
                   />
               </Form.Group>
               <Form.Group>
@@ -167,8 +186,8 @@ export default class CurrentPlan extends Component {
                 <Form.Control
                   type='number'
                   name='set2weight'
-                  value={}
-                  onChange={}
+                  value={this.state.set2weight}
+                  onChange={this.handleChange}
                 />
               </Form.Group>
               </Form>
@@ -179,8 +198,8 @@ export default class CurrentPlan extends Component {
                 <Form.Control
                   type='number'
                   name='set3reps'
-                  value={}
-                  onChange={}
+                  value={this.state.set3reps}
+                  onChange={this.handleChange}
                   />
               </Form.Group>
               <Form.Group>
@@ -188,8 +207,8 @@ export default class CurrentPlan extends Component {
                 <Form.Control
                   type='number'
                   name='set3weight'
-                  value={}
-                  onChange={}
+                  value={this.state.set3weight}
+                  onChange={this.handleChange}
                 />
               </Form.Group>
               </Form>
@@ -226,8 +245,8 @@ export default class CurrentPlan extends Component {
                 <Form.Control
                   type='number'
                   name='set1reps'
-                  value={}
-                  onChange={}
+                  value={this.state.set1reps}
+                  onChange={this.handleChange}
                   />
               </Form.Group>
               <Form.Group>
@@ -235,8 +254,8 @@ export default class CurrentPlan extends Component {
                 <Form.Control
                   type='number'
                   name='set1weight'
-                  value={}
-                  onChange={}
+                  value={this.state.set1weight}
+                  onChange={this.handleChange}
                 />
               </Form.Group>
               </Form>
@@ -247,8 +266,8 @@ export default class CurrentPlan extends Component {
                 <Form.Control
                   type='number'
                   name='set2reps'
-                  value={}
-                  onChange={}
+                  value={this.state.set2reps}
+                  onChange={this.handleChange}
                   />
               </Form.Group>
               <Form.Group>
@@ -256,8 +275,8 @@ export default class CurrentPlan extends Component {
                 <Form.Control
                   type='number'
                   name='set2weight'
-                  value={}
-                  onChange={}
+                  value={this.state.set2weight}
+                  onChange={this.handleChange}
                 />
               </Form.Group>
               </Form>
@@ -268,8 +287,8 @@ export default class CurrentPlan extends Component {
                 <Form.Control
                   type='number'
                   name='set3reps'
-                  value={}
-                  onChange={}
+                  value={this.state.set3reps}
+                  onChange={this.handleChange}
                   />
               </Form.Group>
               <Form.Group>
@@ -277,8 +296,8 @@ export default class CurrentPlan extends Component {
                 <Form.Control
                   type='number'
                   name='set3weight'
-                  value={}
-                  onChange={}
+                  value={this.state.set3weight}
+                  onChange={this.handleChange}
                 />
               </Form.Group>
               </Form>
