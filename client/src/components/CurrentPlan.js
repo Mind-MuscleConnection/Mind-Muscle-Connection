@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { Component } from 'react';
 import {Form} from 'react-bootstrap'
 import './CurrentPlan.css';
+import {Accordion, Card, Button} from 'react-bootstrap';
 
 export default class CurrentPlan extends Component {
   state = {
@@ -17,24 +18,25 @@ export default class CurrentPlan extends Component {
         this.setState({ currentPlan: currentPlanData });
       })
     }
-    
-    // axios.get(`/api/templates/currentTemplate/${templateId}`).then(template =>{
-    //   console.log(template)
-    // })
   }
 
   render() {
     let days = Object.keys(this.state.currentPlan).filter(key => key.includes('day'))
     let dayDetails = days.map(day => this.state.currentPlan[day])
     return (
-      <div>
-        <div className='container current'>
+      <div className='container current'>
         <h2>Your current plan: {this.state.currentPlan.planName}</h2>
+        <Accordion>
+        <Card>
         {this.state.currentPlan.numberOfDays === 3 &&
         dayDetails.slice(0,9).map((day,i) => {
         return (
         <div key={i}>
-          <h3 className='day'>Day{i+1}:</h3>
+        <Accordion.Toggle as={Card.Header} eventKey={i+1}>  
+        <h3 className='day'>Day{i+1}</h3>
+        </Accordion.Toggle>
+        <Accordion.Collapse eventKey={i+1}>
+        <Card.Body>
         {day.map(exercise => {
           return (
             <div className='exercise' key={exercise._id}>
@@ -105,15 +107,25 @@ export default class CurrentPlan extends Component {
             </div>
           )
         })}
-        </div>
+        </Card.Body>
+        </Accordion.Collapse>
+      </div>
         )
       })
     }
+    </Card>
+    </Accordion>
+    <Accordion>
+    <Card>
     {this.state.currentPlan.numberOfDays === 5 &&
         dayDetails.slice(0,15).map((day,i) => {
         return (
-        <div key={i}>
-          <h3 className='day'>Day{i+1}:</h3>
+          <div key={i}>
+          <Accordion.Toggle as={Card.Header} eventKey={i+1}>  
+          <h3 className='day'>Day{i+1}</h3>
+          </Accordion.Toggle>
+        <Accordion.Collapse eventKey={i+1}>
+        <Card.Body>
         {day.map(exercise => {
           return (
             <div className='exercise' key={exercise._id}>
@@ -184,15 +196,25 @@ export default class CurrentPlan extends Component {
             </div>
           )
         })}
-        </div>
+        </Card.Body>
+        </Accordion.Collapse>
+      </div>
         )
       })
     }
+    </Card>
+    </Accordion>
+    <Accordion>
+    <Card>
     {this.state.currentPlan.numberOfDays === 6 &&
         dayDetails.slice(0,18).map((day,i) => {
         return (
-        <div key={i}>
-          <h3 className='day'>Day{i+1}:</h3>
+          <div key={i}>
+          <Accordion.Toggle as={Card.Header} eventKey={i+1}>  
+          <h3 className='day'>Day{i+1}</h3>
+        </Accordion.Toggle>
+        <Accordion.Collapse eventKey={i+1}>
+        <Card.Body>
         {day.map(exercise => {
           return (
             <div className='exercise' key={exercise._id}>
@@ -263,11 +285,14 @@ export default class CurrentPlan extends Component {
             </div>
           )
         })}
-        </div>
+        </Card.Body>
+        </Accordion.Collapse>
+      </div>
         )
       })
     }
-    </div>
+    </Card>
+    </Accordion>
     </div>
     )
   }
