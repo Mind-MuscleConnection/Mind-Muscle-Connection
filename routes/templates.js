@@ -56,13 +56,13 @@ router.post('/', (req, res) => {
   })
 })
 
-router.get('/currentTemplate/:templateId', (req, res) => {
-  const templateId = req.params.templateId
-  console.log(templateId, typeof templateId)
-  Template.findById(templateId).then(template => {
-    console.log(template)
-  }).catch(err=> console.log(err))
-}) 
+// router.get('/currentTemplate/:templateId', (req, res) => {
+//   const templateId = req.params.templateId
+//   console.log(templateId, typeof templateId)
+//   Template.findById(templateId).then(template => {
+//     console.log(template)
+//   }).catch(err=> console.log(err))
+// }) 
 
 
 
