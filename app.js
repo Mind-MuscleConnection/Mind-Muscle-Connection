@@ -15,16 +15,9 @@ const passport = require("passport");
 require("./configs/passport.js");
 
 mongoose
-  .connect(
-    process.env.MONGODB_URI || "mongodb://localhost/iron-muscle-connection",
-    {
-      useNewUrlParser: true,
-    }
-  )
-  .then((x) => {
-    console.log(
-      `Connected to Mongo! Database name: "${x.connections[0].name}"`
-    );
+  .connect(process.env.MONGODB_URI || 'mongodb://localhost/iron-muscle-connection', { useNewUrlParser: true })
+  .then(x => {
+    console.log(`Connected to Mongo! Database name: "${x.connections[0].name}"`)
   })
   .catch((err) => {
     console.error("Error connecting to mongo", err);
