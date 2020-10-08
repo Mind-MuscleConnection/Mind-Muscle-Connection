@@ -22,6 +22,7 @@ export default class CurrentPlan extends Component {
 
   showDetails = (day) => {
     const exercises = this.state.currentPlan[day];
+    day = this.state.selectedDay === day ? null : day
     this.setState({
       selectedDay: day,
       exercises: exercises
@@ -48,7 +49,7 @@ export default class CurrentPlan extends Component {
             {
               this.state.selectedDay === day &&
               this.state.exercises.map((exercise, index) => (
-                <Exercise key={uuid()} index={index} data={exercise} />
+                <Exercise key={uuid()} index={index} exercises={this.state.exercises} exercise={exercise} handleChange={this.handleChange} />
               )
               )
             }
