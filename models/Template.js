@@ -5,6 +5,7 @@ const templateSchema = new Schema({
   planName: String,
   numberOfDays: Number,
   type: String,
+  ref:Boolean,
   day1: [{
   name: String,
   set1goal: Number,

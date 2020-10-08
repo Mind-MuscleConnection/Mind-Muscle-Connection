@@ -12969,7 +12969,7 @@ const templates = [
 ]
 
 mongoose
-  process.env.MONGODB_URI || "mongodb://localhost/iron-muscle-connection"
+  .connect(process.env.MONGODB_URI || "mongodb://localhost/iron-muscle-connection")
   .then(() => console.log('connected'))
   .catch((err) => console.log(err));
 Template.insertMany(templates)
