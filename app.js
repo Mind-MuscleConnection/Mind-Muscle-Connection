@@ -16,7 +16,7 @@ require('./configs/passport.js');
 
 
 mongoose
-  .connect('mongodb://localhost/iron-muscle-connection', { useNewUrlParser: true })
+  .connect(process.env.MONGODB_URI || 'mongodb://localhost/iron-muscle-connection', { useNewUrlParser: true })
   .then(x => {
     console.log(`Connected to Mongo! Database name: "${x.connections[0].name}"`)
   })

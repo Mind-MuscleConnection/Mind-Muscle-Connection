@@ -63,9 +63,11 @@ export default class CurrentPlan extends Component {
       <div className='background-current'>
       <div className='container current'>
         <button className="btn btn-secondary" onClick={this.handleClick}>Update Plan</button>
+        <div className='container-current-plan-day'></div>
         {days.map(day => (
           <div key={uuid()} >
-           <button className='btn btn-outline-light'><h4 onClick={() => this.showDetails(day)}>{day}</h4></button> 
+           <button className='btn btn-outline-light'><h4 className='current-day' onClick={() => this.showDetails(day)}>{day}</h4></button> 
+           
             {
               this.state.selectedDay === day &&
               this.state.exercises.map((exercise, index) => (
@@ -73,7 +75,7 @@ export default class CurrentPlan extends Component {
               )
               )
             }
-          </div>
+            </div>
         ))
         }
       </div>
