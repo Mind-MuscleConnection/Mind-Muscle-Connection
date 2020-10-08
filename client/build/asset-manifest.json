@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.33f57e38.chunk.css",
+    "main.js": "/static/js/main.dd2a4cc1.chunk.js",
+    "main.js.map": "/static/js/main.dd2a4cc1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
+    "static/css/2.373572e1.chunk.css": "/static/css/2.373572e1.chunk.css",
+    "static/js/2.20fd2447.chunk.js": "/static/js/2.20fd2447.chunk.js",
+    "static/js/2.20fd2447.chunk.js.map": "/static/js/2.20fd2447.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d85c7a22981b87dae450ffd31048a3fb.js": "/precache-manifest.d85c7a22981b87dae450ffd31048a3fb.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.373572e1.chunk.css.map": "/static/css/2.373572e1.chunk.css.map",
+    "static/css/main.33f57e38.chunk.css.map": "/static/css/main.33f57e38.chunk.css.map",
+    "static/js/2.20fd2447.chunk.js.LICENSE.txt": "/static/js/2.20fd2447.chunk.js.LICENSE.txt",
+    "static/media/HowItWorks.jpg": "/static/media/HowItWorks.403b57cc.jpg",
+    "static/media/about.jpg": "/static/media/about.455bcc01.jpg",
+    "static/media/Auth.css": "/static/media/auth-image.403b57cc.jpg",
+    "static/media/crossfit.jpg": "/static/media/crossfit.6e16faad.jpg",
+    "static/media/CurrentPlan.css": "/static/media/current-plan.57928fe5.jpg",
+    "static/media/gym.jpg": "/static/media/gym.f36bdbc0.jpg",
+    "static/media/Home.css": "/static/media/home-background.8cc922db.jpg",
+    "static/media/logo.png": "/static/media/logo.b2f357c9.png",
+    "static/media/PlansList.css": "/static/media/plans-list.04b014ee.jpg",
+    "static/media/yoga.jpg": "/static/media/yoga.3f4557c0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09b85ec0.js",
+    "static/css/2.373572e1.chunk.css",
+    "static/js/2.20fd2447.chunk.js",
+    "static/css/main.33f57e38.chunk.css",
+    "static/js/main.dd2a4cc1.chunk.js"
+  ]
+}
