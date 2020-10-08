@@ -1,318 +1,809 @@
-import axios from 'axios';
-import React, { Component } from 'react';
-import './CurrentPlan.css';
-import {Accordion, Card, Button, Form} from 'react-bootstrap';
+import axios from "axios";
+import React, { Component } from "react";
+import "./CurrentPlan.css";
+import { Accordion, Card, Button, Form } from "react-bootstrap";
 
 export default class CurrentPlan extends Component {
+  // handleClick = (event) => {
+  //   const { eventKey, value } = event.target;
+  //   console.log(event.target.innerText);
+  // };
+
   state = {
-    currentPlan:[],
-    clickedDay: 0,
-    set1reps: 0,
-    set1weight: 0,
-    set2reps: 0,
-    set2weight: 0,
-    set3reps: 0,
-    set3weight: 0
-  }
+    currentPlan: [],
+    selectedDay: null,
+    d1ex1set1reps: 0,
+    d1ex1set1weight: 0,
+    d1ex1set2reps: 0,
+    d1ex1set2weight: 0,
+    d1ex1set3reps: 0,
+    d1ex1set3weight: 0,
+    d1ex2set1reps: 0,
+    d1ex2set1weight: 0,
+    d1ex2set2reps: 0,
+    d1ex2set2weight: 0,
+    d1ex2set3reps: 0,
+    d1ex2set3weight: 0,
+    d1ex3set1reps: 0,
+    d1ex3set1weight: 0,
+    d1ex3set2reps: 0,
+    d1ex3set2weight: 0,
+    d1ex3set3reps: 0,
+    d1ex3set3weight: 0,
+    d1ex4set1reps: 0,
+    d1ex4set1weight: 0,
+    d1ex4set2reps: 0,
+    d1ex4set2weight: 0,
+    d1ex4set3reps: 0,
+    d1ex4set3weight: 0,
+    d1ex5set1reps: 0,
+    d1ex5set1weight: 0,
+    d1ex5set2reps: 0,
+    d1ex5set2weight: 0,
+    d1ex5set3reps: 0,
+    d1ex5set3weight: 0,
+    d1ex6set1reps: 0,
+    d1ex6set1weight: 0,
+    d1ex6set2reps: 0,
+    d1ex6set2weight: 0,
+    d1ex6set3reps: 0,
+    d1ex6set3weight: 0,
+    d1ex7set1reps: 0,
+    d1ex7set1weight: 0,
+    d1ex7set2reps: 0,
+    d1ex7set2weight: 0,
+    d1ex7set3reps: 0,
+    d1ex7set3weight: 0,
+    d2ex1set1reps: 0,
+    d2ex1set1weight: 0,
+    d2ex1set2reps: 0,
+    d2ex1set2weight: 0,
+    d2ex1set3reps: 0,
+    d2ex1set3weight: 0,
+    d2ex2set1reps: 0,
+    d2ex2set1weight: 0,
+    d2ex2set2reps: 0,
+    d2ex2set2weight: 0,
+    d2ex2set3reps: 0,
+    d2ex2set3weight: 0,
+    d2ex3set1reps: 0,
+    d2ex3set1weight: 0,
+    d2ex3set2reps: 0,
+    d2ex3set2weight: 0,
+    d2ex3set3reps: 0,
+    d2ex3set3weight: 0,
+    d2ex4set1reps: 0,
+    d2ex4set1weight: 0,
+    d2ex4set2reps: 0,
+    d2ex4set2weight: 0,
+    d2ex4set3reps: 0,
+    d2ex4set3weight: 0,
+    d2ex5set1reps: 0,
+    d2ex5set1weight: 0,
+    d2ex5set2reps: 0,
+    d2ex5set2weight: 0,
+    d2ex5set3reps: 0,
+    d2ex5set3weight: 0,
+    d2ex6set1reps: 0,
+    d2ex6set1weight: 0,
+    d2ex6set2reps: 0,
+    d2ex6set2weight: 0,
+    d2ex6set3reps: 0,
+    d2ex6set3weight: 0,
+    d2ex7set1reps: 0,
+    d2ex7set1weight: 0,
+    d2ex7set2reps: 0,
+    d2ex7set2weight: 0,
+    d2ex7set3reps: 0,
+    d2ex7set3weight: 0,
+    d3ex1set1reps: 0,
+    d3ex1set1weight: 0,
+    d3ex1set2reps: 0,
+    d3ex1set2weight: 0,
+    d3ex1set3reps: 0,
+    d3ex1set3weight: 0,
+    d3ex2set1reps: 0,
+    d3ex2set1weight: 0,
+    d3ex2set2reps: 0,
+    d3ex2set2weight: 0,
+    d3ex2set3reps: 0,
+    d3ex2set3weight: 0,
+    d3ex3set1reps: 0,
+    d3ex3set1weight: 0,
+    d3ex3set2reps: 0,
+    d3ex3set2weight: 0,
+    d3ex3set3reps: 0,
+    d3ex3set3weight: 0,
+    d3ex4set1reps: 0,
+    d3ex4set1weight: 0,
+    d3ex4set2reps: 0,
+    d3ex4set2weight: 0,
+    d3ex4set3reps: 0,
+    d3ex4set3weight: 0,
+    d3ex5set1reps: 0,
+    d3ex5set1weight: 0,
+    d3ex5set2reps: 0,
+    d3ex5set2weight: 0,
+    d3ex5set3reps: 0,
+    d3ex5set3weight: 0,
+    d3ex6set1reps: 0,
+    d3ex6set1weight: 0,
+    d3ex6set2reps: 0,
+    d3ex6set2weight: 0,
+    d3ex6set3reps: 0,
+    d3ex6set3weight: 0,
+    d3ex7set1reps: 0,
+    d3ex7set1weight: 0,
+    d3ex7set2reps: 0,
+    d3ex7set2weight: 0,
+    d3ex7set3reps: 0,
+    d3ex7set3weight: 0,
+    d4ex1set1reps: 0,
+    d4ex1set1weight: 0,
+    d4ex1set2reps: 0,
+    d4ex1set2weight: 0,
+    d4ex1set3reps: 0,
+    d4ex1set3weight: 0,
+    d4ex2set1reps: 0,
+    d4ex2set1weight: 0,
+    d4ex2set2reps: 0,
+    d4ex2set2weight: 0,
+    d4ex2set3reps: 0,
+    d4ex2set3weight: 0,
+    d4ex3set1reps: 0,
+    d4ex3set1weight: 0,
+    d4ex3set2reps: 0,
+    d4ex3set2weight: 0,
+    d4ex3set3reps: 0,
+    d4ex3set3weight: 0,
+    d4ex4set1reps: 0,
+    d4ex4set1weight: 0,
+    d4ex4set2reps: 0,
+    d4ex4set2weight: 0,
+    d4ex4set3reps: 0,
+    d4ex4set3weight: 0,
+    d4ex5set1reps: 0,
+    d4ex5set1weight: 0,
+    d4ex5set2reps: 0,
+    d4ex5set2weight: 0,
+    d4ex5set3reps: 0,
+    d4ex5set3weight: 0,
+    d4ex6set1reps: 0,
+    d4ex6set1weight: 0,
+    d4ex6set2reps: 0,
+    d4ex6set2weight: 0,
+    d4ex6set3reps: 0,
+    d4ex6set3weight: 0,
+    d4ex7set1reps: 0,
+    d4ex7set1weight: 0,
+    d4ex7set2reps: 0,
+    d4ex7set2weight: 0,
+    d4ex7set3reps: 0,
+    d4ex7set3weight: 0,
+    d5ex1set1reps: 0,
+    d5ex1set1weight: 0,
+    d5ex1set2reps: 0,
+    d5ex1set2weight: 0,
+    d5ex1set3reps: 0,
+    d5ex1set3weight: 0,
+    d5ex2set1reps: 0,
+    d5ex2set1weight: 0,
+    d5ex2set2reps: 0,
+    d5ex2set2weight: 0,
+    d5ex2set3reps: 0,
+    d5ex2set3weight: 0,
+    d5ex3set1reps: 0,
+    d5ex3set1weight: 0,
+    d5ex3set2reps: 0,
+    d5ex3set2weight: 0,
+    d5ex3set3reps: 0,
+    d5ex3set3weight: 0,
+    d5ex4set1reps: 0,
+    d5ex4set1weight: 0,
+    d5ex4set2reps: 0,
+    d5ex4set2weight: 0,
+    d5ex4set3reps: 0,
+    d5ex4set3weight: 0,
+    d5ex5set1reps: 0,
+    d5ex5set1weight: 0,
+    d5ex5set2reps: 0,
+    d5ex5set2weight: 0,
+    d5ex5set3reps: 0,
+    d5ex5set3weight: 0,
+    d5ex6set1reps: 0,
+    d5ex6set1weight: 0,
+    d5ex6set2reps: 0,
+    d5ex6set2weight: 0,
+    d5ex6set3reps: 0,
+    d5ex6set3weight: 0,
+    d5ex7set1reps: 0,
+    d5ex7set1weight: 0,
+    d5ex7set2reps: 0,
+    d5ex7set2weight: 0,
+    d5ex7set3reps: 0,
+    d5ex7set3weight: 0,
+    d6ex1set1reps: 0,
+    d6ex1set1weight: 0,
+    d6ex1set2reps: 0,
+    d6ex1set2weight: 0,
+    d6ex1set3reps: 0,
+    d6ex1set3weight: 0,
+    d6ex2set1reps: 0,
+    d6ex2set1weight: 0,
+    d6ex2set2reps: 0,
+    d6ex2set2weight: 0,
+    d6ex2set3reps: 0,
+    d6ex2set3weight: 0,
+    d6ex3set1reps: 0,
+    d6ex3set1weight: 0,
+    d6ex3set2reps: 0,
+    d6ex3set2weight: 0,
+    d6ex3set3reps: 0,
+    d6ex3set3weight: 0,
+    d6ex4set1reps: 0,
+    d6ex4set1weight: 0,
+    d6ex4set2reps: 0,
+    d6ex4set2weight: 0,
+    d6ex4set3reps: 0,
+    d6ex4set3weight: 0,
+    d6ex5set1reps: 0,
+    d6ex5set1weight: 0,
+    d6ex5set2reps: 0,
+    d6ex5set2weight: 0,
+    d6ex5set3reps: 0,
+    d6ex5set3weight: 0,
+    d6ex6set1reps: 0,
+    d6ex6set1weight: 0,
+    d6ex6set2reps: 0,
+    d6ex6set2weight: 0,
+    d6ex6set3reps: 0,
+    d6ex6set3weight: 0,
+    d6ex7set1reps: 0,
+    d6ex7set1weight: 0,
+    d6ex7set2reps: 0,
+    d6ex7set2weight: 0,
+    d6ex7set3reps: 0,
+    d6ex7set3weight: 0,
+    d7ex1set1reps: 0,
+    d7ex1set1weight: 0,
+    d7ex1set2reps: 0,
+    d7ex1set2weight: 0,
+    d7ex1set3reps: 0,
+    d7ex1set3weight: 0,
+    d7ex2set1reps: 0,
+    d7ex2set1weight: 0,
+    d7ex2set2reps: 0,
+    d7ex2set2weight: 0,
+    d7ex2set3reps: 0,
+    d7ex2set3weight: 0,
+    d7ex3set1reps: 0,
+    d7ex3set1weight: 0,
+    d7ex3set2reps: 0,
+    d7ex3set2weight: 0,
+    d7ex3set3reps: 0,
+    d7ex3set3weight: 0,
+    d7ex4set1reps: 0,
+    d7ex4set1weight: 0,
+    d7ex4set2reps: 0,
+    d7ex4set2weight: 0,
+    d7ex4set3reps: 0,
+    d7ex4set3weight: 0,
+    d7ex5set1reps: 0,
+    d7ex5set1weight: 0,
+    d7ex5set2reps: 0,
+    d7ex5set2weight: 0,
+    d7ex5set3reps: 0,
+    d7ex5set3weight: 0,
+    d7ex6set1reps: 0,
+    d7ex6set1weight: 0,
+    d7ex6set2reps: 0,
+    d7ex6set2weight: 0,
+    d7ex6set3reps: 0,
+    d7ex6set3weight: 0,
+    d7ex7set1reps: 0,
+    d7ex7set1weight: 0,
+    d7ex7set2reps: 0,
+    d7ex7set2weight: 0,
+    d7ex7set3reps: 0,
+    d7ex7set3weight: 0,
+    d8ex1set1reps: 0,
+    d8ex1set1weight: 0,
+    d8ex1set2reps: 0,
+    d8ex1set2weight: 0,
+    d8ex1set3reps: 0,
+    d8ex1set3weight: 0,
+    d8ex2set1reps: 0,
+    d8ex2set1weight: 0,
+    d8ex2set2reps: 0,
+    d8ex2set2weight: 0,
+    d8ex2set3reps: 0,
+    d8ex2set3weight: 0,
+    d8ex3set1reps: 0,
+    d8ex3set1weight: 0,
+    d8ex3set2reps: 0,
+    d8ex3set2weight: 0,
+    d8ex3set3reps: 0,
+    d8ex3set3weight: 0,
+    d8ex4set1reps: 0,
+    d8ex4set1weight: 0,
+    d8ex4set2reps: 0,
+    d8ex4set2weight: 0,
+    d8ex4set3reps: 0,
+    d8ex4set3weight: 0,
+    d8ex5set1reps: 0,
+    d8ex5set1weight: 0,
+    d8ex5set2reps: 0,
+    d8ex5set2weight: 0,
+    d8ex5set3reps: 0,
+    d8ex5set3weight: 0,
+    d8ex6set1reps: 0,
+    d8ex6set1weight: 0,
+    d8ex6set2reps: 0,
+    d8ex6set2weight: 0,
+    d8ex6set3reps: 0,
+    d8ex6set3weight: 0,
+    d8ex7set1reps: 0,
+    d8ex7set1weight: 0,
+    d8ex7set2reps: 0,
+    d8ex7set2weight: 0,
+    d8ex7set3reps: 0,
+    d8ex7set3weight: 0,
+    d9ex1set1reps: 0,
+    d9ex1set1weight: 0,
+    d9ex1set2reps: 0,
+    d9ex1set2weight: 0,
+    d9ex1set3reps: 0,
+    d9ex1set3weight: 0,
+    d9ex2set1reps: 0,
+    d9ex2set1weight: 0,
+    d9ex2set2reps: 0,
+    d9ex2set2weight: 0,
+    d9ex2set3reps: 0,
+    d9ex2set3weight: 0,
+    d9ex3set1reps: 0,
+    d9ex3set1weight: 0,
+    d9ex3set2reps: 0,
+    d9ex3set2weight: 0,
+    d9ex3set3reps: 0,
+    d9ex3set3weight: 0,
+    d9ex4set1reps: 0,
+    d9ex4set1weight: 0,
+    d9ex4set2reps: 0,
+    d9ex4set2weight: 0,
+    d9ex4set3reps: 0,
+    d9ex4set3weight: 0,
+    d9ex5set1reps: 0,
+    d9ex5set1weight: 0,
+    d9ex5set2reps: 0,
+    d9ex5set2weight: 0,
+    d9ex5set3reps: 0,
+    d9ex5set3weight: 0,
+    d9ex6set1reps: 0,
+    d9ex6set1weight: 0,
+    d9ex6set2reps: 0,
+    d9ex6set2weight: 0,
+    d9ex6set3reps: 0,
+    d9ex6set3weight: 0,
+    d9ex7set1reps: 0,
+    d9ex7set1weight: 0,
+    d9ex7set2reps: 0,
+    d9ex7set2weight: 0,
+    d9ex7set3reps: 0,
+    d9ex7set3weight: 0,
+    d10ex1set1reps: 0,
+    d10ex1set1weight: 0,
+    d10ex1set2reps: 0,
+    d10ex1set2weight: 0,
+    d10ex1set3reps: 0,
+    d10ex1set3weight: 0,
+    d10ex2set1reps: 0,
+    d10ex2set1weight: 0,
+    d10ex2set2reps: 0,
+    d10ex2set2weight: 0,
+    d10ex2set3reps: 0,
+    d10ex2set3weight: 0,
+    d10ex3set1reps: 0,
+    d10ex3set1weight: 0,
+    d10ex3set2reps: 0,
+    d10ex3set2weight: 0,
+    d10ex3set3reps: 0,
+    d10ex3set3weight: 0,
+    d10ex4set1reps: 0,
+    d10ex4set1weight: 0,
+    d10ex4set2reps: 0,
+    d10ex4set2weight: 0,
+    d10ex4set3reps: 0,
+    d10ex4set3weight: 0,
+    d10ex5set1reps: 0,
+    d10ex5set1weight: 0,
+    d10ex5set2reps: 0,
+    d10ex5set2weight: 0,
+    d10ex5set3reps: 0,
+    d10ex5set3weight: 0,
+    d10ex6set1reps: 0,
+    d10ex6set1weight: 0,
+    d10ex6set2reps: 0,
+    d10ex6set2weight: 0,
+    d10ex6set3reps: 0,
+    d10ex6set3weight: 0,
+    d10ex7set1reps: 0,
+    d10ex7set1weight: 0,
+    d10ex7set2reps: 0,
+    d10ex7set2weight: 0,
+    d10ex7set3reps: 0,
+    d10ex7set3weight: 0,
+    d11ex1set1reps: 0,
+    d11ex1set1weight: 0,
+    d11ex1set2reps: 0,
+    d11ex1set2weight: 0,
+    d11ex1set3reps: 0,
+    d11ex1set3weight: 0,
+    d11ex2set1reps: 0,
+    d11ex2set1weight: 0,
+    d11ex2set2reps: 0,
+    d11ex2set2weight: 0,
+    d11ex2set3reps: 0,
+    d11ex2set3weight: 0,
+    d11ex3set1reps: 0,
+    d11ex3set1weight: 0,
+    d11ex3set2reps: 0,
+    d11ex3set2weight: 0,
+    d11ex3set3reps: 0,
+    d11ex3set3weight: 0,
+    d11ex4set1reps: 0,
+    d11ex4set1weight: 0,
+    d11ex4set2reps: 0,
+    d11ex4set2weight: 0,
+    d11ex4set3reps: 0,
+    d11ex4set3weight: 0,
+    d11ex5set1reps: 0,
+    d11ex5set1weight: 0,
+    d11ex5set2reps: 0,
+    d11ex5set2weight: 0,
+    d11ex5set3reps: 0,
+    d11ex5set3weight: 0,
+    d11ex6set1reps: 0,
+    d11ex6set1weight: 0,
+    d11ex6set2reps: 0,
+    d11ex6set2weight: 0,
+    d11ex6set3reps: 0,
+    d11ex6set3weight: 0,
+    d11ex7set1reps: 0,
+    d11ex7set1weight: 0,
+    d11ex7set2reps: 0,
+    d11ex7set2weight: 0,
+    d11ex7set3reps: 0,
+    d11ex7set3weight: 0,
+    d12ex1set1reps: 0,
+    d12ex1set1weight: 0,
+    d12ex1set2reps: 0,
+    d12ex1set2weight: 0,
+    d12ex1set3reps: 0,
+    d12ex1set3weight: 0,
+    d12ex2set1reps: 0,
+    d12ex2set1weight: 0,
+    d12ex2set2reps: 0,
+    d12ex2set2weight: 0,
+    d12ex2set3reps: 0,
+    d12ex2set3weight: 0,
+    d12ex3set1reps: 0,
+    d12ex3set1weight: 0,
+    d12ex3set2reps: 0,
+    d12ex3set2weight: 0,
+    d12ex3set3reps: 0,
+    d12ex3set3weight: 0,
+    d12ex4set1reps: 0,
+    d12ex4set1weight: 0,
+    d12ex4set2reps: 0,
+    d12ex4set2weight: 0,
+    d12ex4set3reps: 0,
+    d12ex4set3weight: 0,
+    d12ex5set1reps: 0,
+    d12ex5set1weight: 0,
+    d12ex5set2reps: 0,
+    d12ex5set2weight: 0,
+    d12ex5set3reps: 0,
+    d12ex5set3weight: 0,
+    d12ex6set1reps: 0,
+    d12ex6set1weight: 0,
+    d12ex6set2reps: 0,
+    d12ex6set2weight: 0,
+    d12ex6set3reps: 0,
+    d12ex6set3weight: 0,
+    d12ex7set1reps: 0,
+    d12ex7set1weight: 0,
+    d12ex7set2reps: 0,
+    d12ex7set2weight: 0,
+    d12ex7set3reps: 0,
+    d12ex7set3weight: 0,
+    d13ex1set1reps: 0,
+    d13ex1set1weight: 0,
+    d13ex1set2reps: 0,
+    d13ex1set2weight: 0,
+    d13ex1set3reps: 0,
+    d13ex1set3weight: 0,
+    d13ex2set1reps: 0,
+    d13ex2set1weight: 0,
+    d13ex2set2reps: 0,
+    d13ex2set2weight: 0,
+    d13ex2set3reps: 0,
+    d13ex2set3weight: 0,
+    d13ex3set1reps: 0,
+    d13ex3set1weight: 0,
+    d13ex3set2reps: 0,
+    d13ex3set2weight: 0,
+    d13ex3set3reps: 0,
+    d13ex3set3weight: 0,
+    d13ex4set1reps: 0,
+    d13ex4set1weight: 0,
+    d13ex4set2reps: 0,
+    d13ex4set2weight: 0,
+    d13ex4set3reps: 0,
+    d13ex4set3weight: 0,
+    d13ex5set1reps: 0,
+    d13ex5set1weight: 0,
+    d13ex5set2reps: 0,
+    d13ex5set2weight: 0,
+    d13ex5set3reps: 0,
+    d13ex5set3weight: 0,
+    d13ex6set1reps: 0,
+    d13ex6set1weight: 0,
+    d13ex6set2reps: 0,
+    d13ex6set2weight: 0,
+    d13ex6set3reps: 0,
+    d13ex6set3weight: 0,
+    d13ex7set1reps: 0,
+    d13ex7set1weight: 0,
+    d13ex7set2reps: 0,
+    d13ex7set2weight: 0,
+    d13ex7set3reps: 0,
+    d13ex7set3weight: 0,
+    d14ex1set1reps: 0,
+    d14ex1set1weight: 0,
+    d14ex1set2reps: 0,
+    d14ex1set2weight: 0,
+    d14ex1set3reps: 0,
+    d14ex1set3weight: 0,
+    d14ex2set1reps: 0,
+    d14ex2set1weight: 0,
+    d14ex2set2reps: 0,
+    d14ex2set2weight: 0,
+    d14ex2set3reps: 0,
+    d14ex2set3weight: 0,
+    d14ex3set1reps: 0,
+    d14ex3set1weight: 0,
+    d14ex3set2reps: 0,
+    d14ex3set2weight: 0,
+    d14ex3set3reps: 0,
+    d14ex3set3weight: 0,
+    d14ex4set1reps: 0,
+    d14ex4set1weight: 0,
+    d14ex4set2reps: 0,
+    d14ex4set2weight: 0,
+    d14ex4set3reps: 0,
+    d14ex4set3weight: 0,
+    d14ex5set1reps: 0,
+    d14ex5set1weight: 0,
+    d14ex5set2reps: 0,
+    d14ex5set2weight: 0,
+    d14ex5set3reps: 0,
+    d14ex5set3weight: 0,
+    d14ex6set1reps: 0,
+    d14ex6set1weight: 0,
+    d14ex6set2reps: 0,
+    d14ex6set2weight: 0,
+    d14ex6set3reps: 0,
+    d14ex6set3weight: 0,
+    d14ex7set1reps: 0,
+    d14ex7set1weight: 0,
+    d14ex7set2reps: 0,
+    d14ex7set2weight: 0,
+    d14ex7set3reps: 0,
+    d14ex7set3weight: 0,
+    d15ex1set1reps: 0,
+    d15ex1set1weight: 0,
+    d15ex1set2reps: 0,
+    d15ex1set2weight: 0,
+    d15ex1set3reps: 0,
+    d15ex1set3weight: 0,
+    d15ex2set1reps: 0,
+    d15ex2set1weight: 0,
+    d15ex2set2reps: 0,
+    d15ex2set2weight: 0,
+    d15ex2set3reps: 0,
+    d15ex2set3weight: 0,
+    d15ex3set1reps: 0,
+    d15ex3set1weight: 0,
+    d15ex3set2reps: 0,
+    d15ex3set2weight: 0,
+    d15ex3set3reps: 0,
+    d15ex3set3weight: 0,
+    d15ex4set1reps: 0,
+    d15ex4set1weight: 0,
+    d15ex4set2reps: 0,
+    d15ex4set2weight: 0,
+    d15ex4set3reps: 0,
+    d15ex4set3weight: 0,
+    d15ex5set1reps: 0,
+    d15ex5set1weight: 0,
+    d15ex5set2reps: 0,
+    d15ex5set2weight: 0,
+    d15ex5set3reps: 0,
+    d15ex5set3weight: 0,
+    d15ex6set1reps: 0,
+    d15ex6set1weight: 0,
+    d15ex6set2reps: 0,
+    d15ex6set2weight: 0,
+    d15ex6set3reps: 0,
+    d15ex6set3weight: 0,
+    d15ex7set1reps: 0,
+    d15ex7set1weight: 0,
+    d15ex7set2reps: 0,
+    d15ex7set2weight: 0,
+    d15ex7set3reps: 0,
+    d15ex7set3weight: 0,
+    d16ex1set1reps: 0,
+    d16ex1set1weight: 0,
+    d16ex1set2reps: 0,
+    d16ex1set2weight: 0,
+    d16ex1set3reps: 0,
+    d16ex1set3weight: 0,
+    d16ex2set1reps: 0,
+    d16ex2set1weight: 0,
+    d16ex2set2reps: 0,
+    d16ex2set2weight: 0,
+    d16ex2set3reps: 0,
+    d16ex2set3weight: 0,
+    d16ex3set1reps: 0,
+    d16ex3set1weight: 0,
+    d16ex3set2reps: 0,
+    d16ex3set2weight: 0,
+    d16ex3set3reps: 0,
+    d16ex3set3weight: 0,
+    d16ex4set1reps: 0,
+    d16ex4set1weight: 0,
+    d16ex4set2reps: 0,
+    d16ex4set2weight: 0,
+    d16ex4set3reps: 0,
+    d16ex4set3weight: 0,
+    d16ex5set1reps: 0,
+    d16ex5set1weight: 0,
+    d16ex5set2reps: 0,
+    d16ex5set2weight: 0,
+    d16ex5set3reps: 0,
+    d16ex5set3weight: 0,
+    d16ex6set1reps: 0,
+    d16ex6set1weight: 0,
+    d16ex6set2reps: 0,
+    d16ex6set2weight: 0,
+    d16ex6set3reps: 0,
+    d16ex6set3weight: 0,
+    d16ex7set1reps: 0,
+    d16ex7set1weight: 0,
+    d16ex7set2reps: 0,
+    d16ex7set2weight: 0,
+    d16ex7set3reps: 0,
+    d16ex7set3weight: 0,
+    d17ex1set1reps: 0,
+    d17ex1set1weight: 0,
+    d17ex1set2reps: 0,
+    d17ex1set2weight: 0,
+    d17ex1set3reps: 0,
+    d17ex1set3weight: 0,
+    d17ex2set1reps: 0,
+    d17ex2set1weight: 0,
+    d17ex2set2reps: 0,
+    d17ex2set2weight: 0,
+    d17ex2set3reps: 0,
+    d17ex2set3weight: 0,
+    d17ex3set1reps: 0,
+    d17ex3set1weight: 0,
+    d17ex3set2reps: 0,
+    d17ex3set2weight: 0,
+    d17ex3set3reps: 0,
+    d17ex3set3weight: 0,
+    d17ex4set1reps: 0,
+    d17ex4set1weight: 0,
+    d17ex4set2reps: 0,
+    d17ex4set2weight: 0,
+    d17ex4set3reps: 0,
+    d17ex4set3weight: 0,
+    d17ex5set1reps: 0,
+    d17ex5set1weight: 0,
+    d17ex5set2reps: 0,
+    d17ex5set2weight: 0,
+    d17ex5set3reps: 0,
+    d17ex5set3weight: 0,
+    d17ex6set1reps: 0,
+    d17ex6set1weight: 0,
+    d17ex6set2reps: 0,
+    d17ex6set2weight: 0,
+    d17ex6set3reps: 0,
+    d17ex6set3weight: 0,
+    d17ex7set1reps: 0,
+    d17ex7set1weight: 0,
+    d17ex7set2reps: 0,
+    d17ex7set2weight: 0,
+    d17ex7set3reps: 0,
+    d17ex7set3weight: 0,
+    d18ex1set1reps: 0,
+    d18ex1set1weight: 0,
+    d18ex1set2reps: 0,
+    d18ex1set2weight: 0,
+    d18ex1set3reps: 0,
+    d18ex1set3weight: 0,
+    d18ex2set1reps: 0,
+    d18ex2set1weight: 0,
+    d18ex2set2reps: 0,
+    d18ex2set2weight: 0,
+    d18ex2set3reps: 0,
+    d18ex2set3weight: 0,
+    d18ex3set1reps: 0,
+    d18ex3set1weight: 0,
+    d18ex3set2reps: 0,
+    d18ex3set2weight: 0,
+    d18ex3set3reps: 0,
+    d18ex3set3weight: 0,
+    d18ex4set1reps: 0,
+    d18ex4set1weight: 0,
+    d18ex4set2reps: 0,
+    d18ex4set2weight: 0,
+    d18ex4set3reps: 0,
+    d18ex4set3weight: 0,
+    d18ex5set1reps: 0,
+    d18ex5set1weight: 0,
+    d18ex5set2reps: 0,
+    d18ex5set2weight: 0,
+    d18ex5set3reps: 0,
+    d18ex5set3weight: 0,
+    d18ex6set1reps: 0,
+    d18ex6set1weight: 0,
+    d18ex6set2reps: 0,
+    d18ex6set2weight: 0,
+    d18ex6set3reps: 0,
+    d18ex6set3weight: 0,
+    d18ex7set1reps: 0,
+    d18ex7set1weight: 0,
+    d18ex7set2reps: 0,
+    d18ex7set2weight: 0,
+    d18ex7set3reps: 0,
+    d18ex7set3weight: 0,
+  };
 
-  handleChange = event => {
-    const {name, value} = event.target;
-    console.log(name, value)
+  handleChange = (event) => {
+    const { name, value } = event.target;
+    console.log(name, value);
     this.setState({
-      [name]: value
-    })
-  }
-
-  handleClick = event => {
-    const {eventKey, value} = event.target;
-    console.log(event.target.innerText)
-  }
-
-  componentDidMount(){
-    if(this.props.user){
-      const templateId = this.props.user.currentPlan
-      axios.get(`/api/templates/${templateId}`).then(currentPlan => {
-        const currentPlanData = currentPlan.data
+      [name]: value,
+    });
+  };
+  showDetails = (day) => {
+    this.setState({
+      selectedDay: day,
+    });
+  };
+  componentDidMount() {
+    if (this.props.user) {
+      const templateId = this.props.user.currentPlan;
+      axios.get(`/api/templates/${templateId}`).then((currentPlan) => {
+        const currentPlanData = currentPlan.data;
         this.setState({ currentPlan: currentPlanData });
-      })
+      });
     }
   }
-
   render() {
-    let days = Object.keys(this.state.currentPlan).filter(key => key.includes('day'))
-    let dayDetails = days.map(day => this.state.currentPlan[day])
+    let days = Object.keys(this.state.currentPlan).filter((key) =>
+      key.includes("day")
+    );
     return (
-      <div className='container current'>
-        <h2>Your current plan: {this.state.currentPlan.planName}</h2>
-        <Accordion>
-        <Card>
-        {this.state.currentPlan.numberOfDays === 3 &&
-        dayDetails.slice(0,9).map((day,i) => {
-        return (
-        <div key={i}>
-        <Accordion.Toggle as={Card.Header} eventKey={i+1} onClick={this.handleClick} name='clickedDay' value={this.state.clickedDay}>  
-        <h3 className='day'>Day{i+1}</h3>
-        </Accordion.Toggle>
-        <Accordion.Collapse eventKey={i+1}>
-        <Card.Body>
-        {day.map(exercise => {
-          return (
-            <div className='exercise' key={exercise._id}>
-            <h6>{exercise.name}</h6>
-            {exercise.set1goal? <p>{exercise.name == "Run" ? "Goal: "+ exercise.set1goal+" m" : "Set 1: "+exercise.set1goal}</p> : <></>}
-            <Form >
-              <Form.Group>
-                <Form.Label>Repetitions: </Form.Label>
-                <Form.Control
-                  type='number'
-                  name='set1reps'
-                  value={this.state.set1reps}
-                  onChange={this.handleChange}
-                  />
-              </Form.Group>
-              <Form.Group>
-                <Form.Label>Weight: </Form.Label>
-                <Form.Control
-                  type='number'
-                  name='set1weight'
-                  value={this.state.set1weight}
-                  onChange={this.handleChange}
-                />
-              </Form.Group>
-              </Form>
-            {exercise.set2goal?  <p>Set 2: {exercise.set2goal}</p>: <></>}
-            <Form >
-              <Form.Group>
-                <Form.Label>Repetitions: </Form.Label>
-                <Form.Control
-                  type='number'
-                  name='set2reps'
-                  value={this.state.set2reps}
-                  onChange={this.handleChange}
-                  />
-              </Form.Group>
-              <Form.Group>
-                <Form.Label>Weight: </Form.Label>
-                <Form.Control
-                  type='number'
-                  name='set2weight'
-                  value={this.state.set2weight}
-                  onChange={this.handleChange}
-                />
-              </Form.Group>
-              </Form>
-            {exercise.set3goal?  <p>Set 3: {exercise.set3goal}</p>: <></>}
-            <Form >
-              <Form.Group>
-                <Form.Label>Repetitions: </Form.Label>
-                <Form.Control
-                  type='number'
-                  name='set3reps'
-                  value={this.state.set3reps}
-                  onChange={this.handleChange}
-                  />
-              </Form.Group>
-              <Form.Group>
-                <Form.Label>Weight: </Form.Label>
-                <Form.Control
-                  type='number'
-                  name='set3weight'
-                  value={this.state.set3weight}
-                  onChange={this.handleChange}
-                />
-              </Form.Group>
-              </Form>
-            </div>
-          )
-        })}
-        <Button>Submit</Button>
-        </Card.Body>
-        </Accordion.Collapse>
+      <div className="container current">
+        {days.map((day) => (
+          <>
+            <h4 onClick={() => this.showDetails(day)}>{day}</h4>
+            {this.state.selectedDay === day && <h5>Editing</h5>}
+          </>
+        ))}
       </div>
-        )
-      })
-    }
-    </Card>
-    </Accordion>
-    <Accordion>
-    <Card>
-    {this.state.currentPlan.numberOfDays === 5 &&
-        dayDetails.slice(0,15).map((day,i) => {
-        return (
-          <div key={i}>
-          <Accordion.Toggle as={Card.Header} eventKey={i+1}>  
-          <h3 className='day'>Day{i+1}</h3>
-          </Accordion.Toggle>
-        <Accordion.Collapse eventKey={i+1}>
-        <Card.Body>
-        {day.map(exercise => {
-          return (
-            <div className='exercise' key={exercise._id}>
-            <h6>{exercise.name}</h6>
-            {exercise.set1goal? <p>{exercise.name == "Run" ? "Goal: "+ exercise.set1goal+" m" : "Set 1: "+exercise.set1goal}</p> : <></>}
-            <Form >
-              <Form.Group>
-                <Form.Label>Repetitions: </Form.Label>
-                <Form.Control
-                  type='number'
-                  name='set1reps'
-                  value={this.state.set1reps}
-                  onChange={this.handleChange}
-                  />
-              </Form.Group>
-              <Form.Group>
-                <Form.Label>Weight: </Form.Label>
-                <Form.Control
-                  type='number'
-                  name='set1weight'
-                  value={this.state.set1weight}
-                  onChange={this.handleChange}
-                />
-              </Form.Group>
-              </Form>
-            {exercise.set2goal?  <p>Set 2: {exercise.set2goal}</p>: <></>}
-            <Form >
-              <Form.Group>
-                <Form.Label>Repetitions: </Form.Label>
-                <Form.Control
-                  type='number'
-                  name='set2reps'
-                  value={this.state.set2reps}
-                  onChange={this.handleChange}
-                  />
-              </Form.Group>
-              <Form.Group>
-                <Form.Label>Weight: </Form.Label>
-                <Form.Control
-                  type='number'
-                  name='set2weight'
-                  value={this.state.set2weight}
-                  onChange={this.handleChange}
-                />
-              </Form.Group>
-              </Form>
-            {exercise.set3goal?  <p>Set 3: {exercise.set3goal}</p>: <></>}
-            <Form >
-              <Form.Group>
-                <Form.Label>Repetitions: </Form.Label>
-                <Form.Control
-                  type='number'
-                  name='set3reps'
-                  value={this.state.set3reps}
-                  onChange={this.handleChange}
-                  />
-              </Form.Group>
-              <Form.Group>
-                <Form.Label>Weight: </Form.Label>
-                <Form.Control
-                  type='number'
-                  name='set3weight'
-                  value={this.state.set3weight}
-                  onChange={this.handleChange}
-                />
-              </Form.Group>
-              </Form>
-            </div>
-          )
-        })}
-        </Card.Body>
-        </Accordion.Collapse>
-      </div>
-        )
-      })
-    }
-    </Card>
-    </Accordion>
-    <Accordion>
-    <Card>
-    {this.state.currentPlan.numberOfDays === 6 &&
-        dayDetails.slice(0,18).map((day,i) => {
-        return (
-          <div key={i}>
-          <Accordion.Toggle as={Card.Header} eventKey={i+1}>  
-          <h3 className='day'>Day{i+1}</h3>
-        </Accordion.Toggle>
-        <Accordion.Collapse eventKey={i+1}>
-        <Card.Body>
-        {day.map(exercise => {
-          return (
-            <div className='exercise' key={exercise._id}>
-            <h6>{exercise.name}</h6>
-            {exercise.set1goal? <p>{exercise.name == "Run" ? "Goal: "+ exercise.set1goal+" m" : "Set 1: "+exercise.set1goal}</p> : <></>}
-            <Form >
-              <Form.Group>
-                <Form.Label>Repetitions: </Form.Label>
-                <Form.Control
-                  type='number'
-                  name='set1reps'
-                  value={this.state.set1reps}
-                  onChange={this.handleChange}
-                  />
-              </Form.Group>
-              <Form.Group>
-                <Form.Label>Weight: </Form.Label>
-                <Form.Control
-                  type='number'
-                  name='set1weight'
-                  value={this.state.set1weight}
-                  onChange={this.handleChange}
-                />
-              </Form.Group>
-              </Form>
-            {exercise.set2goal?  <p>Set 2: {exercise.set2goal}</p>: <></>}
-            <Form >
-              <Form.Group>
-                <Form.Label>Repetitions: </Form.Label>
-                <Form.Control
-                  type='number'
-                  name='set2reps'
-                  value={this.state.set2reps}
-                  onChange={this.handleChange}
-                  />
-              </Form.Group>
-              <Form.Group>
-                <Form.Label>Weight: </Form.Label>
-                <Form.Control
-                  type='number'
-                  name='set2weight'
-                  value={this.state.set2weight}
-                  onChange={this.handleChange}
-                />
-              </Form.Group>
-              </Form>
-            {exercise.set3goal?  <p>Set 3: {exercise.set3goal}</p>: <></>}
-            <Form >
-              <Form.Group>
-                <Form.Label>Repetitions: </Form.Label>
-                <Form.Control
-                  type='number'
-                  name='set3reps'
-                  value={this.state.set3reps}
-                  onChange={this.handleChange}
-                  />
-              </Form.Group>
-              <Form.Group>
-                <Form.Label>Weight: </Form.Label>
-                <Form.Control
-                  type='number'
-                  name='set3weight'
-                  value={this.state.set3weight}
-                  onChange={this.handleChange}
-                />
-              </Form.Group>
-              </Form>
-            </div>
-          )
-        })}
-        </Card.Body>
-        </Accordion.Collapse>
-      </div>
-        )
-      })
-    }
-    </Card>
-    </Accordion>
-    </div>
-    )
+    );
   }
 }
