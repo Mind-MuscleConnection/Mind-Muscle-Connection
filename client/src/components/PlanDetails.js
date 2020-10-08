@@ -1,5 +1,7 @@
 import React from 'react';
 import './PlanDetails.css'
+import { faArrowCircleLeft } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function PlanDetails(props) {
 
@@ -14,7 +16,7 @@ export default function PlanDetails(props) {
   console.log(dayDetails)
   return (
     <div className='container'>
-      <div className='flex-container'>
+      <div className='flex-container details'>
       {props.numberOfDays == 3 &&
       dayDetails.slice(0, 3).map((day,i) => {
         return (
@@ -74,6 +76,7 @@ export default function PlanDetails(props) {
     }
       </div>
       <button className='button-pick' onClick={props.handleSubmit}>Pick this plan</button>
+      <button className='button-back' onClick={props.prevStep} style={{marginTop:'50px'}}><FontAwesomeIcon icon={ faArrowCircleLeft } /></button>
     </div>
   )
 }

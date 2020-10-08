@@ -21,7 +21,6 @@ router.get('/:id', (req, res) => {
       if (!template) {
         res.status(404).json(template);
       } else {
-console.log("this is my template", template)
         res.status(200).json(template);
       }
     })
@@ -70,12 +69,14 @@ router.post('/', (req, res) => {
   
 // update a template
 router.put('/:id', (req, res) => {
-  const { title, description } = req.body;
+  const currentPlan  = req.body;
+  console.log("this currentPlan comes from react", currentPlan)
   Template.findByIdAndUpdate(
     req.params.id,
-    { title, description },
+      currentPlan ,
     { new: true }
   ).then(template => {
+    //console.log("this is the updated plan", template.day1)
     res.status(200).json(template);
   })
     .catch(error => {
