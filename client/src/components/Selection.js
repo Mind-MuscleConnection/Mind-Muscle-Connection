@@ -25,6 +25,7 @@ export default class Selection extends Component {
       <div className='flex-card'>
         <Form.Group>
           <Form.Label htmlFor='gym'><img src={gym} alt='gym'></img>Gym
+          </Form.Label>
           <Form.Control
             type='radio'
             id='type'
@@ -32,12 +33,13 @@ export default class Selection extends Component {
             value={'gym'}
             onChange={this.props.handleChange}
             /> 
-          </Form.Label>
+         
         </Form.Group>
         </div>  
         <div className='flex-card'>
         <Form.Group>
           <Form.Label htmlFor='crossfit'><img src={crossfit} alt='crossfit'></img>Crossfit
+          </Form.Label>
           <Form.Control
             type='radio'
             id='type'
@@ -45,12 +47,12 @@ export default class Selection extends Component {
             value={'crossfit'}
             onChange={this.props.handleChange}
             /> 
-          </Form.Label>
         </Form.Group>
         </div>  
         <div className='flex-card'>
         <Form.Group >
           <Form.Label htmlFor='yoga'><img src={yoga} alt='yoga'></img> Yoga
+          </Form.Label>
           <Form.Control
             type='radio'
             id='type'
@@ -58,7 +60,6 @@ export default class Selection extends Component {
             value={'yoga'}
             onChange={this.props.handleChange}
             /> 
-          </Form.Label>
         </Form.Group>
         </div>
         </div>
@@ -66,7 +67,7 @@ export default class Selection extends Component {
         <div className='flex-container-days'>
         <div className='flex-card-days'>
         <Form.Group>
-          <Form.Label htmlFor='numberOfDays'>3 days</Form.Label>
+          <Form.Label htmlFor='numberOfDays' style={{marginRight: '50px', marginLeft: '50px'}}>3 days</Form.Label>
           <Form.Control
             type='radio'
             id='numberOfDAys'
@@ -78,7 +79,7 @@ export default class Selection extends Component {
         </div> 
         <div className='flex-card-days'>    
         <Form.Group>
-          <Form.Label htmlFor='numberOfDays'>5 days</Form.Label>
+          <Form.Label htmlFor='numberOfDays' style={{marginRight: '50px', marginLeft: '50px'}}>5 days</Form.Label>
           <Form.Control
             type='radio'
             id='numberOfDAys'
@@ -90,7 +91,7 @@ export default class Selection extends Component {
         </div>  
         <div className='flex-card-days'>      
         <Form.Group>
-          <Form.Label htmlFor='numberOfDays'>5+ days</Form.Label>
+          <Form.Label htmlFor='numberOfDays' style={{marginRight: '50px', marginLeft: '50px'}}>5+ days</Form.Label>
           <Form.Control
             type='radio'
             id='numberOfDAys'

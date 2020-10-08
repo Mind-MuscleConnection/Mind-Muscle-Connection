@@ -1,10 +1,15 @@
+
+
 .background-list {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),
-  url("../assets/images/plans-list.jpg");
+  url("../assets/images/plans-list.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-repeat: none;
   background-position: center;
-  background-size: cover;
-  height: 100vh;
+  height: 125vh;
   width: 100vw;
 }
 
@@ -81,24 +86,29 @@
   text-align: center;
 }
 
-/* .button-current {
-  background-color: #005637;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
+.button-back {
+  background: none;
   display: block;
-  margin: 0 auto 10px;
+  margin: auto;
   text-align: center;
   border: 1px solid white;
-  padding: 10px 4vw;
+  padding: 6px 3vw;
   outline: none;
   color: white;
+  background-color: #EC675D;
   border-radius: 10px;
   cursor: pointer;
   transition: 0.5s;
-  font-size: 25px;
+  font-size: 30px;
+  position: absolute;
+  bottom: 1vh;
+  left: 3%; 
+
+  position: fixed;
+  top: 82vh;
+  bottom: 3vh;
 }
 
-.button-current:hover {
-  background-color: #033f29;
-} */
+.button-back:hover {
+  background: #d35256;
+}

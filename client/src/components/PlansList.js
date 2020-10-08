@@ -1,5 +1,8 @@
 import React from 'react'
 import {Button} from 'react-bootstrap'
+import { faArrowCircleLeft } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 export default function PlansList(props) {
   let plans = props.templates.filter(template => {
@@ -19,8 +22,9 @@ export default function PlansList(props) {
         )
       }
         )}
-      <button className='button' onClick={props.prevStep} style={{marginTop:'50px'}}>Go Back</button>
     </div>
+    <button className='button-back' onClick={props.prevStep} style={{marginTop:'50px'}}><FontAwesomeIcon icon={ faArrowCircleLeft } /></button>
     </div>
+    
   )
 }

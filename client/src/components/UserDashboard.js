@@ -84,7 +84,7 @@ componentDidMount(){
       <div className='container-user'>
         {this.state.step === 1 && <Selection templates={this.state.templates} handleChange={this.handleChange} nextStep={this.nextStep}/>}
         {this.state.step === 2 && <PlansList templates={this.state.templates} type={this.state.type} numberOfDays={this.state.numberOfDays} handleBtn={this.handleBtn} nextStep={this.nextStep} prevStep={this.prevStep} step1={this.state.step}/>}
-        {this.state.step === 3 && <PlanDetails templates={this.state.templates} type={this.state.type} numberOfDays={this.state.numberOfDays} templateID={this.state.templateID} handleSubmit={this.handleSubmit}/>}
+        {this.state.step === 3 && <PlanDetails templates={this.state.templates} type={this.state.type} numberOfDays={this.state.numberOfDays} templateID={this.state.templateID} handleSubmit={this.handleSubmit} prevStep={this.prevStep}/>}
       </div>
       </div>
     )

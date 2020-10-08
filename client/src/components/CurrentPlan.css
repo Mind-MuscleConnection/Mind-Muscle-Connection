@@ -1,3 +1,78 @@
-.current p{
+.container-exercise input{
   color: black!important;
+}
+
+.container-exercise h5 {
+  color:white;
+}
+
+.container-exercise {
+  font-family: 'Rokkitt', serif;
+}
+
+
+.accordion {
+  width: 50vw;
+  text-align: center;
+}
+
+.header-current{
+  color: white;
+  font-family: 'Rokkitt', serif;
+  margin-top: 1vh;
+}
+
+.container {
+  /* display: flex; */
+  justify-content: center;
+}
+.background-current {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ),
+  url("../assets/images/current-plan.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+  height: 500vh;
+  width: 100vw;
+}
+
+
+.btn-outline-light{
+  margin-top:5px;
+  width: 20vw;
+}
+
+.btn-secondary {
+  margin-top: 20px;
+  font-family: 'Rokkitt', serif;
+  width: 20vw;
+}
+
+.form-exercise{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 1vh;
+  /* margin-left: 5vw; */
+  padding: 2vw;
+}
+
+.form-exercise h6 {
+  color: #fe9f27;
+  width: 30vw;
+  padding-left: 2vw;
+  margin-right: 2vw;
+}
+
+.form-exercise label {
+  color: #fe9f27;
+  width: 5vw;
+} 
+
+.form-exercise h5 {
+  padding-right: 5vw;
 }
