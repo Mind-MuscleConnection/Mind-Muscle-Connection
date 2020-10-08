@@ -70,6 +70,20 @@ export default class CurrentPlan extends Component {
                       <label htmlFor="">Set 2 Weight: </label>
                       <input type="number" name="set2weight" value={this.state.exercises[index].set2weight} onChange={(e) => this.handleChange(e, index)} />
                     </div>
+                    {exercise.set3goal && (
+                      <>
+                        <h6>Set 3 Goal: <strong>{exercise.set3goal}</strong></h6>
+                        <div>
+                          <label htmlFor="">Set 2 Reps: </label>
+                          <input type="number" name="set3reps" value={this.state.exercises[index].set3reps} onChange={(e) => this.handleChange(e, index)} />
+                        </div>
+                        <div>
+                          <label htmlFor="">Set 3 Weight: </label>
+                          <input type="number" name="set3weight" value={this.state.exercises[index].set3weight} onChange={(e) => this.handleChange(e, index)} />
+                        </div>
+                      </>
+                    )
+                    }
                   </form>
                 </div>
               ))
