@@ -1,7 +1,6 @@
 .HowItWorks-title {
-  position: absolute;
-  padding: 180px 100px;
-  margin-left: 600px;
+  padding: 20vh 20vw;
+  margin-left: 30vw;
   background: none;
   position: absolute;
   display: inline-block;
@@ -9,23 +8,26 @@
   font-size: 60px;
   font-family: 'Saira Stencil One', cursive;
   line-height: 80px;
+  bottom: 57vh;
+  text-shadow: 2px 2px 5px black;
 }
 
 .HowItWorks-text  {
-  position: absolute;
-  bottom: 50px;
-  width: 60%;
-  padding: 0px 100px;
-  margin-left: 600px;
+  position: fixed;
+  bottom: 0.5vh;
+  min-width: 40vw;
+  padding: 1vh 10vw;
+  margin-left: 40vw;
   display: inline-block;
   color: white;
   font-size: 30px;
   font-family: 'Rokkitt', serif;
   line-height: 25px;
+  text-shadow: 2px 2px 5px black;
 }
 
 .background-image-HowItWorks {
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ), url('../assets/images/HowItWorks.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ),url('../assets/images/about.jpg');
   background-size: cover;
-  height:95vh;
+  height:100vh;
 }

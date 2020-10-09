@@ -2,17 +2,19 @@
   padding: 20vh 20vw;
   margin-left: 30vw;
   background: none;
-  position: absolute;
+  position: fixed;
   display: inline-block;
   color: white;
   font-size: 60px;
   font-family: 'Saira Stencil One', cursive;
   line-height: 80px;
+  bottom: 55vh;
+  text-shadow: 2px 2px 5px black;
 }
 
 .about-text  {
-  position: absolute;
-  bottom: 10vh;
+  position: fixed;
+  bottom: 5vh;
   min-width: 40vw;
   padding: 1vh 10vw;
   margin-left: 40vw;
@@ -21,11 +23,12 @@
   font-size: 30px;
   font-family: 'Rokkitt', serif;
   line-height: 25px;
+  text-shadow: 2px 2px 5px black;
 }
 
 
 .background-image-about {
-  background-image: url('../assets/images/about.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ),url('../assets/images/about.jpg');
   background-size: cover;
-  height:95vh;
+  height:100vh;
 }

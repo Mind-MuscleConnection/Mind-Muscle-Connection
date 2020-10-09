@@ -3,6 +3,7 @@
   margin: 0px;
   font-family: 'Raleway', sans-serif;
   font-size: 1rem;
+  text-shadow: 2px 2px 5px black;
 }
 
 .details {
@@ -15,17 +16,21 @@
 
 .exercise {
   padding: 1px;
+  text-shadow: 2px 2px 5px black;
 }
 
 .exercise h6 {
   margin-bottom: 2px;
+  text-shadow: 2px 2px 5px black;
 }
 
 .day {
   margin-bottom: 2px;
+  text-shadow: 2px 2px 5px black;
 }
 
 .button-pick {
+  text-shadow: 2px 2px 5px black;
   background: none;
   display: block;
   margin: -15px auto;
@@ -53,6 +58,7 @@
 }
 
 .container {
+  text-shadow: 2px 2px 5px black;
   position: absolute;
   align-content: center;
 }
@@ -60,9 +66,11 @@
 
 .flex-container{
   height: 100%;
+  text-shadow: 2px 2px 5px black;
 }
 
 .button-back {
+  text-shadow: 2px 2px 5px black;
   background: none;
   display: block;
   margin: auto;

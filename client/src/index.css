@@ -11,3 +11,90 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
+}
+
+@media (min-device-width:600px) {
+  img[data-src-600px] {
+      content: attr(data-src-600px, url);
+  }
+}
+
+@media (min-device-width:800px) {
+  img[data-src-800px] {
+      content: attr(data-src-800px, url);
+  }
+}
+
+@media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} } 
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@media screen and (max-width: 320px) {
+  /* comes into effect for screens less than or equal to 320 pixels */
+  #somethingorother {
+    width: 120px ;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+  #somethingorother {
+    width: 320px ;
+  }
+}
+
+@media (max-width: 576px) {
+  .flex-container {
+    justify-content: start;
+    margin-left: 2vw; }
+    .flex-container .each-recipe {
+      display: inline-block;
+      width: 45%;
+      width: 45vw; }
+      .flex-container .each-recipe img {
+        height: 45vw; }
+  .login-form {
+    height: 80vh; }
+  .login-form > .login-container {
+    width: 100vw;
+    padding: 10vw; }
+  .food-container {
+    width: 100vw;
+    text-align: left; }
+  .top-home {
+    /* background-image: url("../images/bg-home3.jpg"); */
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    justify-content: flex-start; }
+    .top-home .title-home {
+      height: 50vh;
+      margin-left: 10vw; }
+      .top-home .title-home h1 {
+        font-size: 1.8rem; }
+      .top-home .title-home h2 {
+        font-size: 1.2rem; }
+      .top-home .title-home p {
+        display: none; }
+  .search-header {
+    padding-right: 10vw; }
+  .title > img {
+    border-radius: 50%;
+    width: 25%;
+    margin-left: 10px; } }
